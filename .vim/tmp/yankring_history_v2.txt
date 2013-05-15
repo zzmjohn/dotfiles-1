@@ -1,0 +1,69 @@
+error (No space left on device),v
+vim-scripts/ctags.vim',v
+https://github.com/vim-scripts/c.vim,v
+./install.sh --clang-completer,v
+cd ~hg clone https://code.google.com/p/vim/cd vim./configure --with-features=huge \            --enable-rubyinterp \            --enable-pythoninterp \            --enable-perlinterp \            --enable-gui=gtk2 --enable-cscope --prefix=/usrmake VIMRUNTIMEDIR=/usr/share/vim/vim73sudo make install,v
+Bundle 'vim-scripts/ctags.vim',V
+",v
+print "4",v
+4,v
+2,v
+arg1,v
+pending # express the regexp above with the code you wish you had,v
+,V
+end,V
+  pending # express the regexp above with the code you wish you had,V
+Then /^the output should be "([^"]*)"$/ do |arg1|,V
+When /^the calculator is run$/ do,V
+Given /^the input "([^"]*)"$/ do |arg1|,V
+​,v
+                   ,v
+ ,v
+                  ​  ,v
+                ,v
+              ​​,V
+            ​,v
+          ​  ,v
+i,v
+      ​​,V
+e,v
+G,v
+Yah! Printing.',v
+puts,V
+#puts 'I "said" do not touch this.',V
+#puts "I'd much rather you 'not'.",v
+#puts "This is fun",V
+#puts "I like typing this.",V
+ve ,v
+',v
+puts "I could have've code like this." # and the comment after is ignored,V
+rgain,v
+xxx ,v
+Hello,v
+#,v
+r,v
+puts "Hello World!",v
+!,v
+s,v
+x,v
+def,V
+fino,v
+ZSH_THEME="fino",V
+nlde,v
+-light,v
+{,v
+repository_root,v
+},v
+p,v
+.,v
+/,v
+m,v
+o,v
+c,v
+b,v
+u,v
+h,v
+t,v
+g,v
+:,v
+jruby-1.7.2,V
