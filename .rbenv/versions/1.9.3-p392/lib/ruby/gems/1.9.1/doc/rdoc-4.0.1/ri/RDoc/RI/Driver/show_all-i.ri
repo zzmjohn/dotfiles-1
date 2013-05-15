@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"show_all:EFI"RDoc::RI::Driver#show_all;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I">Show all method documentation following a class or module;T:
+@file0FI"lib/rdoc/ri/driver.rb;T

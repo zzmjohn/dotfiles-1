@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: TestMinitestReporter</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./test/minitest/test_minitest_reporter_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="test/minitest/test_minitest_reporter.rb">test/minitest/test_minitest_reporter.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link"><a href="Minitest/Test.html">Minitest::Test</a></p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-i-error_test">#error_test</a></li>
+          
+          <li><a href="#method-i-fail_test">#fail_test</a></li>
+          
+          <li><a href="#method-i-normalize_output">#normalize_output</a></li>
+          
+          <li><a href="#method-i-passing_test">#passing_test</a></li>
+          
+          <li><a href="#method-i-setup">#setup</a></li>
+          
+          <li><a href="#method-i-skip_test">#skip_test</a></li>
+          
+          <li><a href="#method-i-test_passed_eh_empty">#test_passed_eh_empty</a></li>
+          
+          <li><a href="#method-i-test_passed_eh_error">#test_passed_eh_error</a></li>
+          
+          <li><a href="#method-i-test_passed_eh_failure">#test_passed_eh_failure</a></li>
+          
+          <li><a href="#method-i-test_passed_eh_skipped">#test_passed_eh_skipped</a></li>
+          
+          <li><a href="#method-i-test_record_error">#test_record_error</a></li>
+          
+          <li><a href="#method-i-test_record_fail">#test_record_fail</a></li>
+          
+          <li><a href="#method-i-test_record_pass">#test_record_pass</a></li>
+          
+          <li><a href="#method-i-test_record_skip">#test_record_skip</a></li>
+          
+          <li><a href="#method-i-test_report_empty">#test_report_empty</a></li>
+          
+          <li><a href="#method-i-test_report_error">#test_report_error</a></li>
+          
+          <li><a href="#method-i-test_report_failure">#test_report_failure</a></li>
+          
+          <li><a href="#method-i-test_report_passing">#test_report_passing</a></li>
+          
+          <li><a href="#method-i-test_report_skipped">#test_report_skipped</a></li>
+          
+          <li><a href="#method-i-test_start">#test_start</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./History_txt.html">History.txt</a></li>
+        
+          <li class="file"><a href="./Manifest_txt.html">Manifest.txt</a></li>
+        
+          <li class="file"><a href="./README_txt.html">README.txt</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Minitest.html">Minitest</a></li>
+        
+          <li><a href="./Minitest/Assertion.html">Minitest::Assertion</a></li>
+        
+          <li><a href="./Minitest/Assertions.html">Minitest::Assertions</a></li>
+        
+          <li><a href="./Minitest/BacktraceFilter.html">Minitest::BacktraceFilter</a></li>
+        
+          <li><a href="./Minitest/BenchSpec.html">Minitest::BenchSpec</a></li>
+        
+          <li><a href="./Minitest/Benchmark.html">Minitest::Benchmark</a></li>
+        
+          <li><a href="./Minitest/CompositeReporter.html">Minitest::CompositeReporter</a></li>
+        
+          <li><a href="./Minitest/Expectations.html">Minitest::Expectations</a></li>
+        
+          <li><a href="./Minitest/Guard.html">Minitest::Guard</a></li>
+        
+          <li><a href="./Minitest/Mock.html">Minitest::Mock</a></li>
+        
+          <li><a href="./Minitest/ParallelEach.html">Minitest::ParallelEach</a></li>
+        
+          <li><a href="./Minitest/PrideIO.html">Minitest::PrideIO</a></li>
+        
+          <li><a href="./Minitest/PrideLOL.html">Minitest::PrideLOL</a></li>
+        
+          <li><a href="./Minitest/Reporter.html">Minitest::Reporter</a></li>
+        
+          <li><a href="./Minitest/Runnable.html">Minitest::Runnable</a></li>
+        
+          <li><a href="./Minitest/Skip.html">Minitest::Skip</a></li>
+        
+          <li><a href="./Minitest/Spec.html">Minitest::Spec</a></li>
+        
+          <li><a href="./Minitest/Spec/DSL.html">Minitest::Spec::DSL</a></li>
+        
+          <li><a href="./Minitest/Test.html">Minitest::Test</a></li>
+        
+          <li><a href="./Minitest/Test/LifecycleHooks.html">Minitest::Test::LifecycleHooks</a></li>
+        
+          <li><a href="./Minitest/UnexpectedError.html">Minitest::UnexpectedError</a></li>
+        
+          <li><a href="./TestMinitestRunner.html">TestMinitestRunner</a></li>
+        
+          <li><a href="./TestMinitestRunner/Latch.html">TestMinitestRunner::Latch</a></li>
+        
+          <li><a href="./AnError.html">AnError</a></li>
+        
+          <li><a href="./ExampleA.html">ExampleA</a></li>
+        
+          <li><a href="./ExampleB.html">ExampleB</a></li>
+        
+          <li><a href="./ImmutableString.html">ImmutableString</a></li>
+        
+          <li><a href="./Kernel.html">Kernel</a></li>
+        
+          <li><a href="./MetaMetaMetaTestCase.html">MetaMetaMetaTestCase</a></li>
+        
+          <li><a href="./MiniSpecA.html">MiniSpecA</a></li>
+        
+          <li><a href="./MiniSpecB.html">MiniSpecB</a></li>
+        
+          <li><a href="./MiniSpecC.html">MiniSpecC</a></li>
+        
+          <li><a href="./MockExpectationError.html">MockExpectationError</a></li>
+        
+          <li><a href="./Module.html">Module</a></li>
+        
+          <li><a href="./MyModule.html">MyModule</a></li>
+        
+          <li><a href="./NamedExampleA.html">NamedExampleA</a></li>
+        
+          <li><a href="./NamedExampleB.html">NamedExampleB</a></li>
+        
+          <li><a href="./NamedExampleC.html">NamedExampleC</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+          <li><a href="./SubThingySpec.html">SubThingySpec</a></li>
+        
+          <li><a href="./TestMeta.html">TestMeta</a></li>
+        
+          <li><a href="./TestMetaStatic.html">TestMetaStatic</a></li>
+        
+          <li><a href="./TestMinitestBenchmark.html">TestMinitestBenchmark</a></li>
+        
+          <li><a href="./TestMinitestGuard.html">TestMinitestGuard</a></li>
+        
+          <li><a href="./TestMinitestMock.html">TestMinitestMock</a></li>
+        
+          <li><a href="./TestMinitestReporter.html">TestMinitestReporter</a></li>
+        
+          <li><a href="./TestMinitestRunnable.html">TestMinitestRunnable</a></li>
+        
+          <li><a href="./TestMinitestStub.html">TestMinitestStub</a></li>
+        
+          <li><a href="./TestMinitestTest.html">TestMinitestTest</a></li>
+        
+          <li><a href="./TestMinitestUnit.html">TestMinitestUnit</a></li>
+        
+          <li><a href="./TestMinitestUnitInherited.html">TestMinitestUnitInherited</a></li>
+        
+          <li><a href="./TestMinitestUnitOrder.html">TestMinitestUnitOrder</a></li>
+        
+          <li><a href="./TestMinitestUnitRecording.html">TestMinitestUnitRecording</a></li>
+        
+          <li><a href="./TestMinitestUnitTestCase.html">TestMinitestUnitTestCase</a></li>
+        
+          <li><a href="./TestSpecInTestCase.html">TestSpecInTestCase</a></li>
+        
+          <li><a href="./ThingySpec.html">ThingySpec</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">TestMinitestReporter</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+      <!-- Attributes -->
+      <div id="attribute-method-details" class="method-section section">
+        <h3 class="section-header">Attributes</h3>
+
+        
+        <div id="io-attribute-method" class="method-detail">
+          <a name="io"></a>
+          
+          <a name="io="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">io</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description">
+          
+          
+          
+          </div>
+        </div>
+        
+        <div id="r-attribute-method" class="method-detail">
+          <a name="r"></a>
+          
+          <a name="r="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">r</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description">
+          
+          
+          
+          </div>
+        </div>
+        
+      </div><!-- attribute-method-details -->
+      
+
+      <!-- Methods -->
+      
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="error_test-method" class="method-detail ">
+          <a name="method-i-error_test"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">error_test</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="error_test-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 13</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">error_test</span>
+  <span class="ruby-keyword">unless</span> <span class="ruby-keyword">defined?</span> <span class="ruby-ivar">@et</span> <span class="ruby-keyword">then</span>
+    <span class="ruby-ivar">@et</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:woot</span>)
+    <span class="ruby-ivar">@et</span>.<span class="ruby-identifier">failures</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">UnexpectedError</span>.<span class="ruby-identifier">new</span>(<span class="ruby-keyword">begin</span>
+                                                    <span class="ruby-identifier">raise</span> <span class="ruby-string">&quot;no&quot;</span>
+                                                  <span class="ruby-keyword">rescue</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">e</span>
+                                                    <span class="ruby-identifier">e</span>
+                                                  <span class="ruby-keyword">end</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@et</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- error_test-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- error_test-method -->
+
+      
+        <div id="fail_test-method" class="method-detail ">
+          <a name="method-i-fail_test"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">fail_test</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="fail_test-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">fail_test</span>
+  <span class="ruby-keyword">unless</span> <span class="ruby-keyword">defined?</span> <span class="ruby-ivar">@ft</span> <span class="ruby-keyword">then</span>
+    <span class="ruby-ivar">@ft</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:woot</span>)
+    <span class="ruby-ivar">@ft</span>.<span class="ruby-identifier">failures</span> <span class="ruby-operator">&lt;&lt;</span>   <span class="ruby-keyword">begin</span>
+                        <span class="ruby-identifier">raise</span> <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Assertion</span>, <span class="ruby-string">&quot;boo&quot;</span>
+                      <span class="ruby-keyword">rescue</span> <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Assertion</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">e</span>
+                        <span class="ruby-identifier">e</span>
+                      <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@ft</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- fail_test-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- fail_test-method -->
+
+      
+        <div id="normalize_output-method" class="method-detail ">
+          <a name="method-i-normalize_output"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">normalize_output</span><span
+              class="method-args">(output)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="normalize_output-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 115</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">normalize_output</span> <span class="ruby-identifier">output</span>
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">sub!</span>(<span class="ruby-regexp">/Finished in .*/</span>, <span class="ruby-string">&quot;Finished in 0.00&quot;</span>)
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">sub!</span>(<span class="ruby-regexp">/Loaded suite .*/</span>, <span class="ruby-string">'Loaded suite blah'</span>)
+
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/ = \d+.\d\d s = /</span>, <span class="ruby-string">' = 0.00 s = '</span>)
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/0x[A-Fa-f0-9]+/</span>, <span class="ruby-string">'0xXXX'</span>)
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/ +$/</span>, <span class="ruby-string">''</span>)
+
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">windows?</span> <span class="ruby-keyword">then</span>
+    <span class="ruby-identifier">output</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/\[(?:[A-Za-z]:)?[^\]:]+:\d+\]/</span>, <span class="ruby-string">'[FILE:LINE]'</span>)
+    <span class="ruby-identifier">output</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/^(\s+)(?:[A-Za-z]:)?[^:]+:\d+:in/</span>, <span class="ruby-string">'\1FILE:LINE:in'</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">output</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/\[[^\]:]+:\d+\]/</span>, <span class="ruby-string">'[FILE:LINE]'</span>)
+    <span class="ruby-identifier">output</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/^(\s+)[^:]+:\d+:in/</span>, <span class="ruby-string">'\1FILE:LINE:in'</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">output</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- normalize_output-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- normalize_output-method -->
+
+      
+        <div id="passing_test-method" class="method-detail ">
+          <a name="method-i-passing_test"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">passing_test</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="passing_test-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 37</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">passing_test</span>
+  <span class="ruby-ivar">@pt</span> <span class="ruby-operator">||=</span> <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:woot</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- passing_test-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- passing_test-method -->
+
+      
+        <div id="setup-method" class="method-detail ">
+          <a name="method-i-setup"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">setup</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="setup-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 8</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">setup</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">io</span> = <span class="ruby-constant">StringIO</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">&quot;&quot;</span>)
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">r</span>  = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Reporter</span>.<span class="ruby-identifier">new</span> <span class="ruby-identifier">io</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- setup-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- setup-method -->
+
+      
+        <div id="skip_test-method" class="method-detail ">
+          <a name="method-i-skip_test"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">skip_test</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="skip_test-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 41</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">skip_test</span>
+  <span class="ruby-keyword">unless</span> <span class="ruby-keyword">defined?</span> <span class="ruby-ivar">@st</span> <span class="ruby-keyword">then</span>
+    <span class="ruby-ivar">@st</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:woot</span>)
+    <span class="ruby-ivar">@st</span>.<span class="ruby-identifier">failures</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Skip</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@st</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- skip_test-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- skip_test-method -->
+
+      
+        <div id="test_passed_eh_empty-method" class="method-detail ">
+          <a name="method-i-test_passed_eh_empty"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_passed_eh_empty</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_passed_eh_empty-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 49</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_passed_eh_empty</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">r</span>.<span class="ruby-identifier">passed?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_passed_eh_empty-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_passed_eh_empty-method -->
+
+      
+        <div id="test_passed_eh_error-method" class="method-detail ">
+          <a name="method-i-test_passed_eh_error"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_passed_eh_error</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_passed_eh_error-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 59</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_passed_eh_error</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">results</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">error_test</span>
+
+  <span class="ruby-identifier">refute</span> <span class="ruby-identifier">r</span>.<span class="ruby-identifier">passed?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_passed_eh_error-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_passed_eh_error-method -->
+
+      
+        <div id="test_passed_eh_failure-method" class="method-detail ">
+          <a name="method-i-test_passed_eh_failure"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_passed_eh_failure</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_passed_eh_failure-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 53</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_passed_eh_failure</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">results</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">fail_test</span>
+
+  <span class="ruby-identifier">refute</span> <span class="ruby-identifier">r</span>.<span class="ruby-identifier">passed?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_passed_eh_failure-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_passed_eh_failure-method -->
+
+      
+        <div id="test_passed_eh_skipped-method" class="method-detail ">
+          <a name="method-i-test_passed_eh_skipped"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_passed_eh_skipped</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_passed_eh_skipped-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 65</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_passed_eh_skipped</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">results</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">skip_test</span>
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">r</span>.<span class="ruby-identifier">passed?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_passed_eh_skipped-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_passed_eh_skipped-method -->
+
+      
+        <div id="test_record_error-method" class="method-detail ">
+          <a name="method-i-test_record_error"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_record_error</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_record_error-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 97</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_record_error</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">error_test</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;E&quot;</span>, <span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-identifier">error_test</span>], <span class="ruby-identifier">r</span>.<span class="ruby-identifier">results</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">1</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">count</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">0</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">assertions</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_record_error-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_record_error-method -->
+
+      
+        <div id="test_record_fail-method" class="method-detail ">
+          <a name="method-i-test_record_fail"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_record_fail</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_record_fail-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 88</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_record_fail</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">fail_test</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;F&quot;</span>, <span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-identifier">fail_test</span>], <span class="ruby-identifier">r</span>.<span class="ruby-identifier">results</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">1</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">count</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">0</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">assertions</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_record_fail-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_record_fail-method -->
+
+      
+        <div id="test_record_pass-method" class="method-detail ">
+          <a name="method-i-test_record_pass"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_record_pass</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_record_pass-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 79</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_record_pass</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">passing_test</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;.&quot;</span>, <span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>
+  <span class="ruby-identifier">assert_empty</span> <span class="ruby-identifier">r</span>.<span class="ruby-identifier">results</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">1</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">count</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">0</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">assertions</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_record_pass-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_record_pass-method -->
+
+      
+        <div id="test_record_skip-method" class="method-detail ">
+          <a name="method-i-test_record_skip"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_record_skip</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_record_skip-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 106</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_record_skip</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">skip_test</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;S&quot;</span>, <span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-identifier">skip_test</span>], <span class="ruby-identifier">r</span>.<span class="ruby-identifier">results</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">1</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">count</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">0</span>, <span class="ruby-identifier">r</span>.<span class="ruby-identifier">assertions</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_record_skip-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_record_skip-method -->
+
+      
+        <div id="test_report_empty-method" class="method-detail ">
+          <a name="method-i-test_report_empty"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_report_empty</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_report_empty-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 134</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_report_empty</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">start</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">report</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-identifier">clean</span> <span class="ruby-string">      Run options:      # Running:      Finished in 0.00      0 runs, 0 assertions, 0 failures, 0 errors, 0 skips</span>
+
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">normalize_output</span>(<span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_report_empty-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_report_empty-method -->
+
+      
+        <div id="test_report_error-method" class="method-detail ">
+          <a name="method-i-test_report_error"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_report_error</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_report_error-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 200</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_report_error</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">start</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">error_test</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">report</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-identifier">clean</span> <span class="ruby-string">      Run options:      # Running:      E      Finished in 0.00        1) Error:      Minitest::Test#woot:      RuntimeError: no          FILE:LINE:in `error_test'          FILE:LINE:in `test_report_error'      1 runs, 0 assertions, 0 failures, 1 errors, 0 skips</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">normalize_output</span>(<span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_report_error-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_report_error-method -->
+
+      
+        <div id="test_report_failure-method" class="method-detail ">
+          <a name="method-i-test_report_failure"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_report_failure</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_report_failure-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 175</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_report_failure</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">start</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">fail_test</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">report</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-identifier">clean</span> <span class="ruby-string">      Run options:      # Running:      F      Finished in 0.00        1) Failure:      Minitest::Test#woot [FILE:LINE]:      boo      1 runs, 0 assertions, 1 failures, 0 errors, 0 skips</span>
+
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">normalize_output</span>(<span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_report_failure-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_report_failure-method -->
+
+      
+        <div id="test_report_passing-method" class="method-detail ">
+          <a name="method-i-test_report_passing"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_report_passing</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_report_passing-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 154</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_report_passing</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">start</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">passing_test</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">report</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-identifier">clean</span> <span class="ruby-string">      Run options:      # Running:      .      Finished in 0.00      1 runs, 0 assertions, 0 failures, 0 errors, 0 skips</span>
+
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">normalize_output</span>(<span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_report_passing-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_report_passing-method -->
+
+      
+        <div id="test_report_skipped-method" class="method-detail ">
+          <a name="method-i-test_report_skipped"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_report_skipped</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_report_skipped-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 226</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_report_skipped</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">start</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">record</span> <span class="ruby-identifier">skip_test</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">report</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-identifier">clean</span> <span class="ruby-string">      Run options:      # Running:      S      Finished in 0.00      1 runs, 0 assertions, 0 failures, 0 errors, 1 skips</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">normalize_output</span>(<span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_report_skipped-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_report_skipped-method -->
+
+      
+        <div id="test_start-method" class="method-detail ">
+          <a name="method-i-test_start"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_start</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_start-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_reporter.rb, line 71</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_start</span>
+  <span class="ruby-identifier">r</span>.<span class="ruby-identifier">start</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-node">&quot;Run options: \n\n# Running:\n\n&quot;</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">io</span>.<span class="ruby-identifier">string</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_start-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_start-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: TestMinitestMock</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./test/minitest/test_minitest_mock_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="test/minitest/test_minitest_mock.rb">test/minitest/test_minitest_mock.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link"><a href="Minitest/Test.html">Minitest::Test</a></p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-i-setup">#setup</a></li>
+          
+          <li><a href="#method-i-test_allow_expectations_to_be_added_after_creation">#test_allow_expectations_to_be_added_after_creation</a></li>
+          
+          <li><a href="#method-i-test_allow_return_value_specification">#test_allow_return_value_specification</a></li>
+          
+          <li><a href="#method-i-test_assign_per_mock_return_values">#test_assign_per_mock_return_values</a></li>
+          
+          <li><a href="#method-i-test_blow_up_if_not_called">#test_blow_up_if_not_called</a></li>
+          
+          <li><a href="#method-i-test_blow_up_on_wrong_arguments">#test_blow_up_on_wrong_arguments</a></li>
+          
+          <li><a href="#method-i-test_blow_up_on_wrong_number_of_arguments">#test_blow_up_on_wrong_number_of_arguments</a></li>
+          
+          <li><a href="#method-i-test_create_stub_method">#test_create_stub_method</a></li>
+          
+          <li><a href="#method-i-test_do_not_create_stub_method_on_new_mocks">#test_do_not_create_stub_method_on_new_mocks</a></li>
+          
+          <li><a href="#method-i-test_expect_with_non_array_args">#test_expect_with_non_array_args</a></li>
+          
+          <li><a href="#method-i-test_method_missing_empty">#test_method_missing_empty</a></li>
+          
+          <li><a href="#method-i-test_mock_args_does_not_raise">#test_mock_args_does_not_raise</a></li>
+          
+          <li><a href="#method-i-test_mock_block_is_passed_function_params">#test_mock_block_is_passed_function_params</a></li>
+          
+          <li><a href="#method-i-test_mock_block_throws_if_args_passed">#test_mock_block_throws_if_args_passed</a></li>
+          
+          <li><a href="#method-i-test_mock_is_a_blank_slate">#test_mock_is_a_blank_slate</a></li>
+          
+          <li><a href="#method-i-test_mock_returns_retval_when_called_with_block">#test_mock_returns_retval_when_called_with_block</a></li>
+          
+          <li><a href="#method-i-test_no_method_error_on_unexpected_methods">#test_no_method_error_on_unexpected_methods</a></li>
+          
+          <li><a href="#method-i-test_not_blow_up_if_everything_called">#test_not_blow_up_if_everything_called</a></li>
+          
+          <li><a href="#method-i-test_not_verify_if_new_expected_method_is_not_called">#test_not_verify_if_new_expected_method_is_not_called</a></li>
+          
+          <li><a href="#method-i-test_respond_appropriately">#test_respond_appropriately</a></li>
+          
+          <li><a href="#method-i-test_return_mock_does_not_raise">#test_return_mock_does_not_raise</a></li>
+          
+          <li><a href="#method-i-test_same_method_expects_are_verified_when_all_called">#test_same_method_expects_are_verified_when_all_called</a></li>
+          
+          <li><a href="#method-i-test_same_method_expects_blow_up_when_not_all_called">#test_same_method_expects_blow_up_when_not_all_called</a></li>
+          
+          <li><a href="#method-i-test_verify_allows_called_args_to_be_loosely_specified">#test_verify_allows_called_args_to_be_loosely_specified</a></li>
+          
+          <li><a href="#method-i-test_verify_fails_when_mock_block_returns_false">#test_verify_fails_when_mock_block_returns_false</a></li>
+          
+          <li><a href="#method-i-test_verify_passes_when_mock_block_returns_true">#test_verify_passes_when_mock_block_returns_true</a></li>
+          
+          <li><a href="#method-i-test_verify_raises_with_strict_args">#test_verify_raises_with_strict_args</a></li>
+          
+          <li><a href="#method-i-util_verify_bad">#util_verify_bad</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./History_txt.html">History.txt</a></li>
+        
+          <li class="file"><a href="./Manifest_txt.html">Manifest.txt</a></li>
+        
+          <li class="file"><a href="./README_txt.html">README.txt</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Minitest.html">Minitest</a></li>
+        
+          <li><a href="./Minitest/Assertion.html">Minitest::Assertion</a></li>
+        
+          <li><a href="./Minitest/Assertions.html">Minitest::Assertions</a></li>
+        
+          <li><a href="./Minitest/BacktraceFilter.html">Minitest::BacktraceFilter</a></li>
+        
+          <li><a href="./Minitest/BenchSpec.html">Minitest::BenchSpec</a></li>
+        
+          <li><a href="./Minitest/Benchmark.html">Minitest::Benchmark</a></li>
+        
+          <li><a href="./Minitest/CompositeReporter.html">Minitest::CompositeReporter</a></li>
+        
+          <li><a href="./Minitest/Expectations.html">Minitest::Expectations</a></li>
+        
+          <li><a href="./Minitest/Guard.html">Minitest::Guard</a></li>
+        
+          <li><a href="./Minitest/Mock.html">Minitest::Mock</a></li>
+        
+          <li><a href="./Minitest/ParallelEach.html">Minitest::ParallelEach</a></li>
+        
+          <li><a href="./Minitest/PrideIO.html">Minitest::PrideIO</a></li>
+        
+          <li><a href="./Minitest/PrideLOL.html">Minitest::PrideLOL</a></li>
+        
+          <li><a href="./Minitest/Reporter.html">Minitest::Reporter</a></li>
+        
+          <li><a href="./Minitest/Runnable.html">Minitest::Runnable</a></li>
+        
+          <li><a href="./Minitest/Skip.html">Minitest::Skip</a></li>
+        
+          <li><a href="./Minitest/Spec.html">Minitest::Spec</a></li>
+        
+          <li><a href="./Minitest/Spec/DSL.html">Minitest::Spec::DSL</a></li>
+        
+          <li><a href="./Minitest/Test.html">Minitest::Test</a></li>
+        
+          <li><a href="./Minitest/Test/LifecycleHooks.html">Minitest::Test::LifecycleHooks</a></li>
+        
+          <li><a href="./Minitest/UnexpectedError.html">Minitest::UnexpectedError</a></li>
+        
+          <li><a href="./TestMinitestRunner.html">TestMinitestRunner</a></li>
+        
+          <li><a href="./TestMinitestRunner/Latch.html">TestMinitestRunner::Latch</a></li>
+        
+          <li><a href="./AnError.html">AnError</a></li>
+        
+          <li><a href="./ExampleA.html">ExampleA</a></li>
+        
+          <li><a href="./ExampleB.html">ExampleB</a></li>
+        
+          <li><a href="./ImmutableString.html">ImmutableString</a></li>
+        
+          <li><a href="./Kernel.html">Kernel</a></li>
+        
+          <li><a href="./MetaMetaMetaTestCase.html">MetaMetaMetaTestCase</a></li>
+        
+          <li><a href="./MiniSpecA.html">MiniSpecA</a></li>
+        
+          <li><a href="./MiniSpecB.html">MiniSpecB</a></li>
+        
+          <li><a href="./MiniSpecC.html">MiniSpecC</a></li>
+        
+          <li><a href="./MockExpectationError.html">MockExpectationError</a></li>
+        
+          <li><a href="./Module.html">Module</a></li>
+        
+          <li><a href="./MyModule.html">MyModule</a></li>
+        
+          <li><a href="./NamedExampleA.html">NamedExampleA</a></li>
+        
+          <li><a href="./NamedExampleB.html">NamedExampleB</a></li>
+        
+          <li><a href="./NamedExampleC.html">NamedExampleC</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+          <li><a href="./SubThingySpec.html">SubThingySpec</a></li>
+        
+          <li><a href="./TestMeta.html">TestMeta</a></li>
+        
+          <li><a href="./TestMetaStatic.html">TestMetaStatic</a></li>
+        
+          <li><a href="./TestMinitestBenchmark.html">TestMinitestBenchmark</a></li>
+        
+          <li><a href="./TestMinitestGuard.html">TestMinitestGuard</a></li>
+        
+          <li><a href="./TestMinitestMock.html">TestMinitestMock</a></li>
+        
+          <li><a href="./TestMinitestReporter.html">TestMinitestReporter</a></li>
+        
+          <li><a href="./TestMinitestRunnable.html">TestMinitestRunnable</a></li>
+        
+          <li><a href="./TestMinitestStub.html">TestMinitestStub</a></li>
+        
+          <li><a href="./TestMinitestTest.html">TestMinitestTest</a></li>
+        
+          <li><a href="./TestMinitestUnit.html">TestMinitestUnit</a></li>
+        
+          <li><a href="./TestMinitestUnitInherited.html">TestMinitestUnitInherited</a></li>
+        
+          <li><a href="./TestMinitestUnitOrder.html">TestMinitestUnitOrder</a></li>
+        
+          <li><a href="./TestMinitestUnitRecording.html">TestMinitestUnitRecording</a></li>
+        
+          <li><a href="./TestMinitestUnitTestCase.html">TestMinitestUnitTestCase</a></li>
+        
+          <li><a href="./TestSpecInTestCase.html">TestSpecInTestCase</a></li>
+        
+          <li><a href="./ThingySpec.html">ThingySpec</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">TestMinitestMock</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="setup-method" class="method-detail ">
+          <a name="method-i-setup"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">setup</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="setup-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">setup</span>
+  <span class="ruby-ivar">@mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span>)
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:meaning_of_life</span>, <span class="ruby-value">42</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- setup-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- setup-method -->
+
+      
+        <div id="test_allow_expectations_to_be_added_after_creation-method" class="method-detail ">
+          <a name="method-i-test_allow_expectations_to_be_added_after_creation"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_allow_expectations_to_be_added_after_creation</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_allow_expectations_to_be_added_after_creation-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 32</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_allow_expectations_to_be_added_after_creation</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:bar</span>, <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">bar</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_allow_expectations_to_be_added_after_creation-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_allow_expectations_to_be_added_after_creation-method -->
+
+      
+        <div id="test_allow_return_value_specification-method" class="method-detail ">
+          <a name="method-i-test_allow_return_value_specification"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_allow_return_value_specification</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_allow_return_value_specification-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 15</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_allow_return_value_specification</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">42</span>, <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">meaning_of_life</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_allow_return_value_specification-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_allow_return_value_specification-method -->
+
+      
+        <div id="test_assign_per_mock_return_values-method" class="method-detail ">
+          <a name="method-i-test_assign_per_mock_return_values"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_assign_per_mock_return_values</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_assign_per_mock_return_values-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 115</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_assign_per_mock_return_values</span>
+  <span class="ruby-identifier">a</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">b</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+
+  <span class="ruby-identifier">a</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:foo</span>, <span class="ruby-value">:a</span>)
+  <span class="ruby-identifier">b</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:foo</span>, <span class="ruby-value">:b</span>)
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">:a</span>, <span class="ruby-identifier">a</span>.<span class="ruby-identifier">foo</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">:b</span>, <span class="ruby-identifier">b</span>.<span class="ruby-identifier">foo</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_assign_per_mock_return_values-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_assign_per_mock_return_values-method -->
+
+      
+        <div id="test_blow_up_if_not_called-method" class="method-detail ">
+          <a name="method-i-test_blow_up_if_not_called"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_blow_up_if_not_called</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_blow_up_if_not_called-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 19</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_blow_up_if_not_called</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">foo</span>
+
+  <span class="ruby-identifier">util_verify_bad</span> <span class="ruby-string">&quot;expected meaning_of_life() =&gt; 42, got []&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_blow_up_if_not_called-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_blow_up_if_not_called-method -->
+
+      
+        <div id="test_blow_up_on_wrong_arguments-method" class="method-detail ">
+          <a name="method-i-test_blow_up_on_wrong_arguments"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_blow_up_on_wrong_arguments</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_blow_up_on_wrong_arguments-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 77</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_blow_up_on_wrong_arguments</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">foo</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">meaning_of_life</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:sum</span>, <span class="ruby-value">3</span>, [<span class="ruby-value">1</span>, <span class="ruby-value">2</span>])
+
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span> <span class="ruby-constant">MockExpectationError</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">sum</span>(<span class="ruby-value">2</span>, <span class="ruby-value">4</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-string">&quot;mocked method :sum called with unexpected arguments [2, 4]&quot;</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_blow_up_on_wrong_arguments-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_blow_up_on_wrong_arguments-method -->
+
+      
+        <div id="test_blow_up_on_wrong_number_of_arguments-method" class="method-detail ">
+          <a name="method-i-test_blow_up_on_wrong_number_of_arguments"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_blow_up_on_wrong_number_of_arguments</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_blow_up_on_wrong_number_of_arguments-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_blow_up_on_wrong_number_of_arguments</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">foo</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">meaning_of_life</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:sum</span>, <span class="ruby-value">3</span>, [<span class="ruby-value">1</span>, <span class="ruby-value">2</span>])
+
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span> <span class="ruby-constant">ArgumentError</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">sum</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;mocked method :sum expects 2 arguments, got 0&quot;</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_blow_up_on_wrong_number_of_arguments-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_blow_up_on_wrong_number_of_arguments-method -->
+
+      
+        <div id="test_create_stub_method-method" class="method-detail ">
+          <a name="method-i-test_create_stub_method"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_create_stub_method</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_create_stub_method-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 11</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_create_stub_method</span>
+  <span class="ruby-identifier">assert_nil</span> <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">foo</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_create_stub_method-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_create_stub_method-method -->
+
+      
+        <div id="test_do_not_create_stub_method_on_new_mocks-method" class="method-detail ">
+          <a name="method-i-test_do_not_create_stub_method_on_new_mocks"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_do_not_create_stub_method_on_new_mocks</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_do_not_create_stub_method_on_new_mocks-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 126</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_do_not_create_stub_method_on_new_mocks</span>
+  <span class="ruby-identifier">a</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">a</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:foo</span>, <span class="ruby-value">:a</span>)
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-operator">!</span><span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:foo</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_do_not_create_stub_method_on_new_mocks-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_do_not_create_stub_method_on_new_mocks-method -->
+
+      
+        <div id="test_expect_with_non_array_args-method" class="method-detail ">
+          <a name="method-i-test_expect_with_non_array_args"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_expect_with_non_array_args</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_expect_with_non_array_args-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 90</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_expect_with_non_array_args</span>
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span> <span class="ruby-constant">ArgumentError</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:blah</span>, <span class="ruby-value">3</span>, <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;args must be an array&quot;</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_expect_with_non_array_args-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_expect_with_non_array_args-method -->
+
+      
+        <div id="test_method_missing_empty-method" class="method-detail ">
+          <a name="method-i-test_method_missing_empty"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_method_missing_empty</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_method_missing_empty-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 161</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_method_missing_empty</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:a</span>, <span class="ruby-keyword">nil</span>
+
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">a</span>
+
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span> <span class="ruby-constant">MockExpectationError</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">a</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;No more expects available for :a: []&quot;</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_method_missing_empty-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_method_missing_empty-method -->
+
+      
+        <div id="test_mock_args_does_not_raise-method" class="method-detail ">
+          <a name="method-i-test_mock_args_does_not_raise"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_mock_args_does_not_raise</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_mock_args_does_not_raise-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 66</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_mock_args_does_not_raise</span>
+  <span class="ruby-identifier">skip</span> <span class="ruby-string">&quot;non-opaque use of ==&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">maglev?</span>
+
+  <span class="ruby-identifier">arg</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span>, [<span class="ruby-identifier">arg</span>])
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span>(<span class="ruby-identifier">arg</span>)
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">verify</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_mock_args_does_not_raise-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_mock_args_does_not_raise-method -->
+
+      
+        <div id="test_mock_block_is_passed_function_params-method" class="method-detail ">
+          <a name="method-i-test_mock_block_is_passed_function_params"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_mock_block_is_passed_function_params</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_mock_block_is_passed_function_params-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 211</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_mock_block_is_passed_function_params</span>
+  <span class="ruby-identifier">arg1</span>, <span class="ruby-identifier">arg2</span>, <span class="ruby-identifier">arg3</span> = <span class="ruby-value">:bar</span>, [<span class="ruby-value">1</span>,<span class="ruby-value">2</span>,<span class="ruby-value">3</span>], {<span class="ruby-value">:a</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'a'</span>}
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a1</span>, <span class="ruby-identifier">a2</span>, <span class="ruby-identifier">a3</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">a1</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">arg1</span> <span class="ruby-operator">&amp;&amp;</span>
+    <span class="ruby-identifier">a2</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">arg2</span> <span class="ruby-operator">&amp;&amp;</span>
+    <span class="ruby-identifier">a3</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">arg3</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span> <span class="ruby-identifier">arg1</span>, <span class="ruby-identifier">arg2</span>, <span class="ruby-identifier">arg3</span>
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">verify</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_mock_block_is_passed_function_params-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_mock_block_is_passed_function_params-method -->
+
+      
+        <div id="test_mock_block_throws_if_args_passed-method" class="method-detail ">
+          <a name="method-i-test_mock_block_throws_if_args_passed"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_mock_block_throws_if_args_passed</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_mock_block_throws_if_args_passed-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 237</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_mock_block_throws_if_args_passed</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ArgumentError</span>) <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span>, [<span class="ruby-value">:a</span>, <span class="ruby-value">:b</span>, <span class="ruby-value">:c</span>] <span class="ruby-keyword">do</span>
+      <span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-string">&quot;args ignored when block given&quot;</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_mock_block_throws_if_args_passed-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_mock_block_throws_if_args_passed-method -->
+
+      
+        <div id="test_mock_is_a_blank_slate-method" class="method-detail ">
+          <a name="method-i-test_mock_is_a_blank_slate"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_mock_is_a_blank_slate</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_mock_is_a_blank_slate-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 133</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_mock_is_a_blank_slate</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:kind_of?</span>, <span class="ruby-keyword">true</span>, [<span class="ruby-constant">Fixnum</span>]
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:==</span>, <span class="ruby-keyword">true</span>, [<span class="ruby-value">1</span>]
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Fixnum</span>), <span class="ruby-string">&quot;didn't mock :kind_of\?&quot;</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@mock</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>, <span class="ruby-string">&quot;didn't mock :==&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_mock_is_a_blank_slate-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_mock_is_a_blank_slate-method -->
+
+      
+        <div id="test_mock_returns_retval_when_called_with_block-method" class="method-detail ">
+          <a name="method-i-test_mock_returns_retval_when_called_with_block"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_mock_returns_retval_when_called_with_block</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_mock_returns_retval_when_called_with_block-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 251</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_mock_returns_retval_when_called_with_block</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:foo</span>, <span class="ruby-value">32</span>) <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">true</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">rs</span> = <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">rs</span>, <span class="ruby-value">32</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_mock_returns_retval_when_called_with_block-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_mock_returns_retval_when_called_with_block-method -->
+
+      
+        <div id="test_no_method_error_on_unexpected_methods-method" class="method-detail ">
+          <a name="method-i-test_no_method_error_on_unexpected_methods"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_no_method_error_on_unexpected_methods</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_no_method_error_on_unexpected_methods-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 105</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_no_method_error_on_unexpected_methods</span>
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span> <span class="ruby-constant">NoMethodError</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">bar</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">expected</span> = <span class="ruby-string">&quot;unmocked method :bar, expected one of [:foo, :meaning_of_life]&quot;</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_no_method_error_on_unexpected_methods-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_no_method_error_on_unexpected_methods-method -->
+
+      
+        <div id="test_not_blow_up_if_everything_called-method" class="method-detail ">
+          <a name="method-i-test_not_blow_up_if_everything_called"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_not_blow_up_if_everything_called</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_not_blow_up_if_everything_called-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_not_blow_up_if_everything_called</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">foo</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">meaning_of_life</span>
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">verify</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_not_blow_up_if_everything_called-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_not_blow_up_if_everything_called-method -->
+
+      
+        <div id="test_not_verify_if_new_expected_method_is_not_called-method" class="method-detail ">
+          <a name="method-i-test_not_verify_if_new_expected_method_is_not_called"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_not_verify_if_new_expected_method_is_not_called</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_not_verify_if_new_expected_method_is_not_called-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 37</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_not_verify_if_new_expected_method_is_not_called</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">foo</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">meaning_of_life</span>
+  <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:bar</span>, <span class="ruby-keyword">true</span>)
+
+  <span class="ruby-identifier">util_verify_bad</span> <span class="ruby-string">&quot;expected bar() =&gt; true, got []&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_not_verify_if_new_expected_method_is_not_called-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_not_verify_if_new_expected_method_is_not_called-method -->
+
+      
+        <div id="test_respond_appropriately-method" class="method-detail ">
+          <a name="method-i-test_respond_appropriately"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_respond_appropriately</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_respond_appropriately-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 98</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_respond_appropriately</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:foo</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:foo</span>, <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-string">'foo'</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:bar</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_respond_appropriately-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_respond_appropriately-method -->
+
+      
+        <div id="test_return_mock_does_not_raise-method" class="method-detail ">
+          <a name="method-i-test_return_mock_does_not_raise"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_return_mock_does_not_raise</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_return_mock_does_not_raise-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 57</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_return_mock_does_not_raise</span>
+  <span class="ruby-identifier">retval</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span>(<span class="ruby-value">:foo</span>, <span class="ruby-identifier">retval</span>)
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span>
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">verify</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_return_mock_does_not_raise-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_return_mock_does_not_raise-method -->
+
+      
+        <div id="test_same_method_expects_are_verified_when_all_called-method" class="method-detail ">
+          <a name="method-i-test_same_method_expects_are_verified_when_all_called"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_same_method_expects_are_verified_when_all_called</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_same_method_expects_are_verified_when_all_called-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 175</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_same_method_expects_are_verified_when_all_called</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span>, [<span class="ruby-value">:bar</span>]
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span>, [<span class="ruby-value">:baz</span>]
+
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span> <span class="ruby-value">:bar</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span> <span class="ruby-value">:baz</span>
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">verify</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_same_method_expects_are_verified_when_all_called-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_same_method_expects_are_verified_when_all_called-method -->
+
+      
+        <div id="test_same_method_expects_blow_up_when_not_all_called-method" class="method-detail ">
+          <a name="method-i-test_same_method_expects_blow_up_when_not_all_called"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_same_method_expects_blow_up_when_not_all_called</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_same_method_expects_blow_up_when_not_all_called-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 186</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_same_method_expects_blow_up_when_not_all_called</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span>, [<span class="ruby-value">:bar</span>]
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span>, [<span class="ruby-value">:baz</span>]
+
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span> <span class="ruby-value">:bar</span>
+
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">MockExpectationError</span>) { <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">verify</span> }
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-string">&quot;expected foo(:baz) =&gt; nil, got [foo(:bar) =&gt; nil]&quot;</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_same_method_expects_blow_up_when_not_all_called-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_same_method_expects_blow_up_when_not_all_called-method -->
+
+      
+        <div id="test_verify_allows_called_args_to_be_loosely_specified-method" class="method-detail ">
+          <a name="method-i-test_verify_allows_called_args_to_be_loosely_specified"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_verify_allows_called_args_to_be_loosely_specified</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_verify_allows_called_args_to_be_loosely_specified-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 141</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_verify_allows_called_args_to_be_loosely_specified</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:loose_expectation</span>, <span class="ruby-keyword">true</span>, [<span class="ruby-constant">Integer</span>]
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">loose_expectation</span> <span class="ruby-value">1</span>
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">verify</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_verify_allows_called_args_to_be_loosely_specified-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_verify_allows_called_args_to_be_loosely_specified-method -->
+
+      
+        <div id="test_verify_fails_when_mock_block_returns_false-method" class="method-detail ">
+          <a name="method-i-test_verify_fails_when_mock_block_returns_false"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_verify_fails_when_mock_block_returns_false</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_verify_fails_when_mock_block_returns_false-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 225</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_verify_fails_when_mock_block_returns_false</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">MockExpectationError</span>) { <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span> }
+  <span class="ruby-identifier">exp</span> = <span class="ruby-string">&quot;mocked method :foo failed block w/ []&quot;</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_verify_fails_when_mock_block_returns_false-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_verify_fails_when_mock_block_returns_false-method -->
+
+      
+        <div id="test_verify_passes_when_mock_block_returns_true-method" class="method-detail ">
+          <a name="method-i-test_verify_passes_when_mock_block_returns_true"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_verify_passes_when_mock_block_returns_true</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_verify_passes_when_mock_block_returns_true-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 200</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_verify_passes_when_mock_block_returns_true</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:foo</span>, <span class="ruby-keyword">nil</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">true</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">foo</span>
+
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">verify</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_verify_passes_when_mock_block_returns_true-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_verify_passes_when_mock_block_returns_true-method -->
+
+      
+        <div id="test_verify_raises_with_strict_args-method" class="method-detail ">
+          <a name="method-i-test_verify_raises_with_strict_args"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_verify_raises_with_strict_args</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_verify_raises_with_strict_args-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 149</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_verify_raises_with_strict_args</span>
+  <span class="ruby-identifier">mock</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Mock</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">expect</span> <span class="ruby-value">:strict_expectation</span>, <span class="ruby-keyword">true</span>, [<span class="ruby-value">2</span>]
+
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span> <span class="ruby-constant">MockExpectationError</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">mock</span>.<span class="ruby-identifier">strict_expectation</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">exp</span> = <span class="ruby-string">&quot;mocked method :strict_expectation called with unexpected arguments [1]&quot;</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_verify_raises_with_strict_args-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_verify_raises_with_strict_args-method -->
+
+      
+        <div id="util_verify_bad-method" class="method-detail ">
+          <a name="method-i-util_verify_bad"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">util_verify_bad</span><span
+              class="method-args">(exp)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="util_verify_bad-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 262</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">util_verify_bad</span> <span class="ruby-identifier">exp</span>
+  <span class="ruby-identifier">e</span> = <span class="ruby-identifier">assert_raises</span> <span class="ruby-constant">MockExpectationError</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@mock</span>.<span class="ruby-identifier">verify</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">exp</span>, <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- util_verify_bad-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- util_verify_bad-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

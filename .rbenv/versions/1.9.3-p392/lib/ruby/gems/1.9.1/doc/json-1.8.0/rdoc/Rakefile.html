@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>File: Rakefile [JSON implemention for Ruby]</title>
+
+  <link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet" />
+
+  <script src="./js/jquery.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript"
+    charset="utf-8"></script>
+</head>
+
+<body class="file">
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./CHANGES.html">CHANGES</a></li>
+        
+          <li class="file"><a href="./COPYING.html">COPYING</a></li>
+        
+          <li class="file"><a href="./COPYING-json-jruby.html">COPYING-json-jruby</a></li>
+        
+          <li class="file"><a href="./GPL.html">GPL</a></li>
+        
+          <li class="file"><a href="./Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="./TODO.html">TODO</a></li>
+        
+          <li class="file"><a href="./VERSION.html">VERSION</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/generator/Makefile.html">Makefile</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/generator/depend.html">depend</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/parser/Makefile.html">Makefile</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/parser/depend.html">depend</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./JSON.html">JSON</a></li>
+        
+          <li><a href="./JSON/Ext.html">JSON::Ext</a></li>
+        
+          <li><a href="./JSON/Ext/Generator.html">JSON::Ext::Generator</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods.html">JSON::Ext::Generator::GeneratorMethods</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Array.html">JSON::Ext::Generator::GeneratorMethods::Array</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Bignum.html">JSON::Ext::Generator::GeneratorMethods::Bignum</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/FalseClass.html">JSON::Ext::Generator::GeneratorMethods::FalseClass</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Fixnum.html">JSON::Ext::Generator::GeneratorMethods::Fixnum</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Float.html">JSON::Ext::Generator::GeneratorMethods::Float</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Hash.html">JSON::Ext::Generator::GeneratorMethods::Hash</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/NilClass.html">JSON::Ext::Generator::GeneratorMethods::NilClass</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Object.html">JSON::Ext::Generator::GeneratorMethods::Object</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/String.html">JSON::Ext::Generator::GeneratorMethods::String</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/String/Extend.html">JSON::Ext::Generator::GeneratorMethods::String::Extend</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/TrueClass.html">JSON::Ext::Generator::GeneratorMethods::TrueClass</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/State.html">JSON::Ext::Generator::State</a></li>
+        
+          <li><a href="./JSON/Ext/Parser.html">JSON::Ext::Parser</a></li>
+        
+          <li><a href="./JSON/GeneratorError.html">JSON::GeneratorError</a></li>
+        
+          <li><a href="./JSON/GeneratorError.html">JSON::GeneratorError</a></li>
+        
+          <li><a href="./JSON/GenericObject.html">JSON::GenericObject</a></li>
+        
+          <li><a href="./JSON/JSONError.html">JSON::JSONError</a></li>
+        
+          <li><a href="./JSON/MissingUnicodeSupport.html">JSON::MissingUnicodeSupport</a></li>
+        
+          <li><a href="./JSON/NestingError.html">JSON::NestingError</a></li>
+        
+          <li><a href="./JSON/ParserError.html">JSON::ParserError</a></li>
+        
+          <li><a href="./JSON/Pure.html">JSON::Pure</a></li>
+        
+          <li><a href="./JSON/Pure/Generator.html">JSON::Pure::Generator</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods.html">JSON::Pure::Generator::GeneratorMethods</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Array.html">JSON::Pure::Generator::GeneratorMethods::Array</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/FalseClass.html">JSON::Pure::Generator::GeneratorMethods::FalseClass</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Float.html">JSON::Pure::Generator::GeneratorMethods::Float</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Hash.html">JSON::Pure::Generator::GeneratorMethods::Hash</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Integer.html">JSON::Pure::Generator::GeneratorMethods::Integer</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/NilClass.html">JSON::Pure::Generator::GeneratorMethods::NilClass</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Object.html">JSON::Pure::Generator::GeneratorMethods::Object</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/String.html">JSON::Pure::Generator::GeneratorMethods::String</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/String/Extend.html">JSON::Pure::Generator::GeneratorMethods::String::Extend</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/TrueClass.html">JSON::Pure::Generator::GeneratorMethods::TrueClass</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/State.html">JSON::Pure::Generator::State</a></li>
+        
+          <li><a href="./JSON/Pure/Parser.html">JSON::Pure::Parser</a></li>
+        
+          <li><a href="./TestJSON.html">TestJSON</a></li>
+        
+          <li><a href="./TestJSON/SubArray.html">TestJSON::SubArray</a></li>
+        
+          <li><a href="./TestJSON/SubArray2.html">TestJSON::SubArray2</a></li>
+        
+          <li><a href="./TestJSON/SubArrayWrapper.html">TestJSON::SubArrayWrapper</a></li>
+        
+          <li><a href="./TestJSON/SubHash.html">TestJSON::SubHash</a></li>
+        
+          <li><a href="./TestJSON/SubHash2.html">TestJSON::SubHash2</a></li>
+        
+          <li><a href="./TestJSON/SubOpenStruct.html">TestJSON::SubOpenStruct</a></li>
+        
+          <li><a href="./TestJSONAddition.html">TestJSONAddition</a></li>
+        
+          <li><a href="./TestJSONAddition/A.html">TestJSONAddition::A</a></li>
+        
+          <li><a href="./TestJSONAddition/A2.html">TestJSONAddition::A2</a></li>
+        
+          <li><a href="./TestJSONAddition/B.html">TestJSONAddition::B</a></li>
+        
+          <li><a href="./TestJSONAddition/C.html">TestJSONAddition::C</a></li>
+        
+          <li><a href="./TestJSONStringMatching.html">TestJSONStringMatching</a></li>
+        
+          <li><a href="./TestJSONStringMatching/TestTime.html">TestJSONStringMatching::TestTime</a></li>
+        
+          <li><a href="./Array.html">Array</a></li>
+        
+          <li><a href="./BigDecimal.html">BigDecimal</a></li>
+        
+          <li><a href="./Class.html">Class</a></li>
+        
+          <li><a href="./Complex.html">Complex</a></li>
+        
+          <li><a href="./Date.html">Date</a></li>
+        
+          <li><a href="./DateTime.html">DateTime</a></li>
+        
+          <li><a href="./Exception.html">Exception</a></li>
+        
+          <li><a href="./Fuzzer.html">Fuzzer</a></li>
+        
+          <li><a href="./JSONServlet.html">JSONServlet</a></li>
+        
+          <li><a href="./Kernel.html">Kernel</a></li>
+        
+          <li><a href="./MyState.html">MyState</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+          <li><a href="./OpenStruct.html">OpenStruct</a></li>
+        
+          <li><a href="./Range.html">Range</a></li>
+        
+          <li><a href="./Rational.html">Rational</a></li>
+        
+          <li><a href="./Regexp.html">Regexp</a></li>
+        
+          <li><a href="./String.html">String</a></li>
+        
+          <li><a href="./Struct.html">Struct</a></li>
+        
+          <li><a href="./Symbol.html">Symbol</a></li>
+        
+          <li><a href="./TestJSONEncoding.html">TestJSONEncoding</a></li>
+        
+          <li><a href="./TestJSONFixtures.html">TestJSONFixtures</a></li>
+        
+          <li><a href="./TestJSONGenerate.html">TestJSONGenerate</a></li>
+        
+          <li><a href="./TestJSONGenericObject.html">TestJSONGenericObject</a></li>
+        
+          <li><a href="./TestJSONUnicode.html">TestJSONUnicode</a></li>
+        
+          <li><a href="./Time.html">Time</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    
+<p>begin</p>
+
+<pre>require 'rubygems/package_task'</pre>
+
+<p>rescue LoadError end</p>
+
+<p>require ‘rbconfig’ include\</p>
+
+<pre>begin
+  RbConfig
+rescue NameError
+  Config
+end</pre>
+
+<p>require ‘rake/clean’ CLOBBER.include ‘doc’, ‘Gemfile.lock’ CLEAN.include <a
+href="http://'diagrams/.'">FileList</a>, ‘doc’, ‘coverage’, ‘tmp’,</p>
+
+<pre>FileList[&quot;ext/**/{Makefile,mkmf.log}&quot;], 'build', 'dist', FileList['**/*.rbc'],
+FileList[&quot;{ext,lib}/**/*.{so,bundle,#{CONFIG['DLEXT']},o,obj,pdb,lib,manifest,exp,def,jar,class,dSYM}&quot;],
+FileList['java/src/**/*.class']</pre>
+
+<p>require ‘rake/testtask’ class UndocumentedTestTask &lt; Rake::TestTask</p>
+
+<pre>def desc(*) end</pre>
+
+<p>end</p>
+
+<p>def skip_sdoc(src)</p>
+
+<pre>src.gsub(/^.*sdoc.*/) { |s| s + ' if RUBY_VERSION &gt; &quot;1.8.6&quot;' }</pre>
+
+<p>end</p>
+
+<p>MAKE   = <a href="http://'MAKE'">ENV</a>   || %w[gmake make].find { |c|
+system(c, ‘-v’) } BUNDLE = <a href="http://'BUNDLE'">ENV</a> || %<a
+href="http://bundle">w</a>.find { |c| system(c, ‘-v’) } PKG_NAME          =
+‘json’ PKG_TITLE         = ‘<a href="JSON.html">JSON</a> Implementation for
+Ruby’ PKG_VERSION       = File.read(‘VERSION’).chomp PKG_FILES         =
+FileList[`git ls-files`.split(/n/)]</p>
+
+<p>EXT_ROOT_DIR      = ‘ext/json/ext’ EXT_PARSER_DIR    =
+“#{EXT_ROOT_DIR}/parser” EXT_PARSER_DL     = “#{<a
+href="http://'DLEXT'">EXT_PARSER_DIR}/parser.#{CONFIG</a>}” RAGEL_PATH     
+= “#{EXT_PARSER_DIR}/parser.rl” EXT_PARSER_SRC    =
+“#{EXT_PARSER_DIR}/parser.c” EXT_GENERATOR_DIR =
+“#{EXT_ROOT_DIR}/generator” EXT_GENERATOR_DL  = “#{<a
+href="http://'DLEXT'">EXT_GENERATOR_DIR}/generator.#{CONFIG</a>}”
+EXT_GENERATOR_SRC = “#{EXT_GENERATOR_DIR}/generator.c”</p>
+
+<p>JAVA_DIR            = “java/src/json/ext” JAVA_RAGEL_PATH     =
+“#{JAVA_DIR}/Parser.rl” JAVA_PARSER_SRC     = “#{JAVA_DIR}/Parser.java”
+JAVA_SOURCES        = <a href="http://"#{JAVA_DIR}/*.java"">FileList</a>
+JAVA_CLASSES        = [] JRUBY_PARSER_JAR    =
+File.expand_path(“lib/json/ext/parser.jar”) JRUBY_GENERATOR_JAR =
+File.expand_path(“lib/json/ext/generator.jar”)</p>
+
+<p>RAGEL_CODEGEN     = %w[rlcodegen rlgen-cd ragel].find { |c| system(c, ‘-v’)
+} RAGEL_DOTGEN      = %w[rlgen-dot rlgen-cd ragel].find { |c| system(c,
+‘-v’) }</p>
+
+<p>desc “Installing library (pure)” task :install_pure =&gt; :version do</p>
+
+<pre>ruby 'install.rb'</pre>
+
+<p>end</p>
+
+<p>task :install_ext_really do</p>
+
+<pre>sitearchdir = CONFIG[&quot;sitearchdir&quot;]
+cd 'ext' do
+  for file in Dir[&quot;json/ext/*.#{CONFIG['DLEXT']}&quot;]
+    d = File.join(sitearchdir, file)
+    mkdir_p File.dirname(d)
+    install(file, d)
+  end
+  warn &quot; *** Installed EXT ruby library.&quot;
+end</pre>
+
+<p>end</p>
+
+<p>desc “Installing library (extension)” task :install_ext =&gt; [ :compile,
+:install_pure, :install_ext_really ]</p>
+
+<p>desc “Installing library (extension)” task :install =&gt; :install_ext</p>
+
+<p>if defined?(Gem) and defined?(Gem::PackageTask)</p>
+
+<pre>spec_pure = Gem::Specification.new do |s|
+  s.name = 'json_pure'
+  s.version = PKG_VERSION
+  s.summary = PKG_TITLE
+  s.description = &quot;This is a JSON implementation in pure Ruby.&quot;
+
+  s.files = PKG_FILES
+
+  s.require_path = 'lib'
+  s.add_development_dependency 'permutation'
+  s.add_development_dependency 'sdoc', '~&gt;0.3.16'
+  s.add_development_dependency 'rake', '~&gt;0.9.2'
+
+  s.extra_rdoc_files &lt;&lt; 'README.rdoc'
+  s.rdoc_options &lt;&lt;
+    '--title' &lt;&lt;  'JSON implemention for ruby' &lt;&lt; '--main' &lt;&lt; 'README.rdoc'
+  s.test_files.concat Dir['./tests/test_*.rb']
+
+  s.author = &quot;Florian Frank&quot;
+  s.email = &quot;flori@ping.de&quot;
+  s.homepage = &quot;http://flori.github.com/#{PKG_NAME}&quot;
+  s.license = 'Ruby'
+end
+
+desc 'Creates a json_pure.gemspec file'
+task :gemspec_pure =&gt; :version do
+  File.open('json_pure.gemspec', 'w') do |gemspec|
+    gemspec.write skip_sdoc(spec_pure.to_ruby)
+  end
+end
+
+Gem::PackageTask.new(spec_pure) do |pkg|
+    pkg.need_tar = true
+    pkg.package_files = PKG_FILES
+end
+
+spec_ext = Gem::Specification.new do |s|
+  s.name = 'json'
+  s.version = PKG_VERSION
+  s.summary = PKG_TITLE
+  s.description = &quot;This is a JSON implementation as a Ruby extension in C.&quot;
+
+  s.files = PKG_FILES
+
+  s.extensions = FileList['ext/**/extconf.rb']
+
+  s.require_path = 'lib'
+  s.add_development_dependency 'permutation'
+  s.add_development_dependency 'sdoc', '~&gt;0.3.16'
+
+  s.extra_rdoc_files &lt;&lt; 'README.rdoc'
+  s.rdoc_options &lt;&lt;
+    '--title' &lt;&lt;  'JSON implemention for Ruby' &lt;&lt; '--main' &lt;&lt; 'README.rdoc'
+  s.test_files.concat Dir['./tests/test_*.rb']
+
+  s.author = &quot;Florian Frank&quot;
+  s.email = &quot;flori@ping.de&quot;
+  s.homepage = &quot;http://flori.github.com/#{PKG_NAME}&quot;
+  s.license = 'Ruby'
+end
+
+desc 'Creates a json.gemspec file'
+task :gemspec_ext =&gt; :version do
+  File.open('json.gemspec', 'w') do |gemspec|
+    gemspec.write skip_sdoc(spec_ext.to_ruby)
+  end
+end
+
+Gem::PackageTask.new(spec_ext) do |pkg|
+  pkg.need_tar      = true
+  pkg.package_files = PKG_FILES
+end
+
+desc 'Create all gemspec files'
+task :gemspec =&gt; [ :gemspec_pure, :gemspec_ext ]</pre>
+
+<p>end</p>
+
+<p>desc m = “Writing version information for #{PKG_VERSION}” task :version do</p>
+
+<pre>puts m
+File.open(File.join('lib', 'json', 'version.rb'), 'w') do |v|
+  v.puts &lt;&lt;EOT</pre>
+
+<p>module <a href="JSON.html">JSON</a></p>
+
+<pre># JSON version
+VERSION         = '#{PKG_VERSION}'
+VERSION_ARRAY   = VERSION.split(/\\./).map { |x| x.to_i } # :nodoc:
+VERSION_MAJOR   = VERSION_ARRAY[0] # :nodoc:
+VERSION_MINOR   = VERSION_ARRAY[1] # :nodoc:
+VERSION_BUILD   = VERSION_ARRAY[2] # :nodoc:</pre>
+
+<p>end EOT</p>
+
+<pre>end</pre>
+
+<p>end</p>
+
+<p>desc “Testing library (pure ruby)” task :test_pure =&gt; [ :clean,
+:do_test_pure ]</p>
+
+<p>UndocumentedTestTask.new do |t|</p>
+
+<pre>t.name = 'do_test_pure'
+t.libs &lt;&lt; 'lib'
+t.test_files = FileList['tests/test_*.rb']
+t.verbose = true
+t.options = '-v'</pre>
+
+<p>end</p>
+
+<p>desc “Testing library (pure ruby and extension)” task :test do</p>
+
+<pre>sh &quot;env JSON=pure #{BUNDLE} exec rake test_pure&quot; or exit 1
+sh &quot;env JSON=ext #{BUNDLE} exec rake test_ext&quot;  or exit 1</pre>
+
+<p>end</p>
+
+<p>namespace :gems do</p>
+
+<pre>desc 'Install all development gems'
+task :install do
+  sh &quot;#{BUNDLE}&quot;
+end</pre>
+
+<p>end</p>
+
+<p>if defined?(RUBY_ENGINE) and RUBY_ENGINE == ‘jruby’</p>
+
+<pre>if ENV.key?('JAVA_HOME')
+  warn &quot; *** JAVA_HOME was set to #{ENV['JAVA_HOME'].inspect}&quot;
+elsif File.directory?(local_java = '/usr/local/java/jdk') ||
+  File.directory?(local_java = '/usr/lib/jvm/java-6-openjdk')
+then
+  ENV['JAVA_HOME'] = local_java
+end
+if ENV['JAVA_HOME']
+  warn &quot; *** JAVA_HOME is set to #{ENV['JAVA_HOME'].inspect}&quot;
+  ENV['PATH'] = ENV['PATH'].split(/:/).unshift(java_path = &quot;#{ENV['JAVA_HOME']}/bin&quot;) * ':'
+  warn &quot; *** java binaries are assumed to be in #{java_path.inspect}&quot;
+else
+  warn &quot; *** JAVA_HOME was not set or could not be guessed!&quot;
+  exit 1
+end
+
+file JAVA_PARSER_SRC =&gt; JAVA_RAGEL_PATH do
+  cd JAVA_DIR do
+    if RAGEL_CODEGEN == 'ragel'
+      sh &quot;ragel Parser.rl -J -o Parser.java&quot;
+    else
+      sh &quot;ragel -x Parser.rl | #{RAGEL_CODEGEN} -J&quot;
+    end
+  end
+end
+
+desc &quot;Generate parser for java with ragel&quot;
+task :ragel =&gt; JAVA_PARSER_SRC
+
+desc &quot;Delete the ragel generated Java source&quot;
+task :ragel_clean do
+  rm_rf JAVA_PARSER_SRC
+end
+
+JRUBY_JAR = File.join(CONFIG[&quot;libdir&quot;], &quot;jruby.jar&quot;)
+if File.exist?(JRUBY_JAR)
+  JAVA_SOURCES.each do |src|
+    classpath = (Dir['java/lib/*.jar'] &lt;&lt; 'java/src' &lt;&lt; JRUBY_JAR) * ':'
+    obj = src.sub(/\.java\Z/, '.class')
+    file obj =&gt; src do
+      sh 'javac', '-classpath', classpath, '-source', '1.5', '-target', '1.5', src
+    end
+    JAVA_CLASSES &lt;&lt; obj
+  end
+else
+  warn &quot;WARNING: Cannot find jruby in path =&gt; Cannot build jruby extension!&quot;
+end
+
+desc &quot;Compiling jruby extension&quot;
+task :compile =&gt; JAVA_CLASSES
+
+desc &quot;Package the jruby gem&quot;
+task :jruby_gem =&gt; :create_jar do
+  sh 'gem build json-java.gemspec'
+  mkdir_p 'pkg'
+  mv &quot;json-#{PKG_VERSION}-java.gem&quot;, 'pkg'
+end
+
+desc &quot;Testing library (jruby)&quot;
+task :test_ext =&gt; [ :create_jar, :do_test_ext ]
+
+UndocumentedTestTask.new do |t|
+  t.name = 'do_test_ext'
+  t.libs &lt;&lt; 'lib'
+  t.test_files = FileList['tests/test_*.rb']
+  t.verbose = true
+  t.options = '-v'
+end
+
+file JRUBY_PARSER_JAR =&gt; :compile do
+  cd 'java/src' do
+    parser_classes = FileList[
+      &quot;json/ext/ByteListTranscoder*.class&quot;,
+      &quot;json/ext/OptionsReader*.class&quot;,
+      &quot;json/ext/Parser*.class&quot;,
+      &quot;json/ext/RuntimeInfo*.class&quot;,
+      &quot;json/ext/StringDecoder*.class&quot;,
+      &quot;json/ext/Utils*.class&quot;
+    ]
+    sh 'jar', 'cf', File.basename(JRUBY_PARSER_JAR), *parser_classes
+    mv File.basename(JRUBY_PARSER_JAR), File.dirname(JRUBY_PARSER_JAR)
+  end
+end
+
+desc &quot;Create parser jar&quot;
+task :create_parser_jar =&gt; JRUBY_PARSER_JAR
+
+file JRUBY_GENERATOR_JAR =&gt; :compile do
+  cd 'java/src' do
+    generator_classes = FileList[
+      &quot;json/ext/ByteListTranscoder*.class&quot;,
+      &quot;json/ext/OptionsReader*.class&quot;,
+      &quot;json/ext/Generator*.class&quot;,
+      &quot;json/ext/RuntimeInfo*.class&quot;,
+      &quot;json/ext/StringEncoder*.class&quot;,
+      &quot;json/ext/Utils*.class&quot;
+    ]
+    sh 'jar', 'cf', File.basename(JRUBY_GENERATOR_JAR), *generator_classes
+    mv File.basename(JRUBY_GENERATOR_JAR), File.dirname(JRUBY_GENERATOR_JAR)
+  end
+end
+
+desc &quot;Create generator jar&quot;
+task :create_generator_jar =&gt; JRUBY_GENERATOR_JAR
+
+desc &quot;Create parser and generator jars&quot;
+task :create_jar =&gt; [ :create_parser_jar, :create_generator_jar ]
+
+desc &quot;Build all gems and archives for a new release of the jruby extension.&quot;
+task :build =&gt; [ :clean, :version, :jruby_gem ]
+
+task :release =&gt; :build</pre>
+
+<p>else</p>
+
+<pre>desc &quot;Compiling extension&quot;
+task :compile =&gt; [ EXT_PARSER_DL, EXT_GENERATOR_DL ]
+
+file EXT_PARSER_DL =&gt; EXT_PARSER_SRC do
+  cd EXT_PARSER_DIR do
+    ruby 'extconf.rb'
+    sh MAKE
+  end
+  cp &quot;#{EXT_PARSER_DIR}/parser.#{CONFIG['DLEXT']}&quot;, EXT_ROOT_DIR
+end
+
+file EXT_GENERATOR_DL =&gt; EXT_GENERATOR_SRC do
+  cd EXT_GENERATOR_DIR do
+    ruby 'extconf.rb'
+    sh MAKE
+  end
+  cp &quot;#{EXT_GENERATOR_DIR}/generator.#{CONFIG['DLEXT']}&quot;, EXT_ROOT_DIR
+end
+
+desc &quot;Testing library (extension)&quot;
+task :test_ext =&gt; [ :compile, :do_test_ext ]
+
+UndocumentedTestTask.new do |t|
+  t.name = 'do_test_ext'
+  t.libs &lt;&lt; 'ext' &lt;&lt; 'lib'
+  t.test_files = FileList['tests/test_*.rb']
+  t.verbose = true
+  t.options = '-v'
+end
+
+desc &quot;Create RDOC documentation&quot;
+task :doc =&gt; [ :version, EXT_PARSER_SRC ] do
+  sh &quot;sdoc -o doc -t '#{PKG_TITLE}' -m README.rdoc README.rdoc lib/json.rb #{FileList['lib/json/**/*.rb']} #{EXT_PARSER_SRC} #{EXT_GENERATOR_SRC}&quot;
+end
+
+desc &quot;Generate parser with ragel&quot;
+task :ragel =&gt; EXT_PARSER_SRC
+
+desc &quot;Delete the ragel generated C source&quot;
+task :ragel_clean do
+  rm_rf EXT_PARSER_SRC
+end
+
+desc &quot;Update the tags file&quot;
+task :tags do
+  system 'ctags', *Dir['**/*.{rb,c,h,java}']
+end
+
+file EXT_PARSER_SRC =&gt; RAGEL_PATH do
+  cd EXT_PARSER_DIR do
+    if RAGEL_CODEGEN == 'ragel'
+      sh &quot;ragel parser.rl -G2 -o parser.c&quot;
+    else
+      sh &quot;ragel -x parser.rl | #{RAGEL_CODEGEN} -G2&quot;
+    end
+    src = File.read(&quot;parser.c&quot;).gsub(/[ \t]+$/, '')
+    File.open(&quot;parser.c&quot;, &quot;w&quot;) {|f| f.print src}
+  end
+end
+
+desc &quot;Generate diagrams of ragel parser (ps)&quot;
+task :ragel_dot_ps do
+  root = 'diagrams'
+  specs = []
+  File.new(RAGEL_PATH).grep(/^\s*machine\s*(\S+);\s*$/) { specs &lt;&lt; $1 }
+  for s in specs
+    if RAGEL_DOTGEN == 'ragel'
+      sh &quot;ragel #{RAGEL_PATH} -S#{s} -p -V | dot -Tps -o#{root}/#{s}.ps&quot;
+    else
+      sh &quot;ragel -x #{RAGEL_PATH} -S#{s} | #{RAGEL_DOTGEN} -p|dot -Tps -o#{root}/#{s}.ps&quot;
+    end
+  end
+end
+
+desc &quot;Generate diagrams of ragel parser (png)&quot;
+task :ragel_dot_png do
+  root = 'diagrams'
+  specs = []
+  File.new(RAGEL_PATH).grep(/^\s*machine\s*(\S+);\s*$/) { specs &lt;&lt; $1 }
+  for s in specs
+    if RAGEL_DOTGEN == 'ragel'
+      sh &quot;ragel #{RAGEL_PATH} -S#{s} -p -V | dot -Tpng -o#{root}/#{s}.png&quot;
+    else
+      sh &quot;ragel -x #{RAGEL_PATH} -S#{s} | #{RAGEL_DOTGEN} -p|dot -Tpng -o#{root}/#{s}.png&quot;
+    end
+  end
+end
+
+desc &quot;Generate diagrams of ragel parser&quot;
+task :ragel_dot =&gt; [ :ragel_dot_png, :ragel_dot_ps ]
+
+desc &quot;Build all gems and archives for a new release of json and json_pure.&quot;
+task :build =&gt; [ :clean, :gemspec, :package ]
+
+task :release =&gt; :build</pre>
+
+<p>end</p>
+
+<p>desc “Compile in the the source directory” task :default =&gt; [ :clean,
+:gemspec, :test ]</p>
+
+  </div>
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+</body>
+</html>
+

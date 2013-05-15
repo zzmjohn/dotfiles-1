@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"markup:EFI"RDoc::Options#markup;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"MThe default markup format.  The default is 'rdoc'.  'markdown', 'tomdoc';TI" and 'rd' are also built-in.;T:
+@file0FI"lib/rdoc/options.rb;T

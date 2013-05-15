@@ -1,0 +1,3 @@
+U:RDoc::Attr[iI"
+count:EFI"Minitest::Reporter#count;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"'The count of runnable methods ran.;T:
+@file0FI"lib/minitest.rb;T

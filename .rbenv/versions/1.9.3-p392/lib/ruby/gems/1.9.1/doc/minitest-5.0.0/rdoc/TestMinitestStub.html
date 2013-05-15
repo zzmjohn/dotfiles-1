@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: TestMinitestStub</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./test/minitest/test_minitest_mock_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="test/minitest/test_minitest_mock.rb">test/minitest/test_minitest_mock.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link"><a href="Minitest/Test.html">Minitest::Test</a></p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-method_missing">::method_missing</a></li>
+          
+          <li><a href="#method-c-respond_to-3F">::respond_to?</a></li>
+          
+          <li><a href="#method-i-assert_stub">#assert_stub</a></li>
+          
+          <li><a href="#method-i-fail_clap">#fail_clap</a></li>
+          
+          <li><a href="#method-i-setup">#setup</a></li>
+          
+          <li><a href="#method-i-teardown">#teardown</a></li>
+          
+          <li><a href="#method-i-test_dynamic_method">#test_dynamic_method</a></li>
+          
+          <li><a href="#method-i-test_stub_block">#test_stub_block</a></li>
+          
+          <li><a href="#method-i-test_stub_block_args">#test_stub_block_args</a></li>
+          
+          <li><a href="#method-i-test_stub_callable">#test_stub_callable</a></li>
+          
+          <li><a href="#method-i-test_stub_private_module_method">#test_stub_private_module_method</a></li>
+          
+          <li><a href="#method-i-test_stub_private_module_method_indirect">#test_stub_private_module_method_indirect</a></li>
+          
+          <li><a href="#method-i-test_stub_public_module_method">#test_stub_public_module_method</a></li>
+          
+          <li><a href="#method-i-test_stub_value">#test_stub_value</a></li>
+          
+          <li><a href="#method-i-test_stub_yield_self">#test_stub_yield_self</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./History_txt.html">History.txt</a></li>
+        
+          <li class="file"><a href="./Manifest_txt.html">Manifest.txt</a></li>
+        
+          <li class="file"><a href="./README_txt.html">README.txt</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Minitest.html">Minitest</a></li>
+        
+          <li><a href="./Minitest/Assertion.html">Minitest::Assertion</a></li>
+        
+          <li><a href="./Minitest/Assertions.html">Minitest::Assertions</a></li>
+        
+          <li><a href="./Minitest/BacktraceFilter.html">Minitest::BacktraceFilter</a></li>
+        
+          <li><a href="./Minitest/BenchSpec.html">Minitest::BenchSpec</a></li>
+        
+          <li><a href="./Minitest/Benchmark.html">Minitest::Benchmark</a></li>
+        
+          <li><a href="./Minitest/CompositeReporter.html">Minitest::CompositeReporter</a></li>
+        
+          <li><a href="./Minitest/Expectations.html">Minitest::Expectations</a></li>
+        
+          <li><a href="./Minitest/Guard.html">Minitest::Guard</a></li>
+        
+          <li><a href="./Minitest/Mock.html">Minitest::Mock</a></li>
+        
+          <li><a href="./Minitest/ParallelEach.html">Minitest::ParallelEach</a></li>
+        
+          <li><a href="./Minitest/PrideIO.html">Minitest::PrideIO</a></li>
+        
+          <li><a href="./Minitest/PrideLOL.html">Minitest::PrideLOL</a></li>
+        
+          <li><a href="./Minitest/Reporter.html">Minitest::Reporter</a></li>
+        
+          <li><a href="./Minitest/Runnable.html">Minitest::Runnable</a></li>
+        
+          <li><a href="./Minitest/Skip.html">Minitest::Skip</a></li>
+        
+          <li><a href="./Minitest/Spec.html">Minitest::Spec</a></li>
+        
+          <li><a href="./Minitest/Spec/DSL.html">Minitest::Spec::DSL</a></li>
+        
+          <li><a href="./Minitest/Test.html">Minitest::Test</a></li>
+        
+          <li><a href="./Minitest/Test/LifecycleHooks.html">Minitest::Test::LifecycleHooks</a></li>
+        
+          <li><a href="./Minitest/UnexpectedError.html">Minitest::UnexpectedError</a></li>
+        
+          <li><a href="./TestMinitestRunner.html">TestMinitestRunner</a></li>
+        
+          <li><a href="./TestMinitestRunner/Latch.html">TestMinitestRunner::Latch</a></li>
+        
+          <li><a href="./AnError.html">AnError</a></li>
+        
+          <li><a href="./ExampleA.html">ExampleA</a></li>
+        
+          <li><a href="./ExampleB.html">ExampleB</a></li>
+        
+          <li><a href="./ImmutableString.html">ImmutableString</a></li>
+        
+          <li><a href="./Kernel.html">Kernel</a></li>
+        
+          <li><a href="./MetaMetaMetaTestCase.html">MetaMetaMetaTestCase</a></li>
+        
+          <li><a href="./MiniSpecA.html">MiniSpecA</a></li>
+        
+          <li><a href="./MiniSpecB.html">MiniSpecB</a></li>
+        
+          <li><a href="./MiniSpecC.html">MiniSpecC</a></li>
+        
+          <li><a href="./MockExpectationError.html">MockExpectationError</a></li>
+        
+          <li><a href="./Module.html">Module</a></li>
+        
+          <li><a href="./MyModule.html">MyModule</a></li>
+        
+          <li><a href="./NamedExampleA.html">NamedExampleA</a></li>
+        
+          <li><a href="./NamedExampleB.html">NamedExampleB</a></li>
+        
+          <li><a href="./NamedExampleC.html">NamedExampleC</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+          <li><a href="./SubThingySpec.html">SubThingySpec</a></li>
+        
+          <li><a href="./TestMeta.html">TestMeta</a></li>
+        
+          <li><a href="./TestMetaStatic.html">TestMetaStatic</a></li>
+        
+          <li><a href="./TestMinitestBenchmark.html">TestMinitestBenchmark</a></li>
+        
+          <li><a href="./TestMinitestGuard.html">TestMinitestGuard</a></li>
+        
+          <li><a href="./TestMinitestMock.html">TestMinitestMock</a></li>
+        
+          <li><a href="./TestMinitestReporter.html">TestMinitestReporter</a></li>
+        
+          <li><a href="./TestMinitestRunnable.html">TestMinitestRunnable</a></li>
+        
+          <li><a href="./TestMinitestStub.html">TestMinitestStub</a></li>
+        
+          <li><a href="./TestMinitestTest.html">TestMinitestTest</a></li>
+        
+          <li><a href="./TestMinitestUnit.html">TestMinitestUnit</a></li>
+        
+          <li><a href="./TestMinitestUnitInherited.html">TestMinitestUnitInherited</a></li>
+        
+          <li><a href="./TestMinitestUnitOrder.html">TestMinitestUnitOrder</a></li>
+        
+          <li><a href="./TestMinitestUnitRecording.html">TestMinitestUnitRecording</a></li>
+        
+          <li><a href="./TestMinitestUnitTestCase.html">TestMinitestUnitTestCase</a></li>
+        
+          <li><a href="./TestSpecInTestCase.html">TestSpecInTestCase</a></li>
+        
+          <li><a href="./ThingySpec.html">ThingySpec</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">TestMinitestStub</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="method_missing-method" class="method-detail ">
+          <a name="method-c-method_missing"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">method_missing</span><span
+              class="method-args">(meth, *args, &block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="method_missing-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 387</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">method_missing</span>(<span class="ruby-identifier">meth</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">meth</span> <span class="ruby-operator">==</span> <span class="ruby-value">:found</span>
+    <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">super</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- method_missing-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- method_missing-method -->
+
+      
+        <div id="respond_to-3F-method" class="method-detail ">
+          <a name="method-c-respond_to-3F"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">respond_to?</span><span
+              class="method-args">(meth)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="respond_to-3F-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 383</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-identifier">meth</span>)
+  <span class="ruby-identifier">meth</span> <span class="ruby-operator">==</span> <span class="ruby-value">:found</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- respond_to-3F-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- respond_to-3F-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="assert_stub-method" class="method-detail ">
+          <a name="method-i-assert_stub"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">assert_stub</span><span
+              class="method-args">(val_or_callable)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="assert_stub-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 289</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">assert_stub</span> <span class="ruby-identifier">val_or_callable</span>
+  <span class="ruby-ivar">@assertion_count</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+
+  <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">synchronize</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">t</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>.<span class="ruby-identifier">to_i</span>
+
+    <span class="ruby-constant">Time</span>.<span class="ruby-identifier">stub</span> <span class="ruby-value">:now</span>, <span class="ruby-identifier">val_or_callable</span> <span class="ruby-keyword">do</span>
+      <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-value">42</span>, <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_operator</span> <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>.<span class="ruby-identifier">to_i</span>, <span class="ruby-value">:&gt;=</span>, <span class="ruby-identifier">t</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- assert_stub-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- assert_stub-method -->
+
+      
+        <div id="fail_clap-method" class="method-detail ">
+          <a name="method-i-fail_clap"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">fail_clap</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="fail_clap-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 319</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">fail_clap</span>
+  <span class="ruby-identifier">fail</span>
+  <span class="ruby-value">:clap</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- fail_clap-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- fail_clap-method -->
+
+      
+        <div id="setup-method" class="method-detail ">
+          <a name="method-i-setup"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">setup</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="setup-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 276</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">setup</span>
+  <span class="ruby-keyword">super</span>
+  <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">reset</span>
+
+  <span class="ruby-ivar">@tc</span> = <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">new</span> <span class="ruby-string">'fake tc'</span>
+  <span class="ruby-ivar">@assertion_count</span> = <span class="ruby-value">1</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- setup-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- setup-method -->
+
+      
+        <div id="teardown-method" class="method-detail ">
+          <a name="method-i-teardown"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">teardown</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="teardown-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 284</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">teardown</span>
+  <span class="ruby-keyword">super</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-ivar">@assertion_count</span>, <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assertions</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- teardown-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- teardown-method -->
+
+      
+        <div id="test_dynamic_method-method" class="method-detail ">
+          <a name="method-i-test_dynamic_method"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_dynamic_method</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_dynamic_method-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 379</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_dynamic_method</span>
+  <span class="ruby-ivar">@assertion_count</span> = <span class="ruby-value">2</span>
+
+  <span class="ruby-identifier">dynamic</span> = <span class="ruby-constant">Class</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-identifier">meth</span>)
+      <span class="ruby-identifier">meth</span> <span class="ruby-operator">==</span> <span class="ruby-value">:found</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">method_missing</span>(<span class="ruby-identifier">meth</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">meth</span> <span class="ruby-operator">==</span> <span class="ruby-value">:found</span>
+        <span class="ruby-keyword">false</span>
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-keyword">super</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">val</span> = <span class="ruby-identifier">dynamic</span>.<span class="ruby-identifier">stub</span>(<span class="ruby-value">:found</span>, <span class="ruby-keyword">true</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">s</span>.<span class="ruby-identifier">found</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">true</span>, <span class="ruby-identifier">val</span>
+  <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">false</span>, <span class="ruby-identifier">dynamic</span>.<span class="ruby-identifier">found</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_dynamic_method-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_dynamic_method-method -->
+
+      
+        <div id="test_stub_block-method" class="method-detail ">
+          <a name="method-i-test_stub_block"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_block</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_block-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 341</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_block</span>
+  <span class="ruby-identifier">assert_stub</span> <span class="ruby-identifier">lambda</span> { <span class="ruby-value">42</span> }
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_block-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_block-method -->
+
+      
+        <div id="test_stub_block_args-method" class="method-detail ">
+          <a name="method-i-test_stub_block_args"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_block_args</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_block_args-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 345</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_block_args</span>
+  <span class="ruby-ivar">@assertion_count</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+
+  <span class="ruby-constant">Minitest</span><span class="ruby-operator">::</span><span class="ruby-constant">Test</span>.<span class="ruby-identifier">synchronize</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">t</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>.<span class="ruby-identifier">to_i</span>
+
+    <span class="ruby-constant">Time</span>.<span class="ruby-identifier">stub</span> <span class="ruby-value">:now</span>,  <span class="ruby-identifier">lambda</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">n</span><span class="ruby-operator">|</span> <span class="ruby-identifier">n</span> * <span class="ruby-value">2</span> } <span class="ruby-keyword">do</span>
+      <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-value">42</span>, <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>(<span class="ruby-value">21</span>)
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_operator</span> <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>.<span class="ruby-identifier">to_i</span>, <span class="ruby-value">:&gt;=</span>, <span class="ruby-identifier">t</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_block_args-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_block_args-method -->
+
+      
+        <div id="test_stub_callable-method" class="method-detail ">
+          <a name="method-i-test_stub_callable"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_callable</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_callable-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 359</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_callable</span>
+  <span class="ruby-identifier">obj</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">call</span>
+    <span class="ruby-value">42</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">assert_stub</span> <span class="ruby-identifier">obj</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_callable-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_callable-method -->
+
+      
+        <div id="test_stub_private_module_method-method" class="method-detail ">
+          <a name="method-i-test_stub_private_module_method"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_private_module_method</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_private_module_method-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 303</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_private_module_method</span>
+  <span class="ruby-ivar">@assertion_count</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+
+  <span class="ruby-identifier">t0</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">stub</span> <span class="ruby-value">:sleep</span>, <span class="ruby-keyword">nil</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_nil</span> <span class="ruby-identifier">sleep</span>(<span class="ruby-value">10</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_operator</span> <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">t0</span>, <span class="ruby-value">:&lt;=</span>, <span class="ruby-value">1</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_private_module_method-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_private_module_method-method -->
+
+      
+        <div id="test_stub_private_module_method_indirect-method" class="method-detail ">
+          <a name="method-i-test_stub_private_module_method_indirect"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_private_module_method_indirect</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_private_module_method_indirect-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 315</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_private_module_method_indirect</span>
+  <span class="ruby-ivar">@assertion_count</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+
+  <span class="ruby-identifier">fail_clapper</span> = <span class="ruby-constant">Class</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">def</span> <span class="ruby-identifier">fail_clap</span>
+      <span class="ruby-identifier">fail</span>
+      <span class="ruby-value">:clap</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>.<span class="ruby-identifier">new</span>
+
+  <span class="ruby-identifier">fail_clapper</span>.<span class="ruby-identifier">stub</span> <span class="ruby-value">:fail</span>, <span class="ruby-keyword">nil</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">safe_clapper</span><span class="ruby-operator">|</span>
+    <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-value">:clap</span>, <span class="ruby-identifier">safe_clapper</span>.<span class="ruby-identifier">fail_clap</span> <span class="ruby-comment"># either form works</span>
+    <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-value">:clap</span>, <span class="ruby-identifier">fail_clapper</span>.<span class="ruby-identifier">fail_clap</span> <span class="ruby-comment"># yay closures</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_private_module_method_indirect-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_private_module_method_indirect-method -->
+
+      
+        <div id="test_stub_public_module_method-method" class="method-detail ">
+          <a name="method-i-test_stub_public_module_method"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_public_module_method</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_public_module_method-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 331</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_public_module_method</span>
+  <span class="ruby-constant">Math</span>.<span class="ruby-identifier">stub</span> <span class="ruby-value">:log10</span>, <span class="ruby-value">:stubbed</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-value">:stubbed</span>, <span class="ruby-constant">Math</span>.<span class="ruby-identifier">log10</span>(<span class="ruby-value">1000</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_public_module_method-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_public_module_method-method -->
+
+      
+        <div id="test_stub_value-method" class="method-detail ">
+          <a name="method-i-test_stub_value"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_value</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_value-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 337</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_value</span>
+  <span class="ruby-identifier">assert_stub</span> <span class="ruby-value">42</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_value-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_value-method -->
+
+      
+        <div id="test_stub_yield_self-method" class="method-detail ">
+          <a name="method-i-test_stub_yield_self"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_stub_yield_self</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_stub_yield_self-source">
+<pre>
+<span class="ruby-comment"># File test/minitest/test_minitest_mock.rb, line 369</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_stub_yield_self</span>
+  <span class="ruby-identifier">obj</span> = <span class="ruby-string">&quot;foo&quot;</span>
+
+  <span class="ruby-identifier">val</span> = <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">stub</span> <span class="ruby-value">:to_s</span>, <span class="ruby-string">&quot;bar&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">s</span>.<span class="ruby-identifier">to_s</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-ivar">@tc</span>.<span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-identifier">val</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_stub_yield_self-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_stub_yield_self-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

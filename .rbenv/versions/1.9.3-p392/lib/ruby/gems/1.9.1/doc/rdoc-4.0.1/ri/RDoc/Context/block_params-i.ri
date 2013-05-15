@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"block_params:EFI"RDoc::Context#block_params;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"MBlock params to be used in the next MethodAttr parsed under this context;T:
+@file0FI"lib/rdoc/context.rb;T

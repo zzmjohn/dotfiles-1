@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: TestJSON</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./tests/test_json_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="tests/test_json.rb">tests/test_json.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">Test::Unit::TestCase</p>
+        
+      </div>
+      
+
+      
+
+      
+      <!-- Namespace Contents -->
+      <div id="namespace-list-section" class="section">
+        <h3 class="section-header">Namespace</h3>
+        <ul class="link-list">
+          
+          <li><span class="type">CLASS</span> <a href="TestJSON/SubArray.html">TestJSON::SubArray</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="TestJSON/SubArray2.html">TestJSON::SubArray2</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="TestJSON/SubArrayWrapper.html">TestJSON::SubArrayWrapper</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="TestJSON/SubHash.html">TestJSON::SubHash</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="TestJSON/SubHash2.html">TestJSON::SubHash2</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="TestJSON/SubOpenStruct.html">TestJSON::SubOpenStruct</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-i-assert_equal_float">#assert_equal_float</a></li>
+          
+          <li><a href="#method-i-setup">#setup</a></li>
+          
+          <li><a href="#method-i-test_allocate">#test_allocate</a></li>
+          
+          <li><a href="#method-i-test_argument_encoding">#test_argument_encoding</a></li>
+          
+          <li><a href="#method-i-test_backslash">#test_backslash</a></li>
+          
+          <li><a href="#method-i-test_big_integers">#test_big_integers</a></li>
+          
+          <li><a href="#method-i-test_comments">#test_comments</a></li>
+          
+          <li><a href="#method-i-test_construction">#test_construction</a></li>
+          
+          <li><a href="#method-i-test_dump">#test_dump</a></li>
+          
+          <li><a href="#method-i-test_generate_core_subclasses_with_default_to_json">#test_generate_core_subclasses_with_default_to_json</a></li>
+          
+          <li><a href="#method-i-test_generate_core_subclasses_with_new_to_json">#test_generate_core_subclasses_with_new_to_json</a></li>
+          
+          <li><a href="#method-i-test_generate_of_core_subclasses">#test_generate_of_core_subclasses</a></li>
+          
+          <li><a href="#method-i-test_load">#test_load</a></li>
+          
+          <li><a href="#method-i-test_load_with_options">#test_load_with_options</a></li>
+          
+          <li><a href="#method-i-test_nesting">#test_nesting</a></li>
+          
+          <li><a href="#method-i-test_parse_array">#test_parse_array</a></li>
+          
+          <li><a href="#method-i-test_parse_array_custom_array_derived_class">#test_parse_array_custom_array_derived_class</a></li>
+          
+          <li><a href="#method-i-test_parse_array_custom_non_array_derived_class">#test_parse_array_custom_non_array_derived_class</a></li>
+          
+          <li><a href="#method-i-test_parse_arrays">#test_parse_arrays</a></li>
+          
+          <li><a href="#method-i-test_parse_complex_objects">#test_parse_complex_objects</a></li>
+          
+          <li><a href="#method-i-test_parse_generic_object">#test_parse_generic_object</a></li>
+          
+          <li><a href="#method-i-test_parse_json_primitive_values">#test_parse_json_primitive_values</a></li>
+          
+          <li><a href="#method-i-test_parse_more_complex_arrays">#test_parse_more_complex_arrays</a></li>
+          
+          <li><a href="#method-i-test_parse_object">#test_parse_object</a></li>
+          
+          <li><a href="#method-i-test_parse_object_custom_hash_derived_class">#test_parse_object_custom_hash_derived_class</a></li>
+          
+          <li><a href="#method-i-test_parse_object_custom_non_hash_derived_class">#test_parse_object_custom_non_hash_derived_class</a></li>
+          
+          <li><a href="#method-i-test_parse_simple_arrays">#test_parse_simple_arrays</a></li>
+          
+          <li><a href="#method-i-test_parse_simple_objects">#test_parse_simple_objects</a></li>
+          
+          <li><a href="#method-i-test_parse_values">#test_parse_values</a></li>
+          
+          <li><a href="#method-i-test_parser_reset">#test_parser_reset</a></li>
+          
+          <li><a href="#method-i-test_symbolize_names">#test_symbolize_names</a></li>
+          
+          <li><a href="#method-i-test_wrong_inputs">#test_wrong_inputs</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Included Modules -->
+      <div id="includes-section" class="section">
+        <h3 class="section-header">Included Modules</h3>
+        <ul class="link-list">
+        
+        
+          <li><a class="include" href="JSON.html">JSON</a></li>
+        
+        
+        </ul>
+      </div>
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./CHANGES.html">CHANGES</a></li>
+        
+          <li class="file"><a href="./COPYING.html">COPYING</a></li>
+        
+          <li class="file"><a href="./COPYING-json-jruby.html">COPYING-json-jruby</a></li>
+        
+          <li class="file"><a href="./GPL.html">GPL</a></li>
+        
+          <li class="file"><a href="./Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="./TODO.html">TODO</a></li>
+        
+          <li class="file"><a href="./VERSION.html">VERSION</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/generator/Makefile.html">Makefile</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/generator/depend.html">depend</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/parser/Makefile.html">Makefile</a></li>
+        
+          <li class="file"><a href="./ext/json/ext/parser/depend.html">depend</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./JSON.html">JSON</a></li>
+        
+          <li><a href="./JSON/Ext.html">JSON::Ext</a></li>
+        
+          <li><a href="./JSON/Ext/Generator.html">JSON::Ext::Generator</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods.html">JSON::Ext::Generator::GeneratorMethods</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Array.html">JSON::Ext::Generator::GeneratorMethods::Array</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Bignum.html">JSON::Ext::Generator::GeneratorMethods::Bignum</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/FalseClass.html">JSON::Ext::Generator::GeneratorMethods::FalseClass</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Fixnum.html">JSON::Ext::Generator::GeneratorMethods::Fixnum</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Float.html">JSON::Ext::Generator::GeneratorMethods::Float</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Hash.html">JSON::Ext::Generator::GeneratorMethods::Hash</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/NilClass.html">JSON::Ext::Generator::GeneratorMethods::NilClass</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/Object.html">JSON::Ext::Generator::GeneratorMethods::Object</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/String.html">JSON::Ext::Generator::GeneratorMethods::String</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/String/Extend.html">JSON::Ext::Generator::GeneratorMethods::String::Extend</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/GeneratorMethods/TrueClass.html">JSON::Ext::Generator::GeneratorMethods::TrueClass</a></li>
+        
+          <li><a href="./JSON/Ext/Generator/State.html">JSON::Ext::Generator::State</a></li>
+        
+          <li><a href="./JSON/Ext/Parser.html">JSON::Ext::Parser</a></li>
+        
+          <li><a href="./JSON/GeneratorError.html">JSON::GeneratorError</a></li>
+        
+          <li><a href="./JSON/GeneratorError.html">JSON::GeneratorError</a></li>
+        
+          <li><a href="./JSON/GenericObject.html">JSON::GenericObject</a></li>
+        
+          <li><a href="./JSON/JSONError.html">JSON::JSONError</a></li>
+        
+          <li><a href="./JSON/MissingUnicodeSupport.html">JSON::MissingUnicodeSupport</a></li>
+        
+          <li><a href="./JSON/NestingError.html">JSON::NestingError</a></li>
+        
+          <li><a href="./JSON/ParserError.html">JSON::ParserError</a></li>
+        
+          <li><a href="./JSON/Pure.html">JSON::Pure</a></li>
+        
+          <li><a href="./JSON/Pure/Generator.html">JSON::Pure::Generator</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods.html">JSON::Pure::Generator::GeneratorMethods</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Array.html">JSON::Pure::Generator::GeneratorMethods::Array</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/FalseClass.html">JSON::Pure::Generator::GeneratorMethods::FalseClass</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Float.html">JSON::Pure::Generator::GeneratorMethods::Float</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Hash.html">JSON::Pure::Generator::GeneratorMethods::Hash</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Integer.html">JSON::Pure::Generator::GeneratorMethods::Integer</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/NilClass.html">JSON::Pure::Generator::GeneratorMethods::NilClass</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/Object.html">JSON::Pure::Generator::GeneratorMethods::Object</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/String.html">JSON::Pure::Generator::GeneratorMethods::String</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/String/Extend.html">JSON::Pure::Generator::GeneratorMethods::String::Extend</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/GeneratorMethods/TrueClass.html">JSON::Pure::Generator::GeneratorMethods::TrueClass</a></li>
+        
+          <li><a href="./JSON/Pure/Generator/State.html">JSON::Pure::Generator::State</a></li>
+        
+          <li><a href="./JSON/Pure/Parser.html">JSON::Pure::Parser</a></li>
+        
+          <li><a href="./TestJSON.html">TestJSON</a></li>
+        
+          <li><a href="./TestJSON/SubArray.html">TestJSON::SubArray</a></li>
+        
+          <li><a href="./TestJSON/SubArray2.html">TestJSON::SubArray2</a></li>
+        
+          <li><a href="./TestJSON/SubArrayWrapper.html">TestJSON::SubArrayWrapper</a></li>
+        
+          <li><a href="./TestJSON/SubHash.html">TestJSON::SubHash</a></li>
+        
+          <li><a href="./TestJSON/SubHash2.html">TestJSON::SubHash2</a></li>
+        
+          <li><a href="./TestJSON/SubOpenStruct.html">TestJSON::SubOpenStruct</a></li>
+        
+          <li><a href="./TestJSONAddition.html">TestJSONAddition</a></li>
+        
+          <li><a href="./TestJSONAddition/A.html">TestJSONAddition::A</a></li>
+        
+          <li><a href="./TestJSONAddition/A2.html">TestJSONAddition::A2</a></li>
+        
+          <li><a href="./TestJSONAddition/B.html">TestJSONAddition::B</a></li>
+        
+          <li><a href="./TestJSONAddition/C.html">TestJSONAddition::C</a></li>
+        
+          <li><a href="./TestJSONStringMatching.html">TestJSONStringMatching</a></li>
+        
+          <li><a href="./TestJSONStringMatching/TestTime.html">TestJSONStringMatching::TestTime</a></li>
+        
+          <li><a href="./Array.html">Array</a></li>
+        
+          <li><a href="./BigDecimal.html">BigDecimal</a></li>
+        
+          <li><a href="./Class.html">Class</a></li>
+        
+          <li><a href="./Complex.html">Complex</a></li>
+        
+          <li><a href="./Date.html">Date</a></li>
+        
+          <li><a href="./DateTime.html">DateTime</a></li>
+        
+          <li><a href="./Exception.html">Exception</a></li>
+        
+          <li><a href="./Fuzzer.html">Fuzzer</a></li>
+        
+          <li><a href="./JSONServlet.html">JSONServlet</a></li>
+        
+          <li><a href="./Kernel.html">Kernel</a></li>
+        
+          <li><a href="./MyState.html">MyState</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+          <li><a href="./OpenStruct.html">OpenStruct</a></li>
+        
+          <li><a href="./Range.html">Range</a></li>
+        
+          <li><a href="./Rational.html">Rational</a></li>
+        
+          <li><a href="./Regexp.html">Regexp</a></li>
+        
+          <li><a href="./String.html">String</a></li>
+        
+          <li><a href="./Struct.html">Struct</a></li>
+        
+          <li><a href="./Symbol.html">Symbol</a></li>
+        
+          <li><a href="./TestJSONEncoding.html">TestJSONEncoding</a></li>
+        
+          <li><a href="./TestJSONFixtures.html">TestJSONFixtures</a></li>
+        
+          <li><a href="./TestJSONGenerate.html">TestJSONGenerate</a></li>
+        
+          <li><a href="./TestJSONGenericObject.html">TestJSONGenericObject</a></li>
+        
+          <li><a href="./TestJSONUnicode.html">TestJSONUnicode</a></li>
+        
+          <li><a href="./Time.html">Time</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">TestJSON</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="assert_equal_float-method" class="method-detail ">
+          <a name="method-i-assert_equal_float"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">assert_equal_float</span><span
+              class="method-args">(expected, is)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="assert_equal_float-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 52</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">assert_equal_float</span>(<span class="ruby-identifier">expected</span>, <span class="ruby-identifier">is</span>)
+  <span class="ruby-identifier">assert_in_delta</span>(<span class="ruby-identifier">expected</span>.<span class="ruby-identifier">first</span>, <span class="ruby-identifier">is</span>.<span class="ruby-identifier">first</span>, <span class="ruby-value">1e-2</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- assert_equal_float-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- assert_equal_float-method -->
+
+      
+        <div id="setup-method" class="method-detail ">
+          <a name="method-i-setup"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">setup</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="setup-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">setup</span>
+  <span class="ruby-ivar">@ary</span> = [<span class="ruby-value">1</span>, <span class="ruby-string">&quot;foo&quot;</span>, <span class="ruby-value">3.14</span>, <span class="ruby-value">4711.0</span>, <span class="ruby-value">2.718</span>, <span class="ruby-keyword">nil</span>, [<span class="ruby-value">1</span>,<span class="ruby-value">-2</span>,<span class="ruby-value">3</span>], <span class="ruby-keyword">false</span>, <span class="ruby-keyword">true</span>].<span class="ruby-identifier">map</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> [<span class="ruby-identifier">x</span>]
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@ary_to_parse</span> = [<span class="ruby-string">&quot;1&quot;</span>, <span class="ruby-string">'&quot;foo&quot;'</span>, <span class="ruby-string">&quot;3.14&quot;</span>, <span class="ruby-string">&quot;4711.0&quot;</span>, <span class="ruby-string">&quot;2.718&quot;</span>, <span class="ruby-string">&quot;null&quot;</span>,
+    <span class="ruby-string">&quot;[1,-2,3]&quot;</span>, <span class="ruby-string">&quot;false&quot;</span>, <span class="ruby-string">&quot;true&quot;</span>].<span class="ruby-identifier">map</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-node">&quot;[#{x}]&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@hash</span> = {
+    <span class="ruby-string">'a'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">2</span>,
+    <span class="ruby-string">'b'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">3.141</span>,
+    <span class="ruby-string">'c'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'c'</span>,
+    <span class="ruby-string">'d'</span> =<span class="ruby-operator">&gt;</span> [ <span class="ruby-value">1</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-value">3.14</span> ],
+    <span class="ruby-string">'e'</span> =<span class="ruby-operator">&gt;</span> { <span class="ruby-string">'foo'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'bar'</span> },
+    <span class="ruby-string">'g'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;\&quot;\00\\0037&quot;</span>,
+    <span class="ruby-string">'h'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">1000.0</span>,
+    <span class="ruby-string">'i'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">0.001</span>
+  }
+  <span class="ruby-ivar">@json</span> = <span class="ruby-string">'{&quot;a&quot;:2,&quot;b&quot;:3.141,&quot;c&quot;:&quot;c&quot;,&quot;d&quot;:[1,&quot;b&quot;,3.14],&quot;e&quot;:{&quot;foo&quot;:&quot;bar&quot;},'</span>       <span class="ruby-string">'&quot;g&quot;:&quot;\&quot;\u0000\u001f&quot;,&quot;h&quot;:1.0E3,&quot;i&quot;:1.0E-3}'</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- setup-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- setup-method -->
+
+      
+        <div id="test_allocate-method" class="method-detail ">
+          <a name="method-i-test_allocate"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_allocate</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_allocate-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 530</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_allocate</span>
+  <span class="ruby-identifier">parser</span> = <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Ext</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">&quot;{}&quot;</span>)
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">TypeError</span>, <span class="ruby-string">'[ruby-core:35079]'</span>) {<span class="ruby-identifier">parser</span>.<span class="ruby-identifier">__send__</span>(<span class="ruby-value">:initialize</span>, <span class="ruby-string">&quot;{}&quot;</span>)}
+  <span class="ruby-identifier">parser</span> = <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Ext</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">allocate</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">TypeError</span>, <span class="ruby-string">'[ruby-core:35079]'</span>) {<span class="ruby-identifier">parser</span>.<span class="ruby-identifier">source</span>}
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_allocate-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_allocate-method -->
+
+      
+        <div id="test_argument_encoding-method" class="method-detail ">
+          <a name="method-i-test_argument_encoding"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_argument_encoding</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_argument_encoding-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 538</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_argument_encoding</span>
+  <span class="ruby-identifier">source</span> = <span class="ruby-string">&quot;{}&quot;</span>.<span class="ruby-identifier">force_encoding</span>(<span class="ruby-string">&quot;ascii-8bit&quot;</span>)
+  <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">source</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">ASCII_8BIT</span>, <span class="ruby-identifier">source</span>.<span class="ruby-identifier">encoding</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_argument_encoding-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_argument_encoding-method -->
+
+      
+        <div id="test_backslash-method" class="method-detail ">
+          <a name="method-i-test_backslash"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_backslash</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_backslash-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 399</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_backslash</span>
+  <span class="ruby-identifier">data</span> = [ <span class="ruby-string">'\.(?i:gif|jpe?g|png)$'</span> ]
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">'[&quot;\\.(?i:gif|jpe?g|png)$&quot;]'</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">json</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">data</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>)
+  <span class="ruby-comment">#</span>
+  <span class="ruby-identifier">data</span> = [ <span class="ruby-string">'\&quot;'</span> ]
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">'[&quot;\\\&quot;&quot;]'</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">json</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">data</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>)
+  <span class="ruby-comment">#</span>
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">'[&quot;/&quot;]'</span>
+  <span class="ruby-identifier">data</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>)
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-string">'/'</span>], <span class="ruby-identifier">data</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">json</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-comment">#</span>
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">'[&quot;\&quot;&quot;]'</span>
+  <span class="ruby-identifier">data</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>)
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-string">'&quot;'</span>], <span class="ruby-identifier">data</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">json</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">'[&quot;\\&quot;]'</span>
+  <span class="ruby-identifier">data</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>)
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-string">&quot;'&quot;</span>], <span class="ruby-identifier">data</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">'[&quot;\&quot;]'</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span>(<span class="ruby-identifier">data</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_backslash-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_backslash-method -->
+
+      
+        <div id="test_big_integers-method" class="method-detail ">
+          <a name="method-i-test_big_integers"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_big_integers</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_big_integers-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 516</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_big_integers</span>
+  <span class="ruby-identifier">json1</span> = <span class="ruby-constant">JSON</span>([<span class="ruby-identifier">orig</span> = (<span class="ruby-value">1</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value">31</span>) <span class="ruby-operator">-</span> <span class="ruby-value">1</span>])
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">orig</span>, <span class="ruby-constant">JSON</span>[<span class="ruby-identifier">json1</span>][<span class="ruby-value">0</span>]
+  <span class="ruby-identifier">json2</span> = <span class="ruby-constant">JSON</span>([<span class="ruby-identifier">orig</span> = <span class="ruby-value">1</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value">31</span>])
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">orig</span>, <span class="ruby-constant">JSON</span>[<span class="ruby-identifier">json2</span>][<span class="ruby-value">0</span>]
+  <span class="ruby-identifier">json3</span> = <span class="ruby-constant">JSON</span>([<span class="ruby-identifier">orig</span> = (<span class="ruby-value">1</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value">62</span>) <span class="ruby-operator">-</span> <span class="ruby-value">1</span>])
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">orig</span>, <span class="ruby-constant">JSON</span>[<span class="ruby-identifier">json3</span>][<span class="ruby-value">0</span>]
+  <span class="ruby-identifier">json4</span> = <span class="ruby-constant">JSON</span>([<span class="ruby-identifier">orig</span> = <span class="ruby-value">1</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value">62</span>])
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">orig</span>, <span class="ruby-constant">JSON</span>[<span class="ruby-identifier">json4</span>][<span class="ruby-value">0</span>]
+  <span class="ruby-identifier">json5</span> = <span class="ruby-constant">JSON</span>([<span class="ruby-identifier">orig</span> = <span class="ruby-value">1</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value">64</span>])
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">orig</span>, <span class="ruby-constant">JSON</span>[<span class="ruby-identifier">json5</span>][<span class="ruby-value">0</span>]
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_big_integers-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_big_integers-method -->
+
+      
+        <div id="test_comments-method" class="method-detail ">
+          <a name="method-i-test_comments"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_comments</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_comments-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 359</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_comments</span>
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">{  &quot;key1&quot;:&quot;value1&quot;, // eol comment  &quot;key2&quot;:&quot;value2&quot;  /* multi line                    *  comment */,  &quot;key3&quot;:&quot;value3&quot;  /* multi line                    // nested eol comment                    *  comment */}</span>
+  <span class="ruby-identifier">assert_equal</span>(
+    { <span class="ruby-string">&quot;key1&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;value1&quot;</span>, <span class="ruby-string">&quot;key2&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;value2&quot;</span>, <span class="ruby-string">&quot;key3&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;value3&quot;</span> },
+    <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>))
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">{  &quot;key1&quot;:&quot;value1&quot;  /* multi line                    // nested eol comment                    /* illegal nested multi line comment */                    *  comment */}</span>
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>) }
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">{  &quot;key1&quot;:&quot;value1&quot;  /* multi line                   // nested eol comment                   closed multi comment */                   and again, throw an Error */}</span>
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>) }
+  <span class="ruby-identifier">json</span> = <span class="ruby-string">{  &quot;key1&quot;:&quot;value1&quot;  /*/*/}</span>
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;key1&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;value1&quot;</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_comments-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_comments-method -->
+
+      
+        <div id="test_construction-method" class="method-detail ">
+          <a name="method-i-test_construction"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_construction</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_construction-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 47</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_construction</span>
+  <span class="ruby-identifier">parser</span> = <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'test'</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">'test'</span>, <span class="ruby-identifier">parser</span>.<span class="ruby-identifier">source</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_construction-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_construction-method -->
+
+      
+        <div id="test_dump-method" class="method-detail ">
+          <a name="method-i-test_dump"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_dump</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_dump-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 500</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_dump</span>
+  <span class="ruby-identifier">too_deep</span> = <span class="ruby-string">'[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]'</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>))
+  <span class="ruby-identifier">assert_kind_of</span> <span class="ruby-constant">String</span>, <span class="ruby-constant">Marshal</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>))
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ArgumentError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>), <span class="ruby-value">100</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ArgumentError</span>) { <span class="ruby-constant">Marshal</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>), <span class="ruby-value">100</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>), <span class="ruby-value">101</span>)
+  <span class="ruby-identifier">assert_kind_of</span> <span class="ruby-constant">String</span>, <span class="ruby-constant">Marshal</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>), <span class="ruby-value">101</span>)
+  <span class="ruby-identifier">output</span> = <span class="ruby-constant">StringIO</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>), <span class="ruby-identifier">output</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-identifier">output</span>.<span class="ruby-identifier">string</span>
+  <span class="ruby-identifier">output</span> = <span class="ruby-constant">StringIO</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-identifier">eval</span>(<span class="ruby-identifier">too_deep</span>), <span class="ruby-identifier">output</span>, <span class="ruby-value">101</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-identifier">output</span>.<span class="ruby-identifier">string</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_dump-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_dump-method -->
+
+      
+        <div id="test_generate_core_subclasses_with_default_to_json-method" class="method-detail ">
+          <a name="method-i-test_generate_core_subclasses_with_default_to_json"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_generate_core_subclasses_with_default_to_json</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_generate_core_subclasses_with_default_to_json-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 338</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_generate_core_subclasses_with_default_to_json</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">'{&quot;foo&quot;:&quot;bar&quot;}'</span>, <span class="ruby-constant">JSON</span>(<span class="ruby-constant">SubHash</span>[<span class="ruby-string">&quot;foo&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;bar&quot;</span>])
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">'[&quot;foo&quot;]'</span>, <span class="ruby-constant">JSON</span>(<span class="ruby-constant">SubArray</span>[<span class="ruby-string">&quot;foo&quot;</span>])
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_generate_core_subclasses_with_default_to_json-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_generate_core_subclasses_with_default_to_json-method -->
+
+      
+        <div id="test_generate_core_subclasses_with_new_to_json-method" class="method-detail ">
+          <a name="method-i-test_generate_core_subclasses_with_new_to_json"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_generate_core_subclasses_with_new_to_json</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_generate_core_subclasses_with_new_to_json-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 327</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_generate_core_subclasses_with_new_to_json</span>
+  <span class="ruby-identifier">obj</span> = <span class="ruby-constant">SubHash2</span>[<span class="ruby-string">&quot;foo&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-constant">SubHash2</span>[<span class="ruby-string">&quot;bar&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>]]
+  <span class="ruby-identifier">obj_json</span> = <span class="ruby-constant">JSON</span>(<span class="ruby-identifier">obj</span>)
+  <span class="ruby-identifier">obj_again</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">obj_json</span>, <span class="ruby-value">:create_additions</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_kind_of</span> <span class="ruby-constant">SubHash2</span>, <span class="ruby-identifier">obj_again</span>
+  <span class="ruby-identifier">assert_kind_of</span> <span class="ruby-constant">SubHash2</span>, <span class="ruby-identifier">obj_again</span>[<span class="ruby-string">'foo'</span>]
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">obj_again</span>[<span class="ruby-string">'foo'</span>][<span class="ruby-string">'bar'</span>]
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">obj</span>, <span class="ruby-identifier">obj_again</span>
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-string">&quot;foo&quot;</span>], <span class="ruby-constant">JSON</span>(<span class="ruby-constant">JSON</span>(<span class="ruby-constant">SubArray2</span>[<span class="ruby-string">&quot;foo&quot;</span>]), <span class="ruby-value">:create_additions</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_generate_core_subclasses_with_new_to_json-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_generate_core_subclasses_with_new_to_json-method -->
+
+      
+        <div id="test_generate_of_core_subclasses-method" class="method-detail ">
+          <a name="method-i-test_generate_of_core_subclasses"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_generate_of_core_subclasses</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_generate_of_core_subclasses-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 343</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_generate_of_core_subclasses</span>
+  <span class="ruby-identifier">obj</span> = <span class="ruby-constant">SubHash</span>[<span class="ruby-string">&quot;foo&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-constant">SubHash</span>[<span class="ruby-string">&quot;bar&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>]]
+  <span class="ruby-identifier">obj_json</span> = <span class="ruby-constant">JSON</span>(<span class="ruby-identifier">obj</span>)
+  <span class="ruby-identifier">obj_again</span> = <span class="ruby-constant">JSON</span>(<span class="ruby-identifier">obj_json</span>)
+  <span class="ruby-identifier">assert_kind_of</span> <span class="ruby-constant">Hash</span>, <span class="ruby-identifier">obj_again</span>
+  <span class="ruby-identifier">assert_kind_of</span> <span class="ruby-constant">Hash</span>, <span class="ruby-identifier">obj_again</span>[<span class="ruby-string">'foo'</span>]
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">obj_again</span>[<span class="ruby-string">'foo'</span>][<span class="ruby-string">'bar'</span>]
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">obj</span>, <span class="ruby-identifier">obj_again</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_generate_of_core_subclasses-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_generate_of_core_subclasses-method -->
+
+      
+        <div id="test_load-method" class="method-detail ">
+          <a name="method-i-test_load"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_load</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_load-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 481</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_load</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-ivar">@hash</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">load</span>(<span class="ruby-ivar">@json</span>)
+  <span class="ruby-identifier">tempfile</span> = <span class="ruby-constant">Tempfile</span>.<span class="ruby-identifier">open</span>(<span class="ruby-string">'json'</span>)
+  <span class="ruby-identifier">tempfile</span>.<span class="ruby-identifier">write</span> <span class="ruby-ivar">@json</span>
+  <span class="ruby-identifier">tempfile</span>.<span class="ruby-identifier">rewind</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-ivar">@hash</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">tempfile</span>)
+  <span class="ruby-identifier">stringio</span> = <span class="ruby-constant">StringIO</span>.<span class="ruby-identifier">new</span>(<span class="ruby-ivar">@json</span>)
+  <span class="ruby-identifier">stringio</span>.<span class="ruby-identifier">rewind</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-ivar">@hash</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">stringio</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">nil</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">load</span>(<span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">nil</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">load</span>(<span class="ruby-string">''</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_load-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_load-method -->
+
+      
+        <div id="test_load_with_options-method" class="method-detail ">
+          <a name="method-i-test_load_with_options"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_load_with_options</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_load_with_options-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 494</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_load_with_options</span>
+  <span class="ruby-identifier">small_hash</span>  = <span class="ruby-constant">JSON</span>(<span class="ruby-string">&quot;foo&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'bar'</span>)
+  <span class="ruby-identifier">symbol_hash</span> = { <span class="ruby-value">:foo</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'bar'</span> }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">symbol_hash</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">small_hash</span>, <span class="ruby-keyword">nil</span>, <span class="ruby-value">:symbolize_names</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_load_with_options-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_load_with_options-method -->
+
+      
+        <div id="test_nesting-method" class="method-detail ">
+          <a name="method-i-test_nesting"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_nesting</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_nesting-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 443</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_nesting</span>
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span> <span class="ruby-string">'[[]]'</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">1</span> }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'[[]]'</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">1</span>).<span class="ruby-identifier">parse</span> }
+  <span class="ruby-identifier">assert_equal</span> [[]], <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[[]]'</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">2</span>)
+  <span class="ruby-identifier">too_deep</span> = <span class="ruby-string">'[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[&quot;Too deep&quot;]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]'</span>
+  <span class="ruby-identifier">too_deep_ary</span> = <span class="ruby-identifier">eval</span> <span class="ruby-identifier">too_deep</span>
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span> <span class="ruby-identifier">too_deep</span> }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">too_deep</span>).<span class="ruby-identifier">parse</span> }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">100</span> }
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">101</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-identifier">ok</span>
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">nil</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-identifier">ok</span>
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">false</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-identifier">ok</span>
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-identifier">ok</span>
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span> [[]], <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">1</span> }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">'[[]]'</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span>([[]], <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">2</span>)
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span> <span class="ruby-identifier">too_deep_ary</span> }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">NestingError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">100</span> }
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">101</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-identifier">ok</span>
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">nil</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-identifier">ok</span>
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">false</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-identifier">ok</span>
+  <span class="ruby-identifier">ok</span> = <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">generate</span> <span class="ruby-identifier">too_deep_ary</span>, <span class="ruby-value">:max_nesting</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">too_deep</span>, <span class="ruby-identifier">ok</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_nesting-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_nesting-method -->
+
+      
+        <div id="test_parse_array-method" class="method-detail ">
+          <a name="method-i-test_parse_array"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_array</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_array-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 185</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_array</span>
+  <span class="ruby-identifier">assert_equal</span>([], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  [  ]  '</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">1</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[1]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">1</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  [ 1  ]  '</span>))
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-ivar">@ary</span>,
+    <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[[1],[&quot;foo&quot;],[3.14],[47.11e+2],[2718.0E-3],[null],[[1,-2,3]]'</span>       <span class="ruby-string">',[false],[true]]'</span>))
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-ivar">@ary</span>, <span class="ruby-identifier">parse</span>(<span class="ruby-string">%{   [   [1] , [&quot;foo&quot;]  ,  [3.14] \t ,  [47.11e+2]\s
+    , [2718.0E-3 ],\r[ null] , [[1, -2, 3 ]], [false ],[ true]\n ]  }</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_array-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_array-method -->
+
+      
+        <div id="test_parse_array_custom_array_derived_class-method" class="method-detail ">
+          <a name="method-i-test_parse_array_custom_array_derived_class"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_array_custom_array_derived_class</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_array_custom_array_derived_class-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 243</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_array_custom_array_derived_class</span>
+  <span class="ruby-identifier">res</span> = <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[1,2]'</span>, <span class="ruby-value">:array_class</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-constant">SubArray</span>)
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">1</span>,<span class="ruby-value">2</span>], <span class="ruby-identifier">res</span>)
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-constant">SubArray</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">class</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">res</span>.<span class="ruby-identifier">shifted?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_array_custom_array_derived_class-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_array_custom_array_derived_class-method -->
+
+      
+        <div id="test_parse_array_custom_non_array_derived_class-method" class="method-detail ">
+          <a name="method-i-test_parse_array_custom_non_array_derived_class"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_array_custom_non_array_derived_class</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_array_custom_non_array_derived_class-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 250</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_array_custom_non_array_derived_class</span>
+  <span class="ruby-identifier">res</span> = <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[1,2]'</span>, <span class="ruby-value">:array_class</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-constant">SubArrayWrapper</span>)
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">1</span>,<span class="ruby-value">2</span>], <span class="ruby-identifier">res</span>.<span class="ruby-identifier">data</span>)
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-constant">SubArrayWrapper</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">class</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">res</span>.<span class="ruby-identifier">shifted?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_array_custom_non_array_derived_class-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_array_custom_non_array_derived_class-method -->
+
+      
+        <div id="test_parse_arrays-method" class="method-detail ">
+          <a name="method-i-test_parse_arrays"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_arrays</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_arrays-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 167</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_arrays</span>
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">1</span>,<span class="ruby-value">2</span>,<span class="ruby-value">3</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[1,2,3]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">1.2</span>,<span class="ruby-value">2</span>,<span class="ruby-value">3</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[1.2,2,3]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([[],[[],[]]], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[[],[[],[]]]'</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_arrays-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_arrays-method -->
+
+      
+        <div id="test_parse_complex_objects-method" class="method-detail ">
+          <a name="method-i-test_parse_complex_objects"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_complex_objects</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_complex_objects-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 156</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_complex_objects</span>
+  <span class="ruby-identifier">a</span> = [ <span class="ruby-keyword">nil</span>, <span class="ruby-keyword">false</span>, <span class="ruby-keyword">true</span>, <span class="ruby-string">&quot;foßbar&quot;</span>, [ <span class="ruby-string">&quot;n€st€d&quot;</span>, <span class="ruby-keyword">true</span> ], { <span class="ruby-string">&quot;nested&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-string">&quot;n€ßt€ð2&quot;</span> =<span class="ruby-operator">&gt;</span> {} }]
+  <span class="ruby-identifier">a</span>.<span class="ruby-identifier">permutation</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">perm</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">s</span> = <span class="ruby-string">&quot;a&quot;</span>
+    <span class="ruby-identifier">orig_obj</span> = <span class="ruby-identifier">perm</span>.<span class="ruby-identifier">inject</span>({}) { <span class="ruby-operator">|</span><span class="ruby-identifier">h</span>, <span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">h</span>[<span class="ruby-identifier">s</span>.<span class="ruby-identifier">dup</span>] = <span class="ruby-identifier">x</span>; <span class="ruby-identifier">s</span> = <span class="ruby-identifier">s</span>.<span class="ruby-identifier">succ</span>; <span class="ruby-identifier">h</span> }
+    <span class="ruby-identifier">json</span> = <span class="ruby-identifier">pretty_generate</span>(<span class="ruby-identifier">orig_obj</span>)
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">orig_obj</span>, <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_complex_objects-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_complex_objects-method -->
+
+      
+        <div id="test_parse_generic_object-method" class="method-detail ">
+          <a name="method-i-test_parse_generic_object"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_generic_object</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_generic_object-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 317</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_generic_object</span>
+  <span class="ruby-identifier">res</span> = <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;foo&quot;:&quot;bar&quot;, &quot;baz&quot;:{}}'</span>, <span class="ruby-value">:object_class</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">GenericObject</span>)
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">GenericObject</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">class</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">foo</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-identifier">res</span>[<span class="ruby-string">&quot;foo&quot;</span>]
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-identifier">res</span>[<span class="ruby-value">:foo</span>]
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">to_hash</span>[<span class="ruby-value">:foo</span>]
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">GenericObject</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">baz</span>.<span class="ruby-identifier">class</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_generic_object-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_generic_object-method -->
+
+      
+        <div id="test_parse_json_primitive_values-method" class="method-detail ">
+          <a name="method-i-test_parse_json_primitive_values"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_json_primitive_values</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_json_primitive_values-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 107</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_json_primitive_values</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">''</span>) }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">''</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>) }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">TypeError</span>) { <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-keyword">nil</span>).<span class="ruby-identifier">parse</span> }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">TypeError</span>) { <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-keyword">nil</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>).<span class="ruby-identifier">parse</span> }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">TypeError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-keyword">nil</span>) }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">TypeError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-keyword">nil</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>) }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'  /* foo */ '</span>) }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'  /* foo */ '</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>) }
+  <span class="ruby-identifier">parser</span> = <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'null'</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">false</span>, <span class="ruby-identifier">parser</span>.<span class="ruby-identifier">quirks_mode?</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parser</span>.<span class="ruby-identifier">parse</span> }
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'null'</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">nil</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'null'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">parser</span> = <span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'null'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">true</span>, <span class="ruby-identifier">parser</span>.<span class="ruby-identifier">quirks_mode?</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">parser</span>.<span class="ruby-identifier">parse</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'false'</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">false</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'false'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'true'</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-keyword">true</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'true'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'23'</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">23</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'23'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'1'</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">1</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'1'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'3.141'</span>) }
+  <span class="ruby-identifier">assert_in_delta</span> <span class="ruby-value">3.141</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'3.141'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>), <span class="ruby-value">1E-3</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'18446744073709551616'</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">2</span> <span class="ruby-operator">**</span> <span class="ruby-value">64</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'18446744073709551616'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'&quot;foo&quot;'</span>) }
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">'foo'</span>, <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'&quot;foo&quot;'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'NaN'</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>) }
+  <span class="ruby-identifier">assert</span> <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'NaN'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>).<span class="ruby-identifier">nan?</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'Infinity'</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>) }
+  <span class="ruby-identifier">assert</span> <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'Infinity'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>).<span class="ruby-identifier">infinite?</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'-Infinity'</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>) }
+  <span class="ruby-identifier">assert</span> <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'-Infinity'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>).<span class="ruby-identifier">infinite?</span>
+  <span class="ruby-identifier">assert_raise</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[ 1, ]'</span>, <span class="ruby-value">:quirks_mode</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>) }
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_json_primitive_values-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_json_primitive_values-method -->
+
+      
+        <div id="test_parse_more_complex_arrays-method" class="method-detail ">
+          <a name="method-i-test_parse_more_complex_arrays"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_more_complex_arrays</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_more_complex_arrays-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 148</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_more_complex_arrays</span>
+  <span class="ruby-identifier">a</span> = [ <span class="ruby-keyword">nil</span>, <span class="ruby-keyword">false</span>, <span class="ruby-keyword">true</span>, <span class="ruby-string">&quot;foßbar&quot;</span>, [ <span class="ruby-string">&quot;n€st€d&quot;</span>, <span class="ruby-keyword">true</span> ], { <span class="ruby-string">&quot;nested&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-string">&quot;n€ßt€ð2&quot;</span> =<span class="ruby-operator">&gt;</span> {} }]
+  <span class="ruby-identifier">a</span>.<span class="ruby-identifier">permutation</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">perm</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">json</span> = <span class="ruby-identifier">pretty_generate</span>(<span class="ruby-identifier">perm</span>)
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">perm</span>, <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">json</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_more_complex_arrays-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_more_complex_arrays-method -->
+
+      
+        <div id="test_parse_object-method" class="method-detail ">
+          <a name="method-i-test_parse_object"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_object</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_object-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 257</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_object</span>
+  <span class="ruby-identifier">assert_equal</span>({}, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{}'</span>))
+  <span class="ruby-identifier">assert_equal</span>({}, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  {  }  '</span>))
+  <span class="ruby-identifier">assert_equal</span>({<span class="ruby-string">'foo'</span>=<span class="ruby-operator">&gt;</span><span class="ruby-string">'bar'</span>}, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;foo&quot;:&quot;bar&quot;}'</span>))
+  <span class="ruby-identifier">assert_equal</span>({<span class="ruby-string">'foo'</span>=<span class="ruby-operator">&gt;</span><span class="ruby-string">'bar'</span>}, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'    { &quot;foo&quot;  :   &quot;bar&quot;   }   '</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_object-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_object-method -->
+
+      
+        <div id="test_parse_object_custom_hash_derived_class-method" class="method-detail ">
+          <a name="method-i-test_parse_object_custom_hash_derived_class"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_object_custom_hash_derived_class</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_object_custom_hash_derived_class-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 303</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_object_custom_hash_derived_class</span>
+  <span class="ruby-identifier">res</span> = <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;foo&quot;:&quot;bar&quot;}'</span>, <span class="ruby-value">:object_class</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-constant">SubHash</span>)
+  <span class="ruby-identifier">assert_equal</span>({<span class="ruby-string">&quot;foo&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;bar&quot;</span>}, <span class="ruby-identifier">res</span>)
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-constant">SubHash</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">class</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">res</span>.<span class="ruby-identifier">item_set?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_object_custom_hash_derived_class-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_object_custom_hash_derived_class-method -->
+
+      
+        <div id="test_parse_object_custom_non_hash_derived_class-method" class="method-detail ">
+          <a name="method-i-test_parse_object_custom_non_hash_derived_class"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_object_custom_non_hash_derived_class</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_object_custom_non_hash_derived_class-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 310</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_object_custom_non_hash_derived_class</span>
+  <span class="ruby-identifier">res</span> = <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;foo&quot;:&quot;bar&quot;}'</span>, <span class="ruby-value">:object_class</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-constant">SubOpenStruct</span>)
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">foo</span>
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-constant">SubOpenStruct</span>, <span class="ruby-identifier">res</span>.<span class="ruby-identifier">class</span>)
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">res</span>.<span class="ruby-identifier">item_set?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_object_custom_non_hash_derived_class-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_object_custom_non_hash_derived_class-method -->
+
+      
+        <div id="test_parse_simple_arrays-method" class="method-detail ">
+          <a name="method-i-test_parse_simple_arrays"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_simple_arrays</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_simple_arrays-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 56</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_simple_arrays</span>
+  <span class="ruby-identifier">assert_equal</span>([], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  [  ] '</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-keyword">nil</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[null]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-keyword">false</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[false]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-keyword">true</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[true]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">-23</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[-23]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">23</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[23]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">0.23</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[0.23]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-value">0.0</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[0e0]'</span>))
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[+23.2]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[+23]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[.23]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[023]'</span>) }
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[3.141]'</span>)
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">-3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[-3.141]'</span>)
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[3141e-3]'</span>)
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[3141.1e-3]'</span>)
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[3141E-3]'</span>)
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[3141.0E-3]'</span>)
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">-3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[-3141.0e-3]'</span>)
+  <span class="ruby-identifier">assert_equal_float</span> [<span class="ruby-value">-3.141</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[-3141e-3]'</span>)
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[NaN]'</span>) }
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[NaN]'</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>).<span class="ruby-identifier">first</span>.<span class="ruby-identifier">nan?</span>
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[Infinity]'</span>) }
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-value">1.0</span><span class="ruby-operator">/</span><span class="ruby-value">0</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[Infinity]'</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[-Infinity]'</span>) }
+  <span class="ruby-identifier">assert_equal</span> [<span class="ruby-value">-1.0</span><span class="ruby-operator">/</span><span class="ruby-value">0</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[-Infinity]'</span>, <span class="ruby-value">:allow_nan</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-string">&quot;&quot;</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[&quot;&quot;]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-string">&quot;foobar&quot;</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[&quot;foobar&quot;]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([{}], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[{}]'</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_simple_arrays-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_simple_arrays-method -->
+
+      
+        <div id="test_parse_simple_objects-method" class="method-detail ">
+          <a name="method-i-test_parse_simple_objects"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_simple_objects</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_simple_objects-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 89</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_simple_objects</span>
+  <span class="ruby-identifier">assert_equal</span>({}, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{}'</span>))
+  <span class="ruby-identifier">assert_equal</span>({}, <span class="ruby-identifier">parse</span>(<span class="ruby-string">' {   }   '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">nil</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{   &quot;a&quot;   :  null}'</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">nil</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;a&quot;:null}'</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">false</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{   &quot;a&quot;  :  false  }  '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">false</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;a&quot;:false}'</span>))
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">JSON</span><span class="ruby-operator">::</span><span class="ruby-constant">ParserError</span>) { <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{false}'</span>) }
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;a&quot;:true}'</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  { &quot;a&quot; :  true  }   '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">-23</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  {  &quot;a&quot;  :  -23  }  '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">-23</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  { &quot;a&quot; : -23 } '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">23</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;a&quot;:23  } '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">23</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  { &quot;a&quot;  : 23  } '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">0.23</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">' { &quot;a&quot;  :  0.23 }  '</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;a&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">0.23</span> }, <span class="ruby-identifier">parse</span>(<span class="ruby-string">'  {  &quot;a&quot;  :  0.23  }  '</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_simple_objects-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_simple_objects-method -->
+
+      
+        <div id="test_parse_values-method" class="method-detail ">
+          <a name="method-i-test_parse_values"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parse_values</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parse_values-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 173</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parse_values</span>
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-string">&quot;&quot;</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[&quot;&quot;]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-string">&quot;\\&quot;</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[&quot;\\&quot;]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-string">'&quot;'</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[&quot;\&quot;&quot;]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-string">'\&quot;\'</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[&quot;\\\&quot;\\&quot;]'</span>))
+  <span class="ruby-identifier">assert_equal</span>([<span class="ruby-string">&quot;\&quot;\b\n\r\t\00\\0037&quot;</span>],
+    <span class="ruby-identifier">parse</span>(<span class="ruby-string">'[&quot;\&quot;\b\n\r\t\u0000\u001f&quot;]'</span>))
+  <span class="ruby-keyword">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword">in</span> <span class="ruby-value">0</span> <span class="ruby-operator">...</span> <span class="ruby-ivar">@ary</span>.<span class="ruby-identifier">size</span>
+    <span class="ruby-identifier">assert_equal</span>(<span class="ruby-ivar">@ary</span>[<span class="ruby-identifier">i</span>], <span class="ruby-identifier">parse</span>(<span class="ruby-ivar">@ary_to_parse</span>[<span class="ruby-identifier">i</span>]))
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parse_values-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parse_values-method -->
+
+      
+        <div id="test_parser_reset-method" class="method-detail ">
+          <a name="method-i-test_parser_reset"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_parser_reset</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_parser_reset-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 353</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_parser_reset</span>
+  <span class="ruby-identifier">parser</span> = <span class="ruby-constant">Parser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-ivar">@json</span>)
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-ivar">@hash</span>, <span class="ruby-identifier">parser</span>.<span class="ruby-identifier">parse</span>)
+  <span class="ruby-identifier">assert_equal</span>(<span class="ruby-ivar">@hash</span>, <span class="ruby-identifier">parser</span>.<span class="ruby-identifier">parse</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_parser_reset-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_parser_reset-method -->
+
+      
+        <div id="test_symbolize_names-method" class="method-detail ">
+          <a name="method-i-test_symbolize_names"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_symbolize_names</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_symbolize_names-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 474</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_symbolize_names</span>
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-string">&quot;foo&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-string">&quot;baz&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;quux&quot;</span> },
+    <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;foo&quot;:&quot;bar&quot;, &quot;baz&quot;:&quot;quux&quot;}'</span>))
+  <span class="ruby-identifier">assert_equal</span>({ <span class="ruby-value">:foo</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;bar&quot;</span>, <span class="ruby-value">:baz</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;quux&quot;</span> },
+    <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'{&quot;foo&quot;:&quot;bar&quot;, &quot;baz&quot;:&quot;quux&quot;}'</span>, <span class="ruby-value">:symbolize_names</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_symbolize_names-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_symbolize_names-method -->
+
+      
+        <div id="test_wrong_inputs-method" class="method-detail ">
+          <a name="method-i-test_wrong_inputs"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">test_wrong_inputs</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="test_wrong_inputs-source">
+<pre>
+<span class="ruby-comment"># File tests/test_json.rb, line 425</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_wrong_inputs</span>
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'&quot;foo&quot;'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'123'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[] bla'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[] 1'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[] []'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[] {}'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'{} []'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'{} {}'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[NULL]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[FALSE]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[TRUE]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[07]    '</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[0a]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'[1.]'</span>) }
+  <span class="ruby-identifier">assert_raises</span>(<span class="ruby-constant">ParserError</span>) { <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-string">'     '</span>) }
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- test_wrong_inputs-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- test_wrong_inputs-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

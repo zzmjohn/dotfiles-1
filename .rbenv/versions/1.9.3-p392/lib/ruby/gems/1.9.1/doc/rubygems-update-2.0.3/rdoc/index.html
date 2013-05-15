@@ -1,0 +1,2482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>RubyGems 2.0.3 Documentation</title>
+
+  <link type="text/css" media="screen" href="rdoc.css" rel="stylesheet" />
+
+  <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body class="indexpage">
+
+  
+  <h1>RubyGems 2.0.3 Documentation</h1>
+
+  
+  <p>This is the API documentation for 'RubyGems 2.0.3 Documentation'.</p>
+  
+
+  
+  
+  <h2>Files</h2>
+  <ul>
+    
+      <li class="file"><a href="LICENSE_txt.html">LICENSE.txt</a></li>
+    
+  </ul>
+  
+
+  <h2 id="classes">Classes/Modules</h2>
+  <ul>
+    
+    <li class="module"><a href="Gem.html">Gem</a></li>
+    
+    <li class="class"><a href="Gem/AvailableSet.html">Gem::AvailableSet</a></li>
+    
+    <li class="class"><a href="Gem/Command.html">Gem::Command</a></li>
+    
+    <li class="class"><a href="Gem/CommandLineError.html">Gem::CommandLineError</a></li>
+    
+    <li class="class"><a href="Gem/CommandManager.html">Gem::CommandManager</a></li>
+    
+    <li class="module"><a href="Gem/Commands.html">Gem::Commands</a></li>
+    
+    <li class="class"><a href="Gem/Commands/BuildCommand.html">Gem::Commands::BuildCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/CertCommand.html">Gem::Commands::CertCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/CheckCommand.html">Gem::Commands::CheckCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/CleanupCommand.html">Gem::Commands::CleanupCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/ContentsCommand.html">Gem::Commands::ContentsCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/DependencyCommand.html">Gem::Commands::DependencyCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/EnvironmentCommand.html">Gem::Commands::EnvironmentCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/FetchCommand.html">Gem::Commands::FetchCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/GenerateIndexCommand.html">Gem::Commands::GenerateIndexCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/HelpCommand.html">Gem::Commands::HelpCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/InstallCommand.html">Gem::Commands::InstallCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/ListCommand.html">Gem::Commands::ListCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/LockCommand.html">Gem::Commands::LockCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/MirrorCommand.html">Gem::Commands::MirrorCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/OutdatedCommand.html">Gem::Commands::OutdatedCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/OwnerCommand.html">Gem::Commands::OwnerCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/PristineCommand.html">Gem::Commands::PristineCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/PushCommand.html">Gem::Commands::PushCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/QueryCommand.html">Gem::Commands::QueryCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/RdocCommand.html">Gem::Commands::RdocCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/SearchCommand.html">Gem::Commands::SearchCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/ServerCommand.html">Gem::Commands::ServerCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/SetupCommand.html">Gem::Commands::SetupCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/SourcesCommand.html">Gem::Commands::SourcesCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/SpecificationCommand.html">Gem::Commands::SpecificationCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/StaleCommand.html">Gem::Commands::StaleCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/UninstallCommand.html">Gem::Commands::UninstallCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/UnpackCommand.html">Gem::Commands::UnpackCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/UpdateCommand.html">Gem::Commands::UpdateCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/WhichCommand.html">Gem::Commands::WhichCommand</a></li>
+    
+    <li class="class"><a href="Gem/Commands/YankCommand.html">Gem::Commands::YankCommand</a></li>
+    
+    <li class="class"><a href="Gem/ConfigFile.html">Gem::ConfigFile</a></li>
+    
+    <li class="class"><a href="Gem/ConsoleUI.html">Gem::ConsoleUI</a></li>
+    
+    <li class="module"><a href="Gem/DefaultUserInteraction.html">Gem::DefaultUserInteraction</a></li>
+    
+    <li class="class"><a href="Gem/Dependency.html">Gem::Dependency</a></li>
+    
+    <li class="class"><a href="Gem/DependencyError.html">Gem::DependencyError</a></li>
+    
+    <li class="class"><a href="Gem/DependencyInstaller.html">Gem::DependencyInstaller</a></li>
+    
+    <li class="class"><a href="Gem/DependencyList.html">Gem::DependencyList</a></li>
+    
+    <li class="class"><a href="Gem/DependencyRemovalException.html">Gem::DependencyRemovalException</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolutionError.html">Gem::DependencyResolutionError</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver.html">Gem::DependencyResolver</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/APISet.html">Gem::DependencyResolver::APISet</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/APISpecification.html">Gem::DependencyResolver::APISpecification</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/ActivationRequest.html">Gem::DependencyResolver::ActivationRequest</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/CurrentSet.html">Gem::DependencyResolver::CurrentSet</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/DependencyConflict.html">Gem::DependencyResolver::DependencyConflict</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/DependencyRequest.html">Gem::DependencyResolver::DependencyRequest</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/IndexSet.html">Gem::DependencyResolver::IndexSet</a></li>
+    
+    <li class="class"><a href="Gem/DependencyResolver/IndexSpecification.html">Gem::DependencyResolver::IndexSpecification</a></li>
+    
+    <li class="module"><a href="Gem/Deprecate.html">Gem::Deprecate</a></li>
+    
+    <li class="class"><a href="Gem/Doctor.html">Gem::Doctor</a></li>
+    
+    <li class="class"><a href="Gem/DocumentError.html">Gem::DocumentError</a></li>
+    
+    <li class="class"><a href="Gem/EndOfYAMLException.html">Gem::EndOfYAMLException</a></li>
+    
+    <li class="class"><a href="Gem/ErrorReason.html">Gem::ErrorReason</a></li>
+    
+    <li class="class"><a href="Gem/Exception.html">Gem::Exception</a></li>
+    
+    <li class="module"><a href="Gem/Ext.html">Gem::Ext</a></li>
+    
+    <li class="class"><a href="Gem/Ext/Builder.html">Gem::Ext::Builder</a></li>
+    
+    <li class="class"><a href="Gem/Ext/CmakeBuilder.html">Gem::Ext::CmakeBuilder</a></li>
+    
+    <li class="class"><a href="Gem/Ext/ConfigureBuilder.html">Gem::Ext::ConfigureBuilder</a></li>
+    
+    <li class="class"><a href="Gem/Ext/ExtConfBuilder.html">Gem::Ext::ExtConfBuilder</a></li>
+    
+    <li class="class"><a href="Gem/Ext/RakeBuilder.html">Gem::Ext::RakeBuilder</a></li>
+    
+    <li class="class"><a href="Gem/FakeFetcher.html">Gem::FakeFetcher</a></li>
+    
+    <li class="class"><a href="Gem/FilePermissionError.html">Gem::FilePermissionError</a></li>
+    
+    <li class="class"><a href="Gem/FormatException.html">Gem::FormatException</a></li>
+    
+    <li class="class"><a href="Gem/GemNotFoundException.html">Gem::GemNotFoundException</a></li>
+    
+    <li class="class"><a href="Gem/GemNotInHomeException.html">Gem::GemNotInHomeException</a></li>
+    
+    <li class="class"><a href="Gem/GemRunner.html">Gem::GemRunner</a></li>
+    
+    <li class="module"><a href="Gem/GemcutterUtilities.html">Gem::GemcutterUtilities</a></li>
+    
+    <li class="class"><a href="Gem/ImpossibleDependenciesError.html">Gem::ImpossibleDependenciesError</a></li>
+    
+    <li class="class"><a href="Gem/Indexer.html">Gem::Indexer</a></li>
+    
+    <li class="class"><a href="Gem/InstallError.html">Gem::InstallError</a></li>
+    
+    <li class="module"><a href="Gem/InstallUpdateOptions.html">Gem::InstallUpdateOptions</a></li>
+    
+    <li class="class"><a href="Gem/Installer.html">Gem::Installer</a></li>
+    
+    <li class="class"><a href="Gem/Installer/ExtensionBuildError.html">Gem::Installer::ExtensionBuildError</a></li>
+    
+    <li class="class"><a href="Gem/InstallerTestCase.html">Gem::InstallerTestCase</a></li>
+    
+    <li class="class"><a href="Gem/InvalidSpecificationException.html">Gem::InvalidSpecificationException</a></li>
+    
+    <li class="class"><a href="Gem/LoadError.html">Gem::LoadError</a></li>
+    
+    <li class="module"><a href="Gem/LocalRemoteOptions.html">Gem::LocalRemoteOptions</a></li>
+    
+    <li class="class"><a href="Gem/MockGemUi.html">Gem::MockGemUi</a></li>
+    
+    <li class="class"><a href="Gem/MockGemUi/InputEOFError.html">Gem::MockGemUi::InputEOFError</a></li>
+    
+    <li class="class"><a href="Gem/MockGemUi/SystemExitException.html">Gem::MockGemUi::SystemExitException</a></li>
+    
+    <li class="module"><a href="Gem/MockGemUi/TTY.html">Gem::MockGemUi::TTY</a></li>
+    
+    <li class="class"><a href="Gem/MockGemUi/TermError.html">Gem::MockGemUi::TermError</a></li>
+    
+    <li class="class"><a href="Gem/NameTuple.html">Gem::NameTuple</a></li>
+    
+    <li class="class"><a href="Gem/NoAliasYAMLTree.html">Gem::NoAliasYAMLTree</a></li>
+    
+    <li class="class"><a href="Gem/OperationNotSupportedError.html">Gem::OperationNotSupportedError</a></li>
+    
+    <li class="class"><a href="Gem/Package.html">Gem::Package</a></li>
+    
+    <li class="class"><a href="Gem/Package/DigestIO.html">Gem::Package::DigestIO</a></li>
+    
+    <li class="class"><a href="Gem/Package/Error.html">Gem::Package::Error</a></li>
+    
+    <li class="class"><a href="Gem/Package/FormatError.html">Gem::Package::FormatError</a></li>
+    
+    <li class="class"><a href="Gem/Package/NonSeekableIO.html">Gem::Package::NonSeekableIO</a></li>
+    
+    <li class="class"><a href="Gem/Package/Old.html">Gem::Package::Old</a></li>
+    
+    <li class="class"><a href="Gem/Package/PathError.html">Gem::Package::PathError</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarHeader.html">Gem::Package::TarHeader</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarInvalidError.html">Gem::Package::TarInvalidError</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarReader.html">Gem::Package::TarReader</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarReader/Entry.html">Gem::Package::TarReader::Entry</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarReader/UnexpectedEOF.html">Gem::Package::TarReader::UnexpectedEOF</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarTestCase.html">Gem::Package::TarTestCase</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarWriter.html">Gem::Package::TarWriter</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarWriter/BoundedStream.html">Gem::Package::TarWriter::BoundedStream</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarWriter/FileOverflow.html">Gem::Package::TarWriter::FileOverflow</a></li>
+    
+    <li class="class"><a href="Gem/Package/TarWriter/RestrictedStream.html">Gem::Package::TarWriter::RestrictedStream</a></li>
+    
+    <li class="class"><a href="Gem/Package/TooLongFileName.html">Gem::Package::TooLongFileName</a></li>
+    
+    <li class="class"><a href="Gem/PackageTask.html">Gem::PackageTask</a></li>
+    
+    <li class="class"><a href="Gem/PathSupport.html">Gem::PathSupport</a></li>
+    
+    <li class="class"><a href="Gem/Platform.html">Gem::Platform</a></li>
+    
+    <li class="class"><a href="Gem/PlatformMismatch.html">Gem::PlatformMismatch</a></li>
+    
+    <li class="class"><a href="Gem/RDoc.html">Gem::RDoc</a></li>
+    
+    <li class="class"><a href="Gem/RemoteError.html">Gem::RemoteError</a></li>
+    
+    <li class="class"><a href="Gem/RemoteFetcher.html">Gem::RemoteFetcher</a></li>
+    
+    <li class="class"><a href="Gem/RemoteFetcher/FetchError.html">Gem::RemoteFetcher::FetchError</a></li>
+    
+    <li class="class"><a href="Gem/RemoteFetcher/UnknownHostError.html">Gem::RemoteFetcher::UnknownHostError</a></li>
+    
+    <li class="class"><a href="Gem/RemoteInstallationCancelled.html">Gem::RemoteInstallationCancelled</a></li>
+    
+    <li class="class"><a href="Gem/RemoteInstallationSkipped.html">Gem::RemoteInstallationSkipped</a></li>
+    
+    <li class="class"><a href="Gem/RemoteSourceException.html">Gem::RemoteSourceException</a></li>
+    
+    <li class="class"><a href="Gem/RequestSet.html">Gem::RequestSet</a></li>
+    
+    <li class="class"><a href="Gem/RequestSet/GemDepedencyAPI.html">Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+    <li class="class"><a href="Gem/Requirement.html">Gem::Requirement</a></li>
+    
+    <li class="class"><a href="Gem/Requirement.html">Gem::Requirement</a></li>
+    
+    <li class="class"><a href="Gem/Requirement/BadRequirementError.html">Gem::Requirement::BadRequirementError</a></li>
+    
+    <li class="module"><a href="Gem/Security.html">Gem::Security</a></li>
+    
+    <li class="class"><a href="Gem/Security/Exception.html">Gem::Security::Exception</a></li>
+    
+    <li class="class"><a href="Gem/Security/Policy.html">Gem::Security::Policy</a></li>
+    
+    <li class="class"><a href="Gem/Security/Signer.html">Gem::Security::Signer</a></li>
+    
+    <li class="class"><a href="Gem/Security/TrustDir.html">Gem::Security::TrustDir</a></li>
+    
+    <li class="class"><a href="Gem/Server.html">Gem::Server</a></li>
+    
+    <li class="class"><a href="Gem/SilentUI.html">Gem::SilentUI</a></li>
+    
+    <li class="class"><a href="Gem/Source.html">Gem::Source</a></li>
+    
+    <li class="class"><a href="Gem/Source/Local.html">Gem::Source::Local</a></li>
+    
+    <li class="class"><a href="Gem/Source/SpecificFile.html">Gem::Source::SpecificFile</a></li>
+    
+    <li class="class"><a href="Gem/SourceFetchProblem.html">Gem::SourceFetchProblem</a></li>
+    
+    <li class="class"><a href="Gem/SourceList.html">Gem::SourceList</a></li>
+    
+    <li class="class"><a href="Gem/SpecFetcher.html">Gem::SpecFetcher</a></li>
+    
+    <li class="class"><a href="Gem/SpecificGemNotFoundException.html">Gem::SpecificGemNotFoundException</a></li>
+    
+    <li class="class"><a href="Gem/Specification.html">Gem::Specification</a></li>
+    
+    <li class="class"><a href="Gem/StreamUI.html">Gem::StreamUI</a></li>
+    
+    <li class="class"><a href="Gem/StreamUI/SilentDownloadReporter.html">Gem::StreamUI::SilentDownloadReporter</a></li>
+    
+    <li class="class"><a href="Gem/StreamUI/SilentProgressReporter.html">Gem::StreamUI::SilentProgressReporter</a></li>
+    
+    <li class="class"><a href="Gem/StreamUI/SimpleProgressReporter.html">Gem::StreamUI::SimpleProgressReporter</a></li>
+    
+    <li class="class"><a href="Gem/StreamUI/VerboseDownloadReporter.html">Gem::StreamUI::VerboseDownloadReporter</a></li>
+    
+    <li class="class"><a href="Gem/StreamUI/VerboseProgressReporter.html">Gem::StreamUI::VerboseProgressReporter</a></li>
+    
+    <li class="class"><a href="Gem/SystemExitException.html">Gem::SystemExitException</a></li>
+    
+    <li class="class"><a href="Gem/TestCase.html">Gem::TestCase</a></li>
+    
+    <li class="class"><a href="Gem/TestCase/StaticSet.html">Gem::TestCase::StaticSet</a></li>
+    
+    <li class="module"><a href="Gem/Text.html">Gem::Text</a></li>
+    
+    <li class="class"><a href="Gem/Uninstaller.html">Gem::Uninstaller</a></li>
+    
+    <li class="class"><a href="Gem/UnsatisfiableDepedencyError.html">Gem::UnsatisfiableDepedencyError</a></li>
+    
+    <li class="module"><a href="Gem/UserInteraction.html">Gem::UserInteraction</a></li>
+    
+    <li class="class"><a href="Gem/Validator.html">Gem::Validator</a></li>
+    
+    <li class="class"><a href="Gem/VerificationError.html">Gem::VerificationError</a></li>
+    
+    <li class="class"><a href="Gem/Version.html">Gem::Version</a></li>
+    
+    <li class="module"><a href="Gem/VersionOption.html">Gem::VersionOption</a></li>
+    
+    <li class="module"><a href="OpenSSL.html">OpenSSL</a></li>
+    
+    <li class="class"><a href="OpenSSL/Digest.html">OpenSSL::Digest</a></li>
+    
+    <li class="class"><a href="OpenSSL/Digest/SHA1.html">OpenSSL::Digest::SHA1</a></li>
+    
+    <li class="class"><a href="OpenSSL/Digest/SHA1.html">OpenSSL::Digest::SHA1</a></li>
+    
+    <li class="module"><a href="OpenSSL/PKey.html">OpenSSL::PKey</a></li>
+    
+    <li class="class"><a href="OpenSSL/PKey/RSA.html">OpenSSL::PKey::RSA</a></li>
+    
+    <li class="class"><a href="OpenSSL/PKey/RSA.html">OpenSSL::PKey::RSA</a></li>
+    
+    <li class="module"><a href="Psych.html">Psych</a></li>
+    
+    <li class="class"><a href="Psych/PrivateType.html">Psych::PrivateType</a></li>
+    
+    <li class="class"><a href="GemGauntlet.html">GemGauntlet</a></li>
+    
+    <li class="module"><a href="Kernel.html">Kernel</a></li>
+    
+    <li class="class"><a href="Object.html">Object</a></li>
+    
+    <li class="class"><a href="TempIO.html">TempIO</a></li>
+    
+  </ul>
+
+  <h2 id="methods">Methods</h2>
+  <ul>
+    
+      <li><a href="Gem/Specification.html#method-c-_load">::_load &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-add_common_option">::add_common_option &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-add_spec">::add_spec &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-add_specific_extra_args">::add_specific_extra_args &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-add_specs">::add_specs &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-all">::all &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-all-3D">::all= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-all_names">::all_names &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-alt_name_or_x509_entry">::alt_name_or_x509_entry &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-array_attributes">::array_attributes &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-attribute_names">::attribute_names &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-bin_path">::bin_path &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-binary_mode">::binary_mode &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-bindir">::bindir &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Ext/ConfigureBuilder.html#method-c-build">::build &mdash; Gem::Ext::ConfigureBuilder</a></li>
+    
+      <li><a href="Gem/Ext/CmakeBuilder.html#method-c-build">::build &mdash; Gem::Ext::CmakeBuilder</a></li>
+    
+      <li><a href="Gem/Ext/ExtConfBuilder.html#method-c-build">::build &mdash; Gem::Ext::ExtConfBuilder</a></li>
+    
+      <li><a href="Gem/Ext/RakeBuilder.html#method-c-build">::build &mdash; Gem::Ext::RakeBuilder</a></li>
+    
+      <li><a href="Gem/Package.html#method-c-build">::build &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-build_args">::build_args &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-build_args-3D">::build_args= &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-cert_path">::cert_path &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Ext/Builder.html#method-c-class_name">::class_name &mdash; Gem::Ext::Builder</a></li>
+    
+      <li><a href="Gem.html#method-c-clear_default_specs">::clear_default_specs &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-clear_paths">::clear_paths &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-common_options">::common_options &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem.html#method-c-config_file">::config_file &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-configuration">::configuration &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-configuration-3D">::configuration= &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Version.html#method-c-correct-3F">::correct? &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Version.html#method-c-create">::create &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-create">::create &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-create">::create &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-create_cert">::create_cert &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-create_cert_email">::create_cert_email &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-create_cert_self_signed">::create_cert_self_signed &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-create_key">::create_key &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem.html#method-c-datadir">::datadir &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-default">::default &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-default">::default &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem.html#method-c-default_bindir">::default_bindir &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-default_cert_path">::default_cert_path &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-default_dir">::default_dir &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-default_exec_format">::default_exec_format &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-default_key_path">::default_key_path &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-default_path">::default_path &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-default_rubygems_dirs">::default_rubygems_dirs &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-default_sources">::default_sources &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-default_specifications_dir">::default_specifications_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-deflate">::deflate &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Deprecate.html#method-c-deprecate">::deprecate &mdash; Gem::Deprecate</a></li>
+    
+      <li><a href="Gem.html#method-c-detect_gemdeps">::detect_gemdeps &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-dir">::dir &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-dirs">::dirs &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-dirs-3D">::dirs= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-done_installing">::done_installing &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-each">::each &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-email_to_name">::email_to_name &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem.html#method-c-ensure_gem_subdirectories">::ensure_gem_subdirectories &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Installer.html#method-c-exec_format">::exec_format &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-extra_args">::extra_args &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-extra_args-3D">::extra_args= &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-c-fetcher">::fetcher &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-c-fetcher">::fetcher &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-c-fetcher-3D">::fetcher= &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-find_all_by_name">::find_all_by_name &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-find_by_name">::find_by_name &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-find_by_path">::find_by_path &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-find_files">::find_files &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-find_home">::find_home &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-find_in_unresolved">::find_in_unresolved &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-find_in_unresolved_tree">::find_in_unresolved_tree &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-find_inactive_by_path">::find_inactive_by_path &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-find_unresolved_default_spec">::find_unresolved_default_spec &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-finish_resolve">::finish_resolve &mdash; Gem</a></li>
+    
+      <li><a href="Gem/DependencyResolver.html#method-c-for_current_gems">::for_current_gems &mdash; Gem::DependencyResolver</a></li>
+    
+      <li><a href="Gem/Package/TarHeader.html#method-c-from">::from &mdash; Gem::Package::TarHeader</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-c-from">::from &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-c-from_list">::from_list &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-c-from_specs">::from_specs &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-from_yaml">::from_yaml &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-gunzip">::gunzip &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-gzip">::gzip &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-host">::host &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-host-3D">::host= &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-inflate">::inflate &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-install">::install &mdash; Gem</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-c-instance">::instance &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-key_path">::key_path &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem.html#method-c-latest_rubygems_version">::latest_rubygems_version &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-latest_spec_for">::latest_spec_for &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-latest_specs">::latest_specs &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-latest_version_for">::latest_version_for &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-load">::load &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-load_cert">::load_cert &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-load_defaults">::load_defaults &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-load_env_plugins">::load_env_plugins &mdash; Gem</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-load_key">::load_key &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem.html#method-c-load_path_insert_index">::load_path_insert_index &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-load_plugin_files">::load_plugin_files &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-load_plugins">::load_plugins &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-load_yaml">::load_yaml &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Platform.html#method-c-local">::local &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem.html#method-c-location_of_caller">::location_of_caller &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Ext/Builder.html#method-c-make">::make &mdash; Gem::Ext::Builder</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-make_command">::make_command &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem.html#method-c-marshal_version">::marshal_version &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Platform.html#method-c-match">::match &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem.html#method-c-needs">::needs &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Commands/UninstallCommand.html#method-c-new">::new &mdash; Gem::Commands::UninstallCommand</a></li>
+    
+      <li><a href="Gem/Source/SpecificFile.html#method-c-new">::new &mdash; Gem::Source::SpecificFile</a></li>
+    
+      <li><a href="Gem/PlatformMismatch.html#method-c-new">::new &mdash; Gem::PlatformMismatch</a></li>
+    
+      <li><a href="Gem/Installer.html#method-c-new">::new &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/TestCase/StaticSet.html#method-c-new">::new &mdash; Gem::TestCase::StaticSet</a></li>
+    
+      <li><a href="Gem/SourceFetchProblem.html#method-c-new">::new &mdash; Gem::SourceFetchProblem</a></li>
+    
+      <li><a href="Gem/PathSupport.html#method-c-new">::new &mdash; Gem::PathSupport</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-new">::new &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-c-new">::new &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Validator.html#method-c-new">::new &mdash; Gem::Validator</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-c-new">::new &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-c-new">::new &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/Platform.html#method-c-new">::new &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/MockGemUi/TermError.html#method-c-new">::new &mdash; Gem::MockGemUi::TermError</a></li>
+    
+      <li><a href="Gem/MockGemUi/InputEOFError.html#method-c-new">::new &mdash; Gem::MockGemUi::InputEOFError</a></li>
+    
+      <li><a href="Gem/MockGemUi.html#method-c-new">::new &mdash; Gem::MockGemUi</a></li>
+    
+      <li><a href="Gem/Package/DigestIO.html#method-c-new">::new &mdash; Gem::Package::DigestIO</a></li>
+    
+      <li><a href="Gem/Doctor.html#method-c-new">::new &mdash; Gem::Doctor</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-c-new">::new &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/Server.html#method-c-new">::new &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-c-new">::new &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-c-new">::new &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-c-new">::new &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/GemRunner.html#method-c-new">::new &mdash; Gem::GemRunner</a></li>
+    
+      <li><a href="Gem/Source/Local.html#method-c-new">::new &mdash; Gem::Source::Local</a></li>
+    
+      <li><a href="TempIO.html#method-c-new">::new &mdash; TempIO</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-c-new">::new &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-c-new">::new &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-c-new">::new &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/Security/Signer.html#method-c-new">::new &mdash; Gem::Security::Signer</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-c-new">::new &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/SilentUI.html#method-c-new">::new &mdash; Gem::SilentUI</a></li>
+    
+      <li><a href="Gem/Package/Old.html#method-c-new">::new &mdash; Gem::Package::Old</a></li>
+    
+      <li><a href="Gem/ConsoleUI.html#method-c-new">::new &mdash; Gem::ConsoleUI</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseDownloadReporter.html#method-c-new">::new &mdash; Gem::StreamUI::VerboseDownloadReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/SilentDownloadReporter.html#method-c-new">::new &mdash; Gem::StreamUI::SilentDownloadReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseProgressReporter.html#method-c-new">::new &mdash; Gem::StreamUI::VerboseProgressReporter</a></li>
+    
+      <li><a href="Gem/Package/TarReader.html#method-c-new">::new &mdash; Gem::Package::TarReader</a></li>
+    
+      <li><a href="Gem/Package/TarReader.html#method-c-new">::new &mdash; Gem::Package::TarReader</a></li>
+    
+      <li><a href="Gem/StreamUI/SimpleProgressReporter.html#method-c-new">::new &mdash; Gem::StreamUI::SimpleProgressReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/SilentProgressReporter.html#method-c-new">::new &mdash; Gem::StreamUI::SilentProgressReporter</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-c-new">::new &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Package/TarHeader.html#method-c-new">::new &mdash; Gem::Package::TarHeader</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-c-new">::new &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-new">::new &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Source.html#method-c-new">::new &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Package/TarWriter/RestrictedStream.html#method-c-new">::new &mdash; Gem::Package::TarWriter::RestrictedStream</a></li>
+    
+      <li><a href="Gem/Package/TarWriter/BoundedStream.html#method-c-new">::new &mdash; Gem::Package::TarWriter::BoundedStream</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-c-new">::new &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/Commands/SourcesCommand.html#method-c-new">::new &mdash; Gem::Commands::SourcesCommand</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-c-new">::new &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Package/PathError.html#method-c-new">::new &mdash; Gem::Package::PathError</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-c-new">::new &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Package/FormatError.html#method-c-new">::new &mdash; Gem::Package::FormatError</a></li>
+    
+      <li><a href="Gem/Commands/ListCommand.html#method-c-new">::new &mdash; Gem::Commands::ListCommand</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-c-new">::new &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-c-new">::new &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/Version.html#method-c-new">::new &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Commands/EnvironmentCommand.html#method-c-new">::new &mdash; Gem::Commands::EnvironmentCommand</a></li>
+    
+      <li><a href="Gem/Commands/CleanupCommand.html#method-c-new">::new &mdash; Gem::Commands::CleanupCommand</a></li>
+    
+      <li><a href="Gem/Commands/PristineCommand.html#method-c-new">::new &mdash; Gem::Commands::PristineCommand</a></li>
+    
+      <li><a href="Gem/Commands/ContentsCommand.html#method-c-new">::new &mdash; Gem::Commands::ContentsCommand</a></li>
+    
+      <li><a href="Gem/Commands/InstallCommand.html#method-c-new">::new &mdash; Gem::Commands::InstallCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-c-new">::new &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Commands/ServerCommand.html#method-c-new">::new &mdash; Gem::Commands::ServerCommand</a></li>
+    
+      <li><a href="Gem/Commands/UpdateCommand.html#method-c-new">::new &mdash; Gem::Commands::UpdateCommand</a></li>
+    
+      <li><a href="Gem/Commands/PushCommand.html#method-c-new">::new &mdash; Gem::Commands::PushCommand</a></li>
+    
+      <li><a href="Gem/Commands/UnpackCommand.html#method-c-new">::new &mdash; Gem::Commands::UnpackCommand</a></li>
+    
+      <li><a href="Gem/DependencyResolutionError.html#method-c-new">::new &mdash; Gem::DependencyResolutionError</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-c-new">::new &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/SystemExitException.html#method-c-new">::new &mdash; Gem::SystemExitException</a></li>
+    
+      <li><a href="Gem/UnsatisfiableDepedencyError.html#method-c-new">::new &mdash; Gem::UnsatisfiableDepedencyError</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-new">::new &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Commands/CertCommand.html#method-c-new">::new &mdash; Gem::Commands::CertCommand</a></li>
+    
+      <li><a href="Gem/Commands/DependencyCommand.html#method-c-new">::new &mdash; Gem::Commands::DependencyCommand</a></li>
+    
+      <li><a href="Gem/Commands/WhichCommand.html#method-c-new">::new &mdash; Gem::Commands::WhichCommand</a></li>
+    
+      <li><a href="Gem/Commands/MirrorCommand.html#method-c-new">::new &mdash; Gem::Commands::MirrorCommand</a></li>
+    
+      <li><a href="Gem/Commands/StaleCommand.html#method-c-new">::new &mdash; Gem::Commands::StaleCommand</a></li>
+    
+      <li><a href="Gem/ImpossibleDependenciesError.html#method-c-new">::new &mdash; Gem::ImpossibleDependenciesError</a></li>
+    
+      <li><a href="Gem/DependencyResolver.html#method-c-new">::new &mdash; Gem::DependencyResolver</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-new">::new &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/SpecificGemNotFoundException.html#method-c-new">::new &mdash; Gem::SpecificGemNotFoundException</a></li>
+    
+      <li><a href="Gem/Commands/BuildCommand.html#method-c-new">::new &mdash; Gem::Commands::BuildCommand</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-c-new">::new &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/Commands/SpecificationCommand.html#method-c-new">::new &mdash; Gem::Commands::SpecificationCommand</a></li>
+    
+      <li><a href="Gem/Commands/YankCommand.html#method-c-new">::new &mdash; Gem::Commands::YankCommand</a></li>
+    
+      <li><a href="Gem/DependencyResolver/APISpecification.html#method-c-new">::new &mdash; Gem::DependencyResolver::APISpecification</a></li>
+    
+      <li><a href="Gem/Commands/OwnerCommand.html#method-c-new">::new &mdash; Gem::Commands::OwnerCommand</a></li>
+    
+      <li><a href="Gem/Commands/CheckCommand.html#method-c-new">::new &mdash; Gem::Commands::CheckCommand</a></li>
+    
+      <li><a href="Gem/Commands/RdocCommand.html#method-c-new">::new &mdash; Gem::Commands::RdocCommand</a></li>
+    
+      <li><a href="Gem/Commands/GenerateIndexCommand.html#method-c-new">::new &mdash; Gem::Commands::GenerateIndexCommand</a></li>
+    
+      <li><a href="Gem/Commands/FetchCommand.html#method-c-new">::new &mdash; Gem::Commands::FetchCommand</a></li>
+    
+      <li><a href="Gem/Commands/HelpCommand.html#method-c-new">::new &mdash; Gem::Commands::HelpCommand</a></li>
+    
+      <li><a href="Gem/Commands/LockCommand.html#method-c-new">::new &mdash; Gem::Commands::LockCommand</a></li>
+    
+      <li><a href="Gem/Commands/SearchCommand.html#method-c-new">::new &mdash; Gem::Commands::SearchCommand</a></li>
+    
+      <li><a href="Gem/Commands/OutdatedCommand.html#method-c-new">::new &mdash; Gem::Commands::OutdatedCommand</a></li>
+    
+      <li><a href="Gem/RequestSet/GemDepedencyAPI.html#method-c-new">::new &mdash; Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+      <li><a href="Gem/Package.html#method-c-new">::new &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-c-new">::new &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/RemoteFetcher/FetchError.html#method-c-new">::new &mdash; Gem::RemoteFetcher::FetchError</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSpecification.html#method-c-new">::new &mdash; Gem::DependencyResolver::IndexSpecification</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-c-new">::new &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSet.html#method-c-new">::new &mdash; Gem::DependencyResolver::IndexSet</a></li>
+    
+      <li><a href="Gem/PackageTask.html#method-c-new">::new &mdash; Gem::PackageTask</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyRequest.html#method-c-new">::new &mdash; Gem::DependencyResolver::DependencyRequest</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyConflict.html#method-c-new">::new &mdash; Gem::DependencyResolver::DependencyConflict</a></li>
+    
+      <li><a href="Gem/FilePermissionError.html#method-c-new">::new &mdash; Gem::FilePermissionError</a></li>
+    
+      <li><a href="Gem/DependencyResolver/APISet.html#method-c-new">::new &mdash; Gem::DependencyResolver::APISet</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-non_nil_attributes">::non_nil_attributes &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-normalize_yaml_input">::normalize_yaml_input &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-c-null">::null &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-outdated">::outdated &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-parse">::parse &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-c-parse">::parse &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem.html#method-c-path">::path &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-path_separator">::path_separator &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-paths">::paths &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-paths-3D">::paths= &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-platforms">::platforms &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-platforms-3D">::platforms= &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-post_build">::post_build &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-post_install">::post_install &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-post_reset">::post_reset &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-post_uninstall">::post_uninstall &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-pre_install">::pre_install &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-pre_reset">::pre_reset &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-pre_uninstall">::pre_uninstall &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-prefix">::prefix &mdash; Gem</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-process_based_port">::process_based_port &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-re_sign">::re_sign &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem.html#method-c-read_binary">::read_binary &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Ext/Builder.html#method-c-redirector">::redirector &mdash; Gem::Ext::Builder</a></li>
+    
+      <li><a href="Gem.html#method-c-refresh">::refresh &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-register_default_spec">::register_default_spec &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-remove_spec">::remove_spec &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-remove_unresolved_default_spec">::remove_unresolved_default_spec &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-required_attribute-3F">::required_attribute? &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-required_attributes">::required_attributes &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-reset">::reset &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-reset">::reset &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-c-reset">::reset &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem.html#method-c-ruby">::ruby &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-ruby-3D">::ruby= &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-ruby_engine">::ruby_engine &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-ruby_version">::ruby_version &mdash; Gem</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-rubybin">::rubybin &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem.html#method-c-rubygems_version">::rubygems_version &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Ext/Builder.html#method-c-run">::run &mdash; Gem::Ext::Builder</a></li>
+    
+      <li><a href="Gem/Server.html#method-c-run">::run &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem.html#method-c-searcher-3D">::searcher= &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-sign">::sign &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/Deprecate.html#method-c-skip_during">::skip_during &mdash; Gem::Deprecate</a></li>
+    
+      <li><a href="Gem.html#method-c-sources">::sources &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-sources-3D">::sources= &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-specific_extra_args">::specific_extra_args &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-c-specific_extra_args_hash">::specific_extra_args_hash &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem.html#method-c-suffix_pattern">::suffix_pattern &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-suffixes">::suffixes &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-time">::time &mdash; Gem</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-c-to_basic">::to_basic &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-trust_dir">::trust_dir &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-trusted_certificates">::trusted_certificates &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem.html#method-c-try_activate">::try_activate &mdash; Gem</a></li>
+    
+      <li><a href="Gem/DefaultUserInteraction.html#method-c-ui">::ui &mdash; Gem::DefaultUserInteraction</a></li>
+    
+      <li><a href="Gem.html#method-c-ui">::ui &mdash; Gem</a></li>
+    
+      <li><a href="Gem/DefaultUserInteraction.html#method-c-ui-3D">::ui= &mdash; Gem::DefaultUserInteraction</a></li>
+    
+      <li><a href="Gem/Specification.html#method-c-unresolved_deps">::unresolved_deps &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem.html#method-c-use_paths">::use_paths &mdash; Gem</a></li>
+    
+      <li><a href="Gem/DefaultUserInteraction.html#method-c-use_ui">::use_ui &mdash; Gem::DefaultUserInteraction</a></li>
+    
+      <li><a href="Gem.html#method-c-user_dir">::user_dir &mdash; Gem</a></li>
+    
+      <li><a href="Gem.html#method-c-user_home">::user_home &mdash; Gem</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-vc_windows-3F">::vc_windows? &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem.html#method-c-win_platform-3D">::win_platform= &mdash; Gem</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-c-win_platform-3F">::win_platform? &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem.html#method-c-win_platform-3F">::win_platform? &mdash; Gem</a></li>
+    
+      <li><a href="Gem/Package/DigestIO.html#method-c-wrap">::wrap &mdash; Gem::Package::DigestIO</a></li>
+    
+      <li><a href="Gem/Security.html#method-c-write">::write &mdash; Gem::Security</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-3C-3C">#<< &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-3C-3C">#<< &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-3C-3D-3E">#<=> &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-3C-3D-3E">#<=> &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-3C-3D-3E">#<=> &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-3C-3D-3E">#<=> &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyRequest.html#method-i-3D-3D">#== &mdash; Gem::DependencyResolver::DependencyRequest</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-3D-3D">#== &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Platform.html#method-i-3D-3D">#== &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-3D-3D">#== &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-3D-3D">#== &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-3D-3D">#== &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-3D-3D">#== &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-3D-3D">#== &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-3D-3D-3D">#=== &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-3D-3D-3D">#=== &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Platform.html#method-i-3D-3D-3D">#=== &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/Platform.html#method-i-3D-7E">#=~ &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-3D-7E">#=~ &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-3D-7E">#=~ &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-3D-7E">#=~ &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-ASCIIZ">#ASCIIZ &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-SP">#SP &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-SP_Z">#SP_Z &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-Z">#Z &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-5B-5D">#[] &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-5B-5D">#[] &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-5B-5D-3D">#[]= &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-_dump">#_dump &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-abbreviate">#abbreviate &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-accept_uri_http">#accept_uri_http &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-activate">#activate &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-activate_dependencies">#activate_dependencies &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-active_count">#active_count &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-add">#add &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-add">#add &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-add_bindir">#add_bindir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-add_bulk_threshold_option">#add_bulk_threshold_option &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-add_checksums">#add_checksums &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-add_clear_sources_option">#add_clear_sources_option &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-add_date">#add_date &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-add_dependency">#add_dependency &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-add_dependency_with_type">#add_dependency_with_type &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-add_development_dependency">#add_development_dependency &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-add_extra_args">#add_extra_args &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-add_file">#add_file &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-add_file_digest">#add_file_digest &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-add_file_signed">#add_file_signed &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-add_file_simple">#add_file_simple &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-add_found_dependencies">#add_found_dependencies &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/InstallUpdateOptions.html#method-i-add_install_update_options">#add_install_update_options &mdash; Gem::InstallUpdateOptions</a></li>
+    
+      <li><a href="Gem/GemcutterUtilities.html#method-i-add_key_option">#add_key_option &mdash; Gem::GemcutterUtilities</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-add_local_remote_options">#add_local_remote_options &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-add_option">#add_option &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/OwnerCommand.html#method-i-add_owners">#add_owners &mdash; Gem::Commands::OwnerCommand</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-add_parser_run_info">#add_parser_run_info &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/PlatformMismatch.html#method-i-add_platform">#add_platform &mdash; Gem::PlatformMismatch</a></li>
+    
+      <li><a href="Gem/VersionOption.html#method-i-add_platform_option">#add_platform_option &mdash; Gem::VersionOption</a></li>
+    
+      <li><a href="Gem/VersionOption.html#method-i-add_prerelease_option">#add_prerelease_option &mdash; Gem::VersionOption</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-add_proxy_option">#add_proxy_option &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-add_rubygems_trusted_certs">#add_rubygems_trusted_certs &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-add_runtime_dependency">#add_runtime_dependency &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-add_self_to_load_path">#add_self_to_load_path &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-add_source_option">#add_source_option &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-add_to_fetcher">#add_to_fetcher &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-add_update_sources_option">#add_update_sources_option &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/VersionOption.html#method-i-add_version_option">#add_version_option &mdash; Gem::VersionOption</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-alert">#alert &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-alert">#alert &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-alert_error">#alert_error &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-alert_error">#alert_error &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-alert_warning">#alert_warning &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-alert_warning">#alert_warning &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Validator.html#method-i-alien">#alien &mdash; Gem::Validator</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-all_spec_names">#all_spec_names &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-all_specs">#all_specs &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-api_endpoint">#api_endpoint &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-api_endpoint">#api_endpoint &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/GemcutterUtilities.html#method-i-api_key">#api_key &mdash; Gem::GemcutterUtilities</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-api_keys">#api_keys &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-api_uri">#api_uri &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-app_script_text">#app_script_text &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-approximate_recommendation">#approximate_recommendation &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-arguments">#arguments &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-ask">#ask &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/MockGemUi.html#method-i-ask">#ask &mdash; Gem::MockGemUi</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-ask">#ask &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-ask_for_password">#ask_for_password &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-ask_for_password">#ask_for_password &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-ask_for_password_on_unix">#ask_for_password_on_unix &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-ask_for_password_on_windows">#ask_for_password_on_windows &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-ask_if_ok">#ask_if_ok &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-ask_yes_no">#ask_yes_no &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-ask_yes_no">#ask_yes_no &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-assert_headers_equal">#assert_headers_equal &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-assert_path_exists">#assert_path_exists &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-author">#author &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-author-3D">#author= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-authors">#authors &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-authors-3D">#authors= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-i-available_specs">#available_specs &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-backtrace">#backtrace &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-backtrace">#backtrace &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-base_dir">#base_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-begins-3F">#begins? &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-bin_dir">#bin_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-bin_file">#bin_file &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-both-3F">#both? &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/Commands/CertCommand.html#method-i-build">#build &mdash; Gem::Commands::CertCommand</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-build">#build &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-build_args">#build_args &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-build_extensions">#build_extensions &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-build_indicies">#build_indicies &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-build_info_dir">#build_info_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-build_info_file">#build_info_file &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-build_marshal_gemspecs">#build_marshal_gemspecs &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-build_modern_index">#build_modern_index &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-build_modern_indicies">#build_modern_indicies &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-build_rake_in">#build_rake_in &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-bump">#bump &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-bytes_read">#bytes_read &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-cache_dir">#cache_dir &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-cache_dir">#cache_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-cache_file">#cache_file &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-cache_update_path">#cache_update_path &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-cache_update_path">#cache_update_path &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-calc_checksum">#calc_checksum &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Package/TarHeader.html#method-i-calculate_checksum">#calculate_checksum &mdash; Gem::Package::TarHeader</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-i-cert_path">#cert_path &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/Commands/CertCommand.html#method-i-certificates_matching">#certificates_matching &mdash; Gem::Commands::CertCommand</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-check_cert">#check_cert &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-check_chain">#check_chain &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-check_closed">#check_closed &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-check_credentials_permissions">#check_credentials_permissions &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-check_data">#check_data &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/Commands/CheckCommand.html#method-i-check_gems">#check_gems &mdash; Gem::Commands::CheckCommand</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-check_key">#check_key &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-check_root">#check_root &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-check_ruby_version">#check_ruby_version &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-check_that_user_bin_dir_is_in_path">#check_that_user_bin_dir_is_in_path &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-check_trust">#check_trust &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-choose_from_list">#choose_from_list &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-choose_from_list">#choose_from_list &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Commands/CleanupCommand.html#method-i-clean_gems">#clean_gems &mdash; Gem::Commands::CleanupCommand</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-clear">#clear &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-close">#close &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/Package/TarReader.html#method-i-close">#close &mdash; Gem::Package::TarReader</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-close">#close &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-closed-3F">#closed? &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-closed-3F">#closed? &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-command_names">#command_names &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-compact_specs">#compact_specs &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Commands/LockCommand.html#method-i-complain">#complain &mdash; Gem::Commands::LockCommand</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-compress">#compress &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-compress_indicies">#compress_indicies &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-config_file_name">#config_file_name &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-configure_connection_for_https">#configure_connection_for_https &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-configure_options">#configure_options &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/DependencyResolutionError.html#method-i-conflicting_dependencies">#conflicting_dependencies &mdash; Gem::DependencyResolutionError</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyConflict.html#method-i-conflicting_dependencies">#conflicting_dependencies &mdash; Gem::DependencyResolver::DependencyConflict</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-conflicts">#conflicts &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-connection_for">#connection_for &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-consider_local-3F">#consider_local? &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-consider_remote-3F">#consider_remote? &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-contains_requirable_file-3F">#contains_requirable_file? &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Package/Old.html#method-i-contents">#contents &mdash; Gem::Package::Old</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-contents">#contents &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-correct_for_windows_path">#correct_for_windows_path &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-create_option_parser">#create_option_parser &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-create_tmpdir">#create_tmpdir &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-credentials_path">#credentials_path &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-date">#date &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-date-3D">#date= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-debug">#debug &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-default_executable">#default_executable &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-default_gem-3F">#default_gem? &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-default_value">#default_value &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-defaults_str">#defaults_str &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/SourcesCommand.html#method-i-defaults_str">#defaults_str &mdash; Gem::Commands::SourcesCommand</a></li>
+    
+      <li><a href="Gem/PackageTask.html#method-i-define">#define &mdash; Gem::PackageTask</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-delete">#delete &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-dep">#dep &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSpecification.html#method-i-dependencies">#dependencies &mdash; Gem::DependencyResolver::IndexSpecification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-dependencies">#dependencies &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-dependencies_ok-3F">#dependencies_ok? &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/ImpossibleDependenciesError.html#method-i-dependency">#dependency &mdash; Gem::ImpossibleDependenciesError</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-dependency_order">#dependency_order &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-dependent_gems">#dependent_gems &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-dependent_specs">#dependent_specs &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Deprecate.html#method-i-deprecate">#deprecate &mdash; Gem::Deprecate</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-description">#description &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-description-3D">#description= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-i-detect">#detect &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-development_dependencies">#development_dependencies &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-dir">#dir &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-directory-3F">#directory? &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/GemRunner.html#method-i-do_configuration">#do_configuration &mdash; Gem::GemRunner</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-doc_dir">#doc_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-doc_root">#doc_root &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Doctor.html#method-i-doctor">#doctor &mdash; Gem::Doctor</a></li>
+    
+      <li><a href="Gem/Commands/CheckCommand.html#method-i-doctor">#doctor &mdash; Gem::Commands::CheckCommand</a></li>
+    
+      <li><a href="Gem/StreamUI/SilentDownloadReporter.html#method-i-done">#done &mdash; Gem::StreamUI::SilentDownloadReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/SilentProgressReporter.html#method-i-done">#done &mdash; Gem::StreamUI::SilentProgressReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseDownloadReporter.html#method-i-done">#done &mdash; Gem::StreamUI::VerboseDownloadReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseProgressReporter.html#method-i-done">#done &mdash; Gem::StreamUI::VerboseProgressReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/SimpleProgressReporter.html#method-i-done">#done &mdash; Gem::StreamUI::SimpleProgressReporter</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-download">#download &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-download">#download &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/Source/SpecificFile.html#method-i-download">#download &mdash; Gem::Source::SpecificFile</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-download">#download &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-download">#download &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Source/Local.html#method-i-download">#download &mdash; Gem::Source::Local</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-download_reporter">#download_reporter &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/SilentUI.html#method-i-download_reporter">#download_reporter &mdash; Gem::SilentUI</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-download_to_cache">#download_to_cache &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-download_to_cache">#download_to_cache &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-each">#each &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-each">#each &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-each">#each &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Package/TarReader.html#method-i-each">#each &mdash; Gem::Package::TarReader</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-i-each_certificate">#each_certificate &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/Package/TarReader.html#method-i-each_entry">#each_entry &mdash; Gem::Package::TarReader</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-each_source">#each_source &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/Package/TarHeader.html#method-i-empty-3F">#empty? &mdash; Gem::Package::TarHeader</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-empty-3F">#empty? &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-encode_with">#encode_with &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-encode_with">#encode_with &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-encode_with">#encode_with &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-ensure_dependencies_met">#ensure_dependencies_met &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-ensure_dependency">#ensure_dependency &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-ensure_loadable_spec">#ensure_loadable_spec &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-ensure_required_ruby_version_met">#ensure_required_ruby_version_met &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-ensure_required_rubygems_version_met">#ensure_required_rubygems_version_met &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-entry_details">#entry_details &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-entry_versions">#entry_versions &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-eof-3F">#eof? &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-eql-3F">#eql? &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Platform.html#method-i-eql-3F">#eql? &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-eql-3F">#eql? &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-eql-3F">#eql? &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/MockGemUi.html#method-i-error">#error &mdash; Gem::MockGemUi</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-escape">#escape &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-executable">#executable &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-executable-3D">#executable= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-executables">#executables &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-executables-3D">#executables= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Commands/StaleCommand.html#method-i-execute">#execute &mdash; Gem::Commands::StaleCommand</a></li>
+    
+      <li><a href="Gem/Commands/CleanupCommand.html#method-i-execute">#execute &mdash; Gem::Commands::CleanupCommand</a></li>
+    
+      <li><a href="Gem/Commands/SourcesCommand.html#method-i-execute">#execute &mdash; Gem::Commands::SourcesCommand</a></li>
+    
+      <li><a href="Gem/Commands/HelpCommand.html#method-i-execute">#execute &mdash; Gem::Commands::HelpCommand</a></li>
+    
+      <li><a href="Gem/Commands/SpecificationCommand.html#method-i-execute">#execute &mdash; Gem::Commands::SpecificationCommand</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-execute">#execute &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Commands/FetchCommand.html#method-i-execute">#execute &mdash; Gem::Commands::FetchCommand</a></li>
+    
+      <li><a href="Gem/Commands/ListCommand.html#method-i-execute">#execute &mdash; Gem::Commands::ListCommand</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-execute">#execute &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/UninstallCommand.html#method-i-execute">#execute &mdash; Gem::Commands::UninstallCommand</a></li>
+    
+      <li><a href="Gem/Commands/YankCommand.html#method-i-execute">#execute &mdash; Gem::Commands::YankCommand</a></li>
+    
+      <li><a href="Gem/Commands/OutdatedCommand.html#method-i-execute">#execute &mdash; Gem::Commands::OutdatedCommand</a></li>
+    
+      <li><a href="Gem/Commands/ContentsCommand.html#method-i-execute">#execute &mdash; Gem::Commands::ContentsCommand</a></li>
+    
+      <li><a href="Gem/Commands/PushCommand.html#method-i-execute">#execute &mdash; Gem::Commands::PushCommand</a></li>
+    
+      <li><a href="Gem/Commands/GenerateIndexCommand.html#method-i-execute">#execute &mdash; Gem::Commands::GenerateIndexCommand</a></li>
+    
+      <li><a href="Gem/Commands/OwnerCommand.html#method-i-execute">#execute &mdash; Gem::Commands::OwnerCommand</a></li>
+    
+      <li><a href="Gem/Commands/MirrorCommand.html#method-i-execute">#execute &mdash; Gem::Commands::MirrorCommand</a></li>
+    
+      <li><a href="Gem/Commands/CheckCommand.html#method-i-execute">#execute &mdash; Gem::Commands::CheckCommand</a></li>
+    
+      <li><a href="Gem/Commands/UpdateCommand.html#method-i-execute">#execute &mdash; Gem::Commands::UpdateCommand</a></li>
+    
+      <li><a href="Gem/Commands/WhichCommand.html#method-i-execute">#execute &mdash; Gem::Commands::WhichCommand</a></li>
+    
+      <li><a href="Gem/Commands/PristineCommand.html#method-i-execute">#execute &mdash; Gem::Commands::PristineCommand</a></li>
+    
+      <li><a href="Gem/Commands/InstallCommand.html#method-i-execute">#execute &mdash; Gem::Commands::InstallCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-execute">#execute &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Commands/DependencyCommand.html#method-i-execute">#execute &mdash; Gem::Commands::DependencyCommand</a></li>
+    
+      <li><a href="Gem/Commands/RdocCommand.html#method-i-execute">#execute &mdash; Gem::Commands::RdocCommand</a></li>
+    
+      <li><a href="Gem/Commands/CertCommand.html#method-i-execute">#execute &mdash; Gem::Commands::CertCommand</a></li>
+    
+      <li><a href="Gem/Commands/EnvironmentCommand.html#method-i-execute">#execute &mdash; Gem::Commands::EnvironmentCommand</a></li>
+    
+      <li><a href="Gem/Commands/LockCommand.html#method-i-execute">#execute &mdash; Gem::Commands::LockCommand</a></li>
+    
+      <li><a href="Gem/Commands/UnpackCommand.html#method-i-execute">#execute &mdash; Gem::Commands::UnpackCommand</a></li>
+    
+      <li><a href="Gem/Commands/BuildCommand.html#method-i-execute">#execute &mdash; Gem::Commands::BuildCommand</a></li>
+    
+      <li><a href="Gem/Commands/ServerCommand.html#method-i-execute">#execute &mdash; Gem::Commands::ServerCommand</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-extension_build_error">#extension_build_error &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-extensions">#extensions &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-extensions-3D">#extensions= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-extra_rdoc_files">#extra_rdoc_files &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-extra_rdoc_files-3D">#extra_rdoc_files= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-extract_files">#extract_files &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-extract_files">#extract_files &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Package/Old.html#method-i-extract_files">#extract_files &mdash; Gem::Package::Old</a></li>
+    
+      <li><a href="Gem/StreamUI/SilentDownloadReporter.html#method-i-fetch">#fetch &mdash; Gem::StreamUI::SilentDownloadReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseDownloadReporter.html#method-i-fetch">#fetch &mdash; Gem::StreamUI::VerboseDownloadReporter</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-fetch_file">#fetch_file &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-fetch_http">#fetch_http &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-fetch_https">#fetch_https &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-fetch_path">#fetch_path &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-fetch_path">#fetch_path &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-fetch_size">#fetch_size &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-fetch_size">#fetch_size &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-fetch_spec">#fetch_spec &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Source/Local.html#method-i-fetch_spec">#fetch_spec &mdash; Gem::Source::Local</a></li>
+    
+      <li><a href="Gem/Source/SpecificFile.html#method-i-fetch_spec">#fetch_spec &mdash; Gem::Source::SpecificFile</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-file-3F">#file? &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-file_name">#file_name &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-files">#files &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-files-3D">#files= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/TestCase/StaticSet.html#method-i-find_all">#find_all &mdash; Gem::TestCase::StaticSet</a></li>
+    
+      <li><a href="Gem/DependencyResolver/CurrentSet.html#method-i-find_all">#find_all &mdash; Gem::DependencyResolver::CurrentSet</a></li>
+    
+      <li><a href="Gem/DependencyResolver/APISet.html#method-i-find_all">#find_all &mdash; Gem::DependencyResolver::APISet</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSet.html#method-i-find_all">#find_all &mdash; Gem::DependencyResolver::IndexSet</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-find_all_satisfiers">#find_all_satisfiers &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-find_command">#find_command &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-find_command_possibilities">#find_command_possibilities &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-find_data">#find_data &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/Validator.html#method-i-find_files_for_gem">#find_files_for_gem &mdash; Gem::Validator</a></li>
+    
+      <li><a href="Gem/Source/Local.html#method-i-find_gem">#find_gem &mdash; Gem::Source::Local</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-find_gems_with_sources">#find_gems_with_sources &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/Commands/UnpackCommand.html#method-i-find_in_cache">#find_in_cache &mdash; Gem::Commands::UnpackCommand</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-find_name">#find_name &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Commands/WhichCommand.html#method-i-find_paths">#find_paths &mdash; Gem::Commands::WhichCommand</a></li>
+    
+      <li><a href="Gem/Commands/DependencyCommand.html#method-i-find_reverse_dependencies">#find_reverse_dependencies &mdash; Gem::Commands::DependencyCommand</a></li>
+    
+      <li><a href="Gem/TestCase/StaticSet.html#method-i-find_spec">#find_spec &mdash; Gem::TestCase::StaticSet</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-find_spec_by_name_and_version">#find_spec_by_name_and_version &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-first">#first &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-fix_syck_default_key_in_requirements">#fix_syck_default_key_in_requirements &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-fix_syck_default_key_in_requirements">#fix_syck_default_key_in_requirements &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-flush">#flush &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-for_cache">#for_cache &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyConflict.html#method-i-for_spec-3F">#for_spec? &mdash; Gem::DependencyResolver::DependencyConflict</a></li>
+    
+      <li><a href="Gem/Text.html#method-i-format_text">#format_text &mdash; Gem::Text</a></li>
+    
+      <li><a href="Gem/NoAliasYAMLTree.html#method-i-format_time">#format_time &mdash; Gem::NoAliasYAMLTree</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-formatted_program_filename">#formatted_program_filename &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-formatted_program_filename">#formatted_program_filename &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-full_gem_path">#full_gem_path &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-full_name">#full_name &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/DependencyResolver/APISpecification.html#method-i-full_name">#full_name &mdash; Gem::DependencyResolver::APISpecification</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSpecification.html#method-i-full_name">#full_name &mdash; Gem::DependencyResolver::IndexSpecification</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-full_name">#full_name &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-full_name">#full_name &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-full_spec">#full_spec &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-gather_dependencies">#gather_dependencies &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/RequestSet/GemDepedencyAPI.html#method-i-gem">#gem &mdash; Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+      <li><a href="Kernel.html#method-i-gem">#gem &mdash; Kernel</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-gem">#gem &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-gem_dir">#gem_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-gem_dir">#gem_dir &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-gem_file_list">#gem_file_list &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Kernel.html#method-i-gem_original_require">#gem_original_require &mdash; Kernel</a></li>
+    
+      <li><a href="Gem/Commands/WhichCommand.html#method-i-gem_paths">#gem_paths &mdash; Gem::Commands::WhichCommand</a></li>
+    
+      <li><a href="Gem/Doctor.html#method-i-gem_repository-3F">#gem_repository? &mdash; Gem::Doctor</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-gems_dir">#gems_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-generate_bin">#generate_bin &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-generate_bin_script">#generate_bin_script &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-generate_bin_symlink">#generate_bin_symlink &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-generate_default_dirs">#generate_default_dirs &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-generate_index">#generate_index &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-generate_windows_script">#generate_windows_script &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-get_all_gem_names">#get_all_gem_names &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-get_all_gem_names_and_versions">#get_all_gem_names_and_versions &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/CleanupCommand.html#method-i-get_candidate_gems">#get_candidate_gems &mdash; Gem::Commands::CleanupCommand</a></li>
+    
+      <li><a href="Gem/Commands/CleanupCommand.html#method-i-get_gems_to_cleanup">#get_gems_to_cleanup &mdash; Gem::Commands::CleanupCommand</a></li>
+    
+      <li><a href="Gem/Commands/UnpackCommand.html#method-i-get_metadata">#get_metadata &mdash; Gem::Commands::UnpackCommand</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-get_no_proxy_from_env">#get_no_proxy_from_env &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-get_one_gem_name">#get_one_gem_name &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-get_one_optional_argument">#get_one_optional_argument &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/UnpackCommand.html#method-i-get_path">#get_path &mdash; Gem::Commands::UnpackCommand</a></li>
+    
+      <li><a href="Gem/Commands/YankCommand.html#method-i-get_platform_from_requirements">#get_platform_from_requirements &mdash; Gem::Commands::YankCommand</a></li>
+    
+      <li><a href="Gem/Commands/CleanupCommand.html#method-i-get_primary_gems">#get_primary_gems &mdash; Gem::Commands::CleanupCommand</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-get_proxy_from_env">#get_proxy_from_env &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Commands/YankCommand.html#method-i-get_version_from_requirements">#get_version_from_requirements &mdash; Gem::Commands::YankCommand</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-getc">#getc &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/RequestSet/GemDepedencyAPI.html#method-i-group">#group &mdash; Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-gzip">#gzip &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-gzip_to">#gzip_to &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-handle_arguments">#handle_arguments &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-handle_options">#handle_options &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-handles-3F">#handles? &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-has_rdoc">#has_rdoc &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-has_rdoc-3D">#has_rdoc= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-has_rdoc-3F">#has_rdoc? &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-has_unit_tests-3F">#has_unit_tests? &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-hash">#hash &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-hash">#hash &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-have_rdoc_4_plus-3F">#have_rdoc_4_plus? &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-header">#header &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Package/TarHeader.html#method-i-header">#header &mdash; Gem::Package::TarHeader</a></li>
+    
+      <li><a href="Gem/PathSupport.html#method-i-home-3D">#home= &mdash; Gem::PathSupport</a></li>
+    
+      <li><a href="Gem/GemcutterUtilities.html#method-i-host">#host &mdash; Gem::GemcutterUtilities</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-https-3F">#https? &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-import">#import &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-in_background">#in_background &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-include-3F">#include? &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/PackageTask.html#method-i-init">#init &mdash; Gem::PackageTask</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-initialize">#initialize &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-initialize_copy">#initialize_copy &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-initialize_copy">#initialize_copy &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-inject_into_list">#inject_into_list &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/MockGemUi.html#method-i-input">#input &mdash; Gem::MockGemUi</a></li>
+    
+      <li><a href="Gem/Platform.html#method-i-inspect">#inspect &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-inspect">#inspect &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-install">#install &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/DependencyInstaller.html#method-i-install">#install &mdash; Gem::DependencyInstaller</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-install">#install &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-install_default_gems">#install_default_gems &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-install_default_specs">#install_default_specs &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-install_executables">#install_executables &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-install_file">#install_file &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Commands/InstallCommand.html#method-i-install_from_gemdeps">#install_from_gemdeps &mdash; Gem::Commands::InstallCommand</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-install_gem">#install_gem &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-install_gem_user">#install_gem_user &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-install_indicies">#install_indicies &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-install_into">#install_into &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-install_lib">#install_lib &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-install_rdoc">#install_rdoc &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-install_specs">#install_specs &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/InstallUpdateOptions.html#method-i-install_update_defaults_str">#install_update_defaults_str &mdash; Gem::InstallUpdateOptions</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-installation_satisfies_dependency-3F">#installation_satisfies_dependency? &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-installed-3F">#installed? &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-installed-3F">#installed? &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-installed_specs">#installed_specs &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-instance">#instance &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-invalidate_memoized_attributes">#invalidate_memoized_attributes &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-invoke">#invoke &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-invoke_with_build_args">#invoke_with_build_args &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-i-issuer_of">#issuer_of &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-latest_specs">#latest_specs &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-latest_version-3F">#latest_version? &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-launch">#launch &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Text.html#method-i-levenshtein_distance">#levenshtein_distance &mdash; Gem::Text</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-lib_dirs_glob">#lib_dirs_glob &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-lib_files">#lib_files &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-license">#license &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-license-3D">#license= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-licenses">#licenses &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-licenses-3D">#licenses= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-listen">#listen &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/RequestSet/GemDepedencyAPI.html#method-i-load">#load &mdash; Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-load_and_instantiate">#load_and_instantiate &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-load_api_keys">#load_api_keys &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-i-load_certificate">#load_certificate &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/Commands/CertCommand.html#method-i-load_default_cert">#load_default_cert &mdash; Gem::Commands::CertCommand</a></li>
+    
+      <li><a href="Gem/Commands/CertCommand.html#method-i-load_default_key">#load_default_key &mdash; Gem::Commands::CertCommand</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-load_file">#load_file &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-load_gemdeps">#load_gemdeps &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSet.html#method-i-load_spec">#load_spec &mdash; Gem::DependencyResolver::IndexSet</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-load_specs">#load_specs &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Source/SpecificFile.html#method-i-load_specs">#load_specs &mdash; Gem::Source::SpecificFile</a></li>
+    
+      <li><a href="Gem/Source/Local.html#method-i-load_specs">#load_specs &mdash; Gem::Source::Local</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-loaded_from-3D">#loaded_from= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-local-3F">#local? &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-make_command">#make_command &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-make_destination_dirs">#make_destination_dirs &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-make_entry">#make_entry &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-make_temp_directories">#make_temp_directories &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Commands/OwnerCommand.html#method-i-manage_owners">#manage_owners &mdash; Gem::Commands::OwnerCommand</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-map_gems_to_specs">#map_gems_to_specs &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-mark_version">#mark_version &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-marshal_dump">#marshal_dump &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-marshal_load">#marshal_load &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-match-3F">#match? &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-match_platform-21">#match_platform! &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-match_platform-3F">#match_platform? &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-matches_for_glob">#matches_for_glob &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyRequest.html#method-i-matches_spec-3F">#matches_spec? &mdash; Gem::DependencyResolver::DependencyRequest</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-matches_spec-3F">#matches_spec? &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-matching_specs">#matching_specs &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-merge">#merge &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-merge_options">#merge_options &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Package/TarWriter.html#method-i-mkdir">#mkdir &mdash; Gem::Package::TarWriter</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-mu_pp">#mu_pp &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-name">#name &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyRequest.html#method-i-name">#name &mdash; Gem::DependencyResolver::DependencyRequest</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-i-name_path">#name_path &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-name_tuple">#name_tuple &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-new_default_spec">#new_default_spec &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-new_spec">#new_spec &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-nmake_found-3F">#nmake_found? &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-no_proxy-3F">#no_proxy? &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/MockGemUi/TTY.html#method-i-noecho">#noecho &mdash; Gem::MockGemUi::TTY</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-none-3F">#none? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-none-3F">#none? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-normalize">#normalize &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-normalize_uri">#normalize_uri &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Package/TarHeader.html#method-i-oct">#oct &mdash; Gem::Package::TarHeader</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-ok-3F">#ok? &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-ok_to_remove-3F">#ok_to_remove? &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-open_uri_or_path">#open_uri_or_path &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-others_possible-3F">#others_possible? &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/MockGemUi.html#method-i-output">#output &mdash; Gem::MockGemUi</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-output_query_results">#output_query_results &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-output_versions">#output_versions &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-paranoid">#paranoid &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-parent">#parent &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-parser">#parser &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/PathSupport.html#method-i-path-3D">#path= &mdash; Gem::PathSupport</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-path_ok-3F">#path_ok? &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-pem_files_in">#pem_files_in &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-pick_best-21">#pick_best! &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-platform">#platform &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/RequestSet/GemDepedencyAPI.html#method-i-platform">#platform &mdash; Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-platform-3D">#platform= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/RequestSet/GemDepedencyAPI.html#method-i-platforms">#platforms &mdash; Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-pos">#pos &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-pre_install_checks">#pre_install_checks &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/DependencyResolver/APISet.html#method-i-prefetch">#prefetch &mdash; Gem::DependencyResolver::APISet</a></li>
+    
+      <li><a href="Gem/DependencyResolver/CurrentSet.html#method-i-prefetch">#prefetch &mdash; Gem::DependencyResolver::CurrentSet</a></li>
+    
+      <li><a href="Gem/TestCase/StaticSet.html#method-i-prefetch">#prefetch &mdash; Gem::TestCase::StaticSet</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSet.html#method-i-prefetch">#prefetch &mdash; Gem::DependencyResolver::IndexSet</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-prerelease-3F">#prerelease? &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-prerelease-3F">#prerelease? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-prerelease-3F">#prerelease? &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-prerelease-3F">#prerelease? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-prerelease-3F">#prerelease? &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Commands/DependencyCommand.html#method-i-print_dependencies">#print_dependencies &mdash; Gem::Commands::DependencyCommand</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-process_args">#process_args &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-process_based_port">#process_based_port &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-process_options">#process_options &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/SilentUI.html#method-i-progress_reporter">#progress_reporter &mdash; Gem::SilentUI</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-progress_reporter">#progress_reporter &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-quick">#quick &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-quick_gem">#quick_gem &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-quick_spec">#quick_spec &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-raise_if_conflicts">#raise_if_conflicts &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-rb_files_in">#rb_files_in &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-rdoc">#rdoc &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-rdoc_options">#rdoc_options &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-rdoc_options-3D">#rdoc_options= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-read">#read &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-read_binary">#read_binary &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-read_cache">#read_cache &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-read_checksums">#read_checksums &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-really_verbose">#really_verbose &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-refute_path_exists">#refute_path_exists &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/NoAliasYAMLTree.html#method-i-register">#register &mdash; Gem::NoAliasYAMLTree</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-register_command">#register_command &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-release">#release &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/LocalRemoteOptions.html#method-i-remote-3F">#remote? &mdash; Gem::LocalRemoteOptions</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-remove">#remove &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-remove_all">#remove_all &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-remove_by_name">#remove_by_name &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Commands/SourcesCommand.html#method-i-remove_cache_file">#remove_cache_file &mdash; Gem::Commands::SourcesCommand</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-remove_executables">#remove_executables &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-remove_installed-21">#remove_installed! &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-remove_old_bin_files">#remove_old_bin_files &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-remove_old_lib_files">#remove_old_lib_files &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-remove_option">#remove_option &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/OwnerCommand.html#method-i-remove_owners">#remove_owners &mdash; Gem::Commands::OwnerCommand</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-remove_specs_unsatisfied_by">#remove_specs_unsatisfied_by &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-replace">#replace &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="GemGauntlet.html#method-i-report">#report &mdash; GemGauntlet</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-req">#req &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-request">#request &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/FakeFetcher.html#method-i-request">#request &mdash; Gem::FakeFetcher</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyConflict.html#method-i-requester">#requester &mdash; Gem::DependencyResolver::DependencyConflict</a></li>
+    
+      <li><a href="Gem/DependencyResolver.html#method-i-requests">#requests &mdash; Gem::DependencyResolver</a></li>
+    
+      <li><a href="Kernel.html#method-i-require">#require &mdash; Kernel</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-require_path">#require_path &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-require_path-3D">#require_path= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-required_ruby_version-3D">#required_ruby_version= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-required_rubygems_version-3D">#required_rubygems_version= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-requirement">#requirement &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-requirements">#requirements &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-requirements-3D">#requirements= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-requirements_list">#requirements_list &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-reset">#reset &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-reset_nil_attributes_to_default">#reset_nil_attributes_to_default &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-resolve">#resolve &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/DependencyResolver.html#method-i-resolve">#resolve &mdash; Gem::DependencyResolver</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-resolve_current">#resolve_current &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/DependencyResolver.html#method-i-resolve_for">#resolve_for &mdash; Gem::DependencyResolver</a></li>
+    
+      <li><a href="Gem/Package/TarReader.html#method-i-rewind">#rewind &mdash; Gem::Package::TarReader</a></li>
+    
+      <li><a href="Gem/Package/TarReader/Entry.html#method-i-rewind">#rewind &mdash; Gem::Package::TarReader::Entry</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-ri_dir">#ri_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-root">#root &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-ruby_code">#ruby_code &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-rubygems_api_key">#rubygems_api_key &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-rubygems_api_key-3D">#rubygems_api_key= &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/GemcutterUtilities.html#method-i-rubygems_api_request">#rubygems_api_request &mdash; Gem::GemcutterUtilities</a></li>
+    
+      <li><a href="GemGauntlet.html#method-i-run">#run &mdash; GemGauntlet</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-run">#run &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-run">#run &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/GemRunner.html#method-i-run">#run &mdash; Gem::GemRunner</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-runtime_dependencies">#runtime_dependencies &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-same_attributes-3F">#same_attributes? &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-sanitize">#sanitize &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-sanitize_string">#sanitize_string &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-satisfied_by-3F">#satisfied_by? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-satisfied_by-3F">#satisfied_by? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-satisfies_requirement-3F">#satisfies_requirement? &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-say">#say &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-say">#say &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-i-search_for_dependency">#search_for_dependency &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/Package/TarReader.html#method-i-seek">#seek &mdash; Gem::Package::TarReader</a></li>
+    
+      <li><a href="Gem/Commands/PushCommand.html#method-i-send_gem">#send_gem &mdash; Gem::Commands::PushCommand</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-setup">#setup &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/InstallerTestCase.html#method-i-setup">#setup &mdash; Gem::InstallerTestCase</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-setup_signer">#setup_signer &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-shebang">#shebang &mdash; Gem::Installer</a></li>
+    
+      <li><a href="GemGauntlet.html#method-i-should_skip-3F">#should_skip? &mdash; GemGauntlet</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-show_help">#show_help &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-show_lookup_failure">#show_lookup_failure &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/OwnerCommand.html#method-i-show_owners">#show_owners &mdash; Gem::Commands::OwnerCommand</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-show_rdoc_for_pattern">#show_rdoc_for_pattern &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/Commands/CertCommand.html#method-i-sign">#sign &mdash; Gem::Commands::CertCommand</a></li>
+    
+      <li><a href="Gem/Security/Signer.html#method-i-sign">#sign &mdash; Gem::Security::Signer</a></li>
+    
+      <li><a href="Gem/GemcutterUtilities.html#method-i-sign_in">#sign_in &mdash; Gem::GemcutterUtilities</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-size">#size &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/Deprecate.html#method-i-skip_during">#skip_during &mdash; Gem::Deprecate</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-sort_obj">#sort_obj &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-sorted">#sorted &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-sorted_requests">#sorted_requests &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/RequestSet/GemDepedencyAPI.html#method-i-source">#source &mdash; Gem::RequestSet::GemDepedencyAPI</a></li>
+    
+      <li><a href="Gem/AvailableSet.html#method-i-source_for">#source_for &mdash; Gem::AvailableSet</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-spec">#spec &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/DependencyResolver/IndexSpecification.html#method-i-spec">#spec &mdash; Gem::DependencyResolver::IndexSpecification</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-spec">#spec &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Package/Old.html#method-i-spec">#spec &mdash; Gem::Package::Old</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-spec">#spec &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-spec_authors">#spec_authors &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-spec_dir">#spec_dir &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-spec_file">#spec_file &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-spec_file">#spec_file &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-i-spec_for_dependency">#spec_for_dependency &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-spec_homepage">#spec_homepage &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-spec_license">#spec_license &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-spec_loaded_from">#spec_loaded_from &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-spec_name">#spec_name &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-spec_name">#spec_name &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Commands/LockCommand.html#method-i-spec_path">#spec_path &mdash; Gem::Commands::LockCommand</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-spec_platforms">#spec_platforms &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-spec_predecessors">#spec_predecessors &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/Commands/QueryCommand.html#method-i-spec_summary">#spec_summary &mdash; Gem::Commands::QueryCommand</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-specific-3F">#specific? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-specific-3F">#specific? &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-specific-3F">#specific? &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Server.html#method-i-specs">#specs &mdash; Gem::Server</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-specs">#specs &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-specs_in">#specs_in &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="TempIO.html#method-i-string">#string &mdash; TempIO</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-i-suggest_gems_from_name">#suggest_gems_from_name &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-summary-3D">#summary= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-tar_dir_header">#tar_dir_header &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-tar_file_header">#tar_file_header &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-teardown">#teardown &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-terminate_interaction">#terminate_interaction &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/UserInteraction.html#method-i-terminate_interaction">#terminate_interaction &mdash; Gem::UserInteraction</a></li>
+    
+      <li><a href="Gem/MockGemUi.html#method-i-terminate_interaction">#terminate_interaction &mdash; Gem::MockGemUi</a></li>
+    
+      <li><a href="Gem/MockGemUi.html#method-i-terminated-3F">#terminated? &mdash; Gem::MockGemUi</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-test_file">#test_file &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-test_file-3D">#test_file= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-test_files">#test_files &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-test_files-3D">#test_files= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-to_a">#to_a &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-to_a">#to_a &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/Platform.html#method-i-to_a">#to_a &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/SourceList.html#method-i-to_ary">#to_ary &mdash; Gem::SourceList</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-to_oct">#to_oct &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-to_ruby">#to_ruby &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-to_ruby_for_cache">#to_ruby_for_cache &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/NameTuple.html#method-i-to_s">#to_s &mdash; Gem::NameTuple</a></li>
+    
+      <li><a href="Gem/DependencyResolver/DependencyRequest.html#method-i-to_s">#to_s &mdash; Gem::DependencyResolver::DependencyRequest</a></li>
+    
+      <li><a href="Gem/Platform.html#method-i-to_s">#to_s &mdash; Gem::Platform</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-to_spec">#to_spec &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-to_specs">#to_specs &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-to_yaml_properties">#to_yaml_properties &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-to_yaml_properties">#to_yaml_properties &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Requirement.html#method-i-to_yaml_properties">#to_yaml_properties &mdash; Gem::Requirement</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-traverse">#traverse &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-i-trust_cert">#trust_cert &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-tsort_each_child">#tsort_each_child &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-tsort_each_child">#tsort_each_child &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/RequestSet.html#method-i-tsort_each_node">#tsort_each_node &mdash; Gem::RequestSet</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-tsort_each_node">#tsort_each_node &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/MockGemUi/TTY.html#method-i-tty-3F">#tty? &mdash; Gem::MockGemUi::TTY</a></li>
+    
+      <li><a href="Gem/StreamUI.html#method-i-tty-3F">#tty? &mdash; Gem::StreamUI</a></li>
+    
+      <li><a href="Gem/SpecFetcher.html#method-i-tuples_for">#tuples_for &mdash; Gem::SpecFetcher</a></li>
+    
+      <li><a href="Gem/Dependency.html#method-i-type">#type &mdash; Gem::Dependency</a></li>
+    
+      <li><a href="Gem/DefaultUserInteraction.html#method-i-ui">#ui &mdash; Gem::DefaultUserInteraction</a></li>
+    
+      <li><a href="Gem/DefaultUserInteraction.html#method-i-ui-3D">#ui= &mdash; Gem::DefaultUserInteraction</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-unescape">#unescape &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-uninstall">#uninstall &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/Commands/CleanupCommand.html#method-i-uninstall_dep">#uninstall_dep &mdash; Gem::Commands::CleanupCommand</a></li>
+    
+      <li><a href="Gem/Uninstaller.html#method-i-uninstall_gem">#uninstall_gem &mdash; Gem::Uninstaller</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-uninstall_gem">#uninstall_gem &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Commands/SetupCommand.html#method-i-uninstall_old_gemcutter">#uninstall_old_gemcutter &mdash; Gem::Commands::SetupCommand</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-unpack">#unpack &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/CommandManager.html#method-i-unregister_command">#unregister_command &mdash; Gem::CommandManager</a></li>
+    
+      <li><a href="Gem/Commands/YankCommand.html#method-i-unyank_gem">#unyank_gem &mdash; Gem::Commands::YankCommand</a></li>
+    
+      <li><a href="Gem/StreamUI/SilentDownloadReporter.html#method-i-update">#update &mdash; Gem::StreamUI::SilentDownloadReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseDownloadReporter.html#method-i-update">#update &mdash; Gem::StreamUI::VerboseDownloadReporter</a></li>
+    
+      <li><a href="Gem/Source.html#method-i-update_cache-3F">#update_cache? &mdash; Gem::Source</a></li>
+    
+      <li><a href="Gem/Package/TarHeader.html#method-i-update_checksum">#update_checksum &mdash; Gem::Package::TarHeader</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseDownloadReporter.html#method-i-update_display">#update_display &mdash; Gem::StreamUI::VerboseDownloadReporter</a></li>
+    
+      <li><a href="Gem/Commands/UpdateCommand.html#method-i-update_gem">#update_gem &mdash; Gem::Commands::UpdateCommand</a></li>
+    
+      <li><a href="Gem/Commands/UpdateCommand.html#method-i-update_gems">#update_gems &mdash; Gem::Commands::UpdateCommand</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-update_index">#update_index &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/Commands/UpdateCommand.html#method-i-update_rubygems">#update_rubygems &mdash; Gem::Commands::UpdateCommand</a></li>
+    
+      <li><a href="Gem/Indexer.html#method-i-update_specs_index">#update_specs_index &mdash; Gem::Indexer</a></li>
+    
+      <li><a href="Gem/StreamUI/SilentProgressReporter.html#method-i-updated">#updated &mdash; Gem::StreamUI::SilentProgressReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/SimpleProgressReporter.html#method-i-updated">#updated &mdash; Gem::StreamUI::SimpleProgressReporter</a></li>
+    
+      <li><a href="Gem/StreamUI/VerboseProgressReporter.html#method-i-updated">#updated &mdash; Gem::StreamUI::VerboseProgressReporter</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-uri_escaper">#uri_escaper &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-usage">#usage &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/DefaultUserInteraction.html#method-i-use_ui">#use_ui &mdash; Gem::DefaultUserInteraction</a></li>
+    
+      <li><a href="Gem/RemoteFetcher.html#method-i-user_agent">#user_agent &mdash; Gem::RemoteFetcher</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_build_gem">#util_build_gem &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_clear_gems">#util_clear_gems &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-util_dir_entry">#util_dir_entry &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/Package/TarTestCase.html#method-i-util_entry">#util_entry &mdash; Gem::Package::TarTestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_gem">#util_gem &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_gzip">#util_gzip &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/InstallerTestCase.html#method-i-util_inst_bindir">#util_inst_bindir &mdash; Gem::InstallerTestCase</a></li>
+    
+      <li><a href="Gem/InstallerTestCase.html#method-i-util_installer">#util_installer &mdash; Gem::InstallerTestCase</a></li>
+    
+      <li><a href="Gem/InstallerTestCase.html#method-i-util_make_exec">#util_make_exec &mdash; Gem::InstallerTestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_make_gems">#util_make_gems &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_remove_gem">#util_remove_gem &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_set_arch">#util_set_arch &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_setup_fake_fetcher">#util_setup_fake_fetcher &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/InstallerTestCase.html#method-i-util_setup_gem">#util_setup_gem &mdash; Gem::InstallerTestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_setup_spec_fetcher">#util_setup_spec_fetcher &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_spec">#util_spec &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-util_zip">#util_zip &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-v">#v &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-validate">#validate &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-validate_permissions">#validate_permissions &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-vc_windows-3F">#vc_windows? &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-verify">#verify &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-verify">#verify &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Package/Old.html#method-i-verify">#verify &mdash; Gem::Package::Old</a></li>
+    
+      <li><a href="Gem/Security/TrustDir.html#method-i-verify">#verify &mdash; Gem::Security::TrustDir</a></li>
+    
+      <li><a href="Gem/GemcutterUtilities.html#method-i-verify_api_key">#verify_api_key &mdash; Gem::GemcutterUtilities</a></li>
+    
+      <li><a href="Gem/Package.html#method-i-verify_files">#verify_files &mdash; Gem::Package</a></li>
+    
+      <li><a href="Gem/Validator.html#method-i-verify_gem">#verify_gem &mdash; Gem::Validator</a></li>
+    
+      <li><a href="Gem/Validator.html#method-i-verify_gem_file">#verify_gem_file &mdash; Gem::Validator</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-verify_gem_home">#verify_gem_home &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Security/Policy.html#method-i-verify_signatures">#verify_signatures &mdash; Gem::Security::Policy</a></li>
+    
+      <li><a href="Gem/DependencyResolver/ActivationRequest.html#method-i-version">#version &mdash; Gem::DependencyResolver::ActivationRequest</a></li>
+    
+      <li><a href="Gem/Specification.html#method-i-version-3D">#version= &mdash; Gem::Specification</a></li>
+    
+      <li><a href="Gem/DependencyResolver/APISet.html#method-i-versions">#versions &mdash; Gem::DependencyResolver::APISet</a></li>
+    
+      <li><a href="Gem/NoAliasYAMLTree.html#method-i-visit_String">#visit_String &mdash; Gem::NoAliasYAMLTree</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-wait_for_child_process_to_exit">#wait_for_child_process_to_exit &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-when_invoked">#when_invoked &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Commands/UpdateCommand.html#method-i-which_to_update">#which_to_update &mdash; Gem::Commands::UpdateCommand</a></li>
+    
+      <li><a href="Gem/DependencyList.html#method-i-why_not_ok-3F">#why_not_ok? &mdash; Gem::DependencyList</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-win_platform-3F">#win_platform? &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-windows_stub_script">#windows_stub_script &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/GemcutterUtilities.html#method-i-with_response">#with_response &mdash; Gem::GemcutterUtilities</a></li>
+    
+      <li><a href="Gem/PlatformMismatch.html#method-i-wordy">#wordy &mdash; Gem::PlatformMismatch</a></li>
+    
+      <li><a href="Gem/SourceFetchProblem.html#method-i-wordy">#wordy &mdash; Gem::SourceFetchProblem</a></li>
+    
+      <li><a href="Gem/Command.html#method-i-wrap">#wrap &mdash; Gem::Command</a></li>
+    
+      <li><a href="Gem/Package/TarWriter/BoundedStream.html#method-i-write">#write &mdash; Gem::Package::TarWriter::BoundedStream</a></li>
+    
+      <li><a href="Gem/ConfigFile.html#method-i-write">#write &mdash; Gem::ConfigFile</a></li>
+    
+      <li><a href="Gem/Package/DigestIO.html#method-i-write">#write &mdash; Gem::Package::DigestIO</a></li>
+    
+      <li><a href="Gem/Package/TarWriter/RestrictedStream.html#method-i-write">#write &mdash; Gem::Package::TarWriter::RestrictedStream</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-write_build_info_file">#write_build_info_file &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-write_cache_file">#write_cache_file &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/TestCase.html#method-i-write_file">#write_file &mdash; Gem::TestCase</a></li>
+    
+      <li><a href="Gem/Installer.html#method-i-write_spec">#write_spec &mdash; Gem::Installer</a></li>
+    
+      <li><a href="Gem/Version.html#method-i-yaml_initialize">#yaml_initialize &mdash; Gem::Version</a></li>
+    
+      <li><a href="Gem/Commands/YankCommand.html#method-i-yank_api_request">#yank_api_request &mdash; Gem::Commands::YankCommand</a></li>
+    
+      <li><a href="Gem/Commands/YankCommand.html#method-i-yank_gem">#yank_gem &mdash; Gem::Commands::YankCommand</a></li>
+    
+  </ul>
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+</body>
+</html>

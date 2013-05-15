@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	root:EFI"RDoc::Options#root;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"KRoot of the source documentation will be generated for.  Set this when;TI"Jbuilding documentation outside the source directory.  Defaults to the;TI"current directory.;T:
+@file0FI"lib/rdoc/options.rb;T

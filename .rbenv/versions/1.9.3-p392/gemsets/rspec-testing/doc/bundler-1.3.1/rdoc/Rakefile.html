@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>File: Rakefile [bundler-1.3.1 Documentation]</title>
+
+  <link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet" />
+
+  <script src="./js/jquery.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript"
+    charset="utf-8"></script>
+</head>
+
+<body class="file">
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle.html">bundle</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-config.html">bundle-config</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-config_txt.html">bundle-config.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-exec.html">bundle-exec</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-exec_txt.html">bundle-exec.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-install.html">bundle-install</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-install_txt.html">bundle-install.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-package.html">bundle-package</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-package_txt.html">bundle-package.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-platform.html">bundle-platform</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-platform_txt.html">bundle-platform.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-update.html">bundle-update</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle-update_txt.html">bundle-update.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/bundle_txt.html">bundle.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/man/gemfile_5_txt.html">gemfile.5.txt</a></li>
+        
+          <li class="file"><a href="./lib/bundler/templates/Executable.html">Executable</a></li>
+        
+          <li class="file"><a href="./lib/bundler/templates/Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="./man/index_txt.html">index.txt</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Bundler.html">Bundler</a></li>
+        
+          <li><a href="./Bundler/BundlerError.html">Bundler::BundlerError</a></li>
+        
+          <li><a href="./Bundler/CLI.html">Bundler::CLI</a></li>
+        
+          <li><a href="./Bundler/Definition.html">Bundler::Definition</a></li>
+        
+          <li><a href="./Bundler/DepProxy.html">Bundler::DepProxy</a></li>
+        
+          <li><a href="./Bundler/Dependency.html">Bundler::Dependency</a></li>
+        
+          <li><a href="./Bundler/Deployment.html">Bundler::Deployment</a></li>
+        
+          <li><a href="./Bundler/Deprecate.html">Bundler::Deprecate</a></li>
+        
+          <li><a href="./Bundler/DeprecatedError.html">Bundler::DeprecatedError</a></li>
+        
+          <li><a href="./Bundler/Dsl.html">Bundler::Dsl</a></li>
+        
+          <li><a href="./Bundler/EndpointSpecification.html">Bundler::EndpointSpecification</a></li>
+        
+          <li><a href="./Bundler/Env.html">Bundler::Env</a></li>
+        
+          <li><a href="./Bundler/Environment.html">Bundler::Environment</a></li>
+        
+          <li><a href="./Bundler/Fetcher.html">Bundler::Fetcher</a></li>
+        
+          <li><a href="./Bundler/Fetcher/CertificateFailureError.html">Bundler::Fetcher::CertificateFailureError</a></li>
+        
+          <li><a href="./Bundler/Fetcher/FallbackError.html">Bundler::Fetcher::FallbackError</a></li>
+        
+          <li><a href="./Bundler/GemHelper.html">Bundler::GemHelper</a></li>
+        
+          <li><a href="./Bundler/GemHelpers.html">Bundler::GemHelpers</a></li>
+        
+          <li><a href="./Bundler/GemInstaller.html">Bundler::GemInstaller</a></li>
+        
+          <li><a href="./Bundler/GemNotFound.html">Bundler::GemNotFound</a></li>
+        
+          <li><a href="./Bundler/GemfileError.html">Bundler::GemfileError</a></li>
+        
+          <li><a href="./Bundler/GemfileNotFound.html">Bundler::GemfileNotFound</a></li>
+        
+          <li><a href="./Bundler/GemspecError.html">Bundler::GemspecError</a></li>
+        
+          <li><a href="./Bundler/GitError.html">Bundler::GitError</a></li>
+        
+          <li><a href="./Bundler/Graph.html">Bundler::Graph</a></li>
+        
+          <li><a href="./Bundler/Graph/GraphVizClient.html">Bundler::Graph::GraphVizClient</a></li>
+        
+          <li><a href="./Bundler/HTTPError.html">Bundler::HTTPError</a></li>
+        
+          <li><a href="./Bundler/Index.html">Bundler::Index</a></li>
+        
+          <li><a href="./Bundler/Injector.html">Bundler::Injector</a></li>
+        
+          <li><a href="./Bundler/InstallError.html">Bundler::InstallError</a></li>
+        
+          <li><a href="./Bundler/InstallHookError.html">Bundler::InstallHookError</a></li>
+        
+          <li><a href="./Bundler/Installer.html">Bundler::Installer</a></li>
+        
+          <li><a href="./Bundler/InvalidOption.html">Bundler::InvalidOption</a></li>
+        
+          <li><a href="./Bundler/InvalidSpecSet.html">Bundler::InvalidSpecSet</a></li>
+        
+          <li><a href="./Bundler/LazySpecification.html">Bundler::LazySpecification</a></li>
+        
+          <li><a href="./Bundler/LockfileError.html">Bundler::LockfileError</a></li>
+        
+          <li><a href="./Bundler/LockfileParser.html">Bundler::LockfileParser</a></li>
+        
+          <li><a href="./Bundler/MarshalError.html">Bundler::MarshalError</a></li>
+        
+          <li><a href="./Bundler/MatchPlatform.html">Bundler::MatchPlatform</a></li>
+        
+          <li><a href="./Bundler/PathError.html">Bundler::PathError</a></li>
+        
+          <li><a href="./Bundler/ProductionError.html">Bundler::ProductionError</a></li>
+        
+          <li><a href="./Bundler/RemoteSpecification.html">Bundler::RemoteSpecification</a></li>
+        
+          <li><a href="./Bundler/Resolver.html">Bundler::Resolver</a></li>
+        
+          <li><a href="./Bundler/Resolver/SpecGroup.html">Bundler::Resolver::SpecGroup</a></li>
+        
+          <li><a href="./Bundler/RubyDsl.html">Bundler::RubyDsl</a></li>
+        
+          <li><a href="./Bundler/RubyVersion.html">Bundler::RubyVersion</a></li>
+        
+          <li><a href="./Bundler/RubyVersionMismatch.html">Bundler::RubyVersionMismatch</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration.html">Bundler::RubygemsIntegration</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/AlmostModern.html">Bundler::RubygemsIntegration::AlmostModern</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/Ancient.html">Bundler::RubygemsIntegration::Ancient</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/Future.html">Bundler::RubygemsIntegration::Future</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/Gem.html">Bundler::RubygemsIntegration::Gem</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/Gem/SourceIndex.html">Bundler::RubygemsIntegration::Gem::SourceIndex</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/Legacy.html">Bundler::RubygemsIntegration::Legacy</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/Modern.html">Bundler::RubygemsIntegration::Modern</a></li>
+        
+          <li><a href="./Bundler/RubygemsIntegration/Transitional.html">Bundler::RubygemsIntegration::Transitional</a></li>
+        
+          <li><a href="./Bundler/Runtime.html">Bundler::Runtime</a></li>
+        
+          <li><a href="./Bundler/SecurityError.html">Bundler::SecurityError</a></li>
+        
+          <li><a href="./Bundler/Settings.html">Bundler::Settings</a></li>
+        
+          <li><a href="./Bundler/SharedHelpers.html">Bundler::SharedHelpers</a></li>
+        
+          <li><a href="./Bundler/SimilarityDetector.html">Bundler::SimilarityDetector</a></li>
+        
+          <li><a href="./Bundler/Source.html">Bundler::Source</a></li>
+        
+          <li><a href="./Bundler/Source/Git.html">Bundler::Source::Git</a></li>
+        
+          <li><a href="./Bundler/Source/Git/GitProxy.html">Bundler::Source::Git::GitProxy</a></li>
+        
+          <li><a href="./Bundler/Source/Path.html">Bundler::Source::Path</a></li>
+        
+          <li><a href="./Bundler/Source/Path/Installer.html">Bundler::Source::Path::Installer</a></li>
+        
+          <li><a href="./Bundler/Source/Rubygems.html">Bundler::Source::Rubygems</a></li>
+        
+          <li><a href="./Bundler/SpecSet.html">Bundler::SpecSet</a></li>
+        
+          <li><a href="./Bundler/SystemRubyVersion.html">Bundler::SystemRubyVersion</a></li>
+        
+          <li><a href="./Bundler/UI.html">Bundler::UI</a></li>
+        
+          <li><a href="./Bundler/UI/RGProxy.html">Bundler::UI::RGProxy</a></li>
+        
+          <li><a href="./Bundler/UI/Shell.html">Bundler::UI::Shell</a></li>
+        
+          <li><a href="./Bundler/VersionConflict.html">Bundler::VersionConflict</a></li>
+        
+          <li><a href="./Spec.html">Spec</a></li>
+        
+          <li><a href="./Spec/Builders.html">Spec::Builders</a></li>
+        
+          <li><a href="./Spec/Builders/DepBuilder.html">Spec::Builders::DepBuilder</a></li>
+        
+          <li><a href="./Spec/Builders/GemBuilder.html">Spec::Builders::GemBuilder</a></li>
+        
+          <li><a href="./Spec/Builders/GitBareBuilder.html">Spec::Builders::GitBareBuilder</a></li>
+        
+          <li><a href="./Spec/Builders/GitBuilder.html">Spec::Builders::GitBuilder</a></li>
+        
+          <li><a href="./Spec/Builders/GitReader.html">Spec::Builders::GitReader</a></li>
+        
+          <li><a href="./Spec/Builders/GitUpdater.html">Spec::Builders::GitUpdater</a></li>
+        
+          <li><a href="./Spec/Builders/IndexBuilder.html">Spec::Builders::IndexBuilder</a></li>
+        
+          <li><a href="./Spec/Builders/LibBuilder.html">Spec::Builders::LibBuilder</a></li>
+        
+          <li><a href="./Spec/Helpers.html">Spec::Helpers</a></li>
+        
+          <li><a href="./Spec/Indexes.html">Spec::Indexes</a></li>
+        
+          <li><a href="./Spec/Matchers.html">Spec::Matchers</a></li>
+        
+          <li><a href="./Spec/Path.html">Spec::Path</a></li>
+        
+          <li><a href="./Spec/Platforms.html">Spec::Platforms</a></li>
+        
+          <li><a href="./Spec/Rubygems.html">Spec::Rubygems</a></li>
+        
+          <li><a href="./Spec/Sudo.html">Spec::Sudo</a></li>
+        
+          <li><a href="./Gem.html">Gem</a></li>
+        
+          <li><a href="./Gem/Dependency.html">Gem::Dependency</a></li>
+        
+          <li><a href="./Gem/Platform.html">Gem::Platform</a></li>
+        
+          <li><a href="./Gem/Requirement.html">Gem::Requirement</a></li>
+        
+          <li><a href="./Gem/Specification.html">Gem::Specification</a></li>
+        
+          <li><a href="./Endpoint.html">Endpoint</a></li>
+        
+          <li><a href="./Endpoint500.html">Endpoint500</a></li>
+        
+          <li><a href="./EndpointApiMissing.html">EndpointApiMissing</a></li>
+        
+          <li><a href="./EndpointBasicAuthentication.html">EndpointBasicAuthentication</a></li>
+        
+          <li><a href="./EndpointCredsDiffHost.html">EndpointCredsDiffHost</a></li>
+        
+          <li><a href="./EndpointExtra.html">EndpointExtra</a></li>
+        
+          <li><a href="./EndpointExtraMissing.html">EndpointExtraMissing</a></li>
+        
+          <li><a href="./EndpointFallback.html">EndpointFallback</a></li>
+        
+          <li><a href="./EndpointMarshalFail.html">EndpointMarshalFail</a></li>
+        
+          <li><a href="./EndpointMarshalFailBasicAuthentication.html">EndpointMarshalFailBasicAuthentication</a></li>
+        
+          <li><a href="./EndpointRedirect.html">EndpointRedirect</a></li>
+        
+          <li><a href="./EndpointTimeout.html">EndpointTimeout</a></li>
+        
+          <li><a href="./IO.html">IO</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    
+<p>$:.unshift File.expand_path(“../lib”, __FILE__) require ‘bundler/gem_tasks’
+require ‘rubygems’ require ‘shellwords’ require ‘benchmark’</p>
+
+<p>def safe_task(&amp;block)</p>
+
+<pre>yield
+true</pre>
+
+<p>rescue</p>
+
+<pre>false</pre>
+
+<p>end</p>
+
+<p># Benchmark task execution module Rake</p>
+
+<pre>class Task
+  alias_method :real_invoke, :invoke
+
+  def invoke(*args)
+    time = Benchmark.measure(@name) do
+      real_invoke(*args)
+    end
+    puts &quot;#{@name} ran for #{time}&quot;
+  end
+end</pre>
+
+<p>end</p>
+
+<p>namespace :spec do</p>
+
+<pre>desc &quot;Ensure spec dependencies are installed&quot;
+task :deps do
+  {&quot;rdiscount&quot; =&gt; &quot;~&gt; 1.6&quot;, &quot;ronn&quot; =&gt; &quot;~&gt; 0.7.3&quot;, &quot;rspec&quot; =&gt; &quot;~&gt; 2.13&quot;}.each do |name, version|
+    sh &quot;#{Gem.ruby} -S gem list #{name} -v '#{version}' | grep '#{name}' -q || &quot; \
+       &quot;#{Gem.ruby} -S gem install #{name} -v '#{version}' --no-ri --no-rdoc&quot;
+  end
+end
+
+namespace :travis do
+  task :deps do
+    # Give the travis user a name so that git won't fatally error
+    system(&quot;sudo sed -i 's/1000::/1000:Travis:/g' /etc/passwd&quot;)
+    # Strip secure_path so that RVM paths transmit through sudo -E
+    system(&quot;sudo sed -i '/secure_path/d' /etc/sudoers&quot;)
+    # Install groff for the ronn gem
+    system(&quot;sudo apt-get install groff -y&quot;)
+    # Install the other gem deps, etc.
+    Rake::Task[&quot;spec:deps&quot;].invoke
+  end
+end</pre>
+
+<p>end</p>
+
+<p>begin</p>
+
+<pre># running the specs needs both rspec and ronn
+require 'rspec/core/rake_task'
+require 'ronn'
+
+desc &quot;Run specs&quot;
+RSpec::Core::RakeTask.new do |t|
+  t.rspec_opts = %w(-fs --color)
+  t.ruby_opts  = %w(-w)
+end
+task :spec =&gt; &quot;man:build&quot;
+
+namespace :spec do
+  task :clean do
+    rm_rf 'tmp'
+  end
+
+  desc &quot;Run the real-world spec suite (requires internet)&quot;
+  task :realworld =&gt; [&quot;set_realworld&quot;, &quot;spec&quot;]
+
+  task :set_realworld do
+    ENV['BUNDLER_REALWORLD_TESTS'] = '1'
+  end
+
+  desc &quot;Run the spec suite with the sudo tests&quot;
+  task :sudo =&gt; [&quot;set_sudo&quot;, &quot;spec&quot;, &quot;clean_sudo&quot;]
+
+  task :set_sudo do
+    ENV['BUNDLER_SUDO_TESTS'] = '1'
+  end
+
+  task :clean_sudo do
+    puts &quot;Cleaning up sudo test files...&quot;
+    system &quot;sudo rm -rf #{File.expand_path('../tmp/sudo_gem_home', __FILE__)}&quot;
+  end
+
+  namespace :rubygems do
+    # Rubygems specs by version
+    rubyopt = ENV[&quot;RUBYOPT&quot;]
+    %w(master v1.3.6 v1.3.7 v1.4.2 v1.5.3 v1.6.2 v1.7.2 v1.8.25 v2.0.0).each do |rg|
+      desc &quot;Run specs with Rubygems #{rg}&quot;
+      RSpec::Core::RakeTask.new(rg) do |t|
+        t.rspec_opts = %w(-fs --color)
+        t.ruby_opts  = %w(-w)
+      end
+
+      # Create tasks like spec:rubygems:v1.8.3:sudo to run the sudo specs
+      namespace rg do
+        task :sudo =&gt; [&quot;set_sudo&quot;, rg, &quot;clean_sudo&quot;]
+        task :realworld =&gt; [&quot;set_realworld&quot;, rg]
+      end
+
+      task &quot;clone_rubygems_#{rg}&quot; do
+        unless File.directory?(&quot;tmp/rubygems&quot;)
+          system(&quot;git clone git://github.com/rubygems/rubygems.git tmp/rubygems&quot;)
+        end
+        hash = nil
+
+        Dir.chdir(&quot;tmp/rubygems&quot;) do
+          system(&quot;git remote update&quot;)
+          if rg == &quot;master&quot;
+            system(&quot;git checkout origin/master&quot;)
+          else
+            system(&quot;git checkout #{rg}&quot;)
+          end
+          hash = `git rev-parse HEAD`.chomp
+        end
+
+        puts &quot;Checked out rubygems '#{rg}' at #{hash}&quot;
+        ENV[&quot;RUBYOPT&quot;] = &quot;-I#{File.expand_path(&quot;tmp/rubygems/lib&quot;)} #{rubyopt}&quot;
+        puts &quot;RUBYOPT=#{ENV['RUBYOPT']}&quot;
+      end
+
+      task rg =&gt; [&quot;clone_rubygems_#{rg}&quot;, &quot;man:build&quot;]
+      task &quot;rubygems:all&quot; =&gt; rg
+    end
+
+    desc &quot;Run specs under a Rubygems checkout (set RG=path)&quot;
+    RSpec::Core::RakeTask.new(&quot;co&quot;) do |t|
+      t.rspec_opts = %w(-fs --color)
+      t.ruby_opts  = %w(-w)
+    end
+
+    task &quot;setup_co&quot; do
+      ENV[&quot;RUBYOPT&quot;] = &quot;-I#{File.expand_path ENV['RG']} #{rubyopt}&quot;
+    end
+
+    task &quot;co&quot; =&gt; &quot;setup_co&quot;
+    task &quot;rubygems:all&quot; =&gt; &quot;co&quot;
+  end
+
+  desc &quot;Run the tests on Travis CI against a rubygem version (using ENV['RGV'])&quot;
+  task :travis do
+    rg = ENV['RGV'] || 'v1.8.24'
+
+    puts &quot;\n\e[1;33m[Travis CI] Running bundler specs against rubygems #{rg}\e[m\n\n&quot;
+    specs = safe_task { Rake::Task[&quot;spec:rubygems:#{rg}&quot;].invoke }
+
+    Rake::Task[&quot;spec:rubygems:#{rg}&quot;].reenable
+
+    puts &quot;\n\e[1;33m[Travis CI] Running bundler sudo specs against rubygems #{rg}\e[m\n\n&quot;
+    sudos = system(&quot;sudo -E rake spec:rubygems:#{rg}:sudo&quot;)
+    # clean up by chowning the newly root-owned tmp directory back to the travis user
+    system(&quot;sudo chown -R #{ENV['USER']} #{File.join(File.dirname(__FILE__), 'tmp')}&quot;)
+
+    Rake::Task[&quot;spec:rubygems:#{rg}&quot;].reenable
+
+    puts &quot;\n\e[1;33m[Travis CI] Running bundler real world specs against rubygems #{rg}\e[m\n\n&quot;
+    realworld = safe_task { Rake::Task[&quot;spec:rubygems:#{rg}:realworld&quot;].invoke }
+
+    {&quot;specs&quot; =&gt; specs, &quot;sudo&quot; =&gt; sudos, &quot;realworld&quot; =&gt; realworld}.each do |name, passed|
+      if passed
+        puts &quot;\e[0;32m[Travis CI] #{name} passed\e[m&quot;
+      else
+        puts &quot;\e[0;31m[Travis CI] #{name} failed\e[m&quot;
+      end
+    end
+
+    unless specs &amp;&amp; sudos &amp;&amp; realworld
+      fail &quot;Spec run failed, please review the log for more information&quot;
+    end
+  end
+end</pre>
+
+<p>rescue LoadError</p>
+
+<pre>task :spec do
+  abort &quot;Run `rake spec:deps` to be able to run the specs&quot;
+end</pre>
+
+<p>end</p>
+
+<p>begin</p>
+
+<pre>require 'ronn'
+
+namespace :man do
+  directory &quot;lib/bundler/man&quot;
+
+  Dir[&quot;man/*.ronn&quot;].each do |ronn|
+    basename = File.basename(ronn, &quot;.ronn&quot;)
+    roff = &quot;lib/bundler/man/#{basename}&quot;
+
+    file roff =&gt; [&quot;lib/bundler/man&quot;, ronn] do
+      sh &quot;#{Gem.ruby} -S ronn --roff --pipe #{ronn} &gt; #{roff}&quot;
+    end
+
+    file &quot;#{roff}.txt&quot; =&gt; roff do
+      sh &quot;groff -Wall -mtty-char -mandoc -Tascii #{roff} | col -b &gt; #{roff}.txt&quot;
+    end
+
+    task :build_all_pages =&gt; &quot;#{roff}.txt&quot;
+  end
+
+  desc &quot;Build the man pages&quot;
+  task :build =&gt; &quot;man:build_all_pages&quot;
+
+  desc &quot;Clean up from the built man pages&quot;
+  task :clean do
+    rm_rf &quot;lib/bundler/man&quot;
+  end
+end</pre>
+
+<p>rescue LoadError</p>
+
+<pre>namespace :man do
+  task(:build) { abort &quot;Install the ronn gem to be able to release!&quot; }
+  task(:clean) { abort &quot;Install the ronn gem to be able to release!&quot; }
+end</pre>
+
+<p>end</p>
+
+<p>task :build =&gt; [“man:clean”, “man:build”] task :release =&gt;
+[“man:clean”, “man:build”]</p>
+
+<p>namespace :vendor do</p>
+
+<pre>desc &quot;Build the vendor dir&quot;
+task :build =&gt; :clean do
+  sh &quot;git clone git://github.com/wycats/thor.git lib/bundler/vendor/tmp&quot;
+  sh &quot;mv lib/bundler/vendor/tmp/lib/* lib/bundler/vendor/&quot;
+  rm_rf &quot;lib/bundler/vendor/tmp&quot;
+end
+
+desc &quot;Clean the vendor dir&quot;
+task :clean do
+  rm_rf &quot;lib/bundler/vendor&quot;
+end</pre>
+
+<p>end</p>
+
+<p>task :default =&gt; :spec</p>
+
+  </div>
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+</body>
+</html>
+

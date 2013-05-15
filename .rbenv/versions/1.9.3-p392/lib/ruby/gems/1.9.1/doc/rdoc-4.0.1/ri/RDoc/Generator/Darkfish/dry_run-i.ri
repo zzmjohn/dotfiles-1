@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"dry_run:EFI"&RDoc::Generator::Darkfish#dry_run;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"3No files will be written when dry_run is true.;T:
+@file0FI"#lib/rdoc/generator/darkfish.rb;T

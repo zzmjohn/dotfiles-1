@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Module: Minitest</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="module">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./lib/minitest/assertions_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/minitest/assertions.rb">lib/minitest/assertions.rb</a></li>
+          
+            <li><a href="./lib/minitest/pride_plugin_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/minitest/pride_plugin.rb">lib/minitest/pride_plugin.rb</a></li>
+          
+            <li><a href="./lib/minitest/benchmark_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/minitest/benchmark.rb">lib/minitest/benchmark.rb</a></li>
+          
+            <li><a href="./lib/minitest/mock_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/minitest/mock.rb">lib/minitest/mock.rb</a></li>
+          
+            <li><a href="./lib/minitest/test_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/minitest/test.rb">lib/minitest/test.rb</a></li>
+          
+            <li><a href="./lib/minitest/parallel_each_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/minitest/parallel_each.rb">lib/minitest/parallel_each.rb</a></li>
+          
+            <li><a href="./lib/minitest_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/minitest.rb">lib/minitest.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+
+      
+
+      
+      <!-- Namespace Contents -->
+      <div id="namespace-list-section" class="section">
+        <h3 class="section-header">Namespace</h3>
+        <ul class="link-list">
+          
+          <li><span class="type">MODULE</span> <a href="Minitest/Assertions.html">Minitest::Assertions</a></li>
+          
+          <li><span class="type">MODULE</span> <a href="Minitest/Expectations.html">Minitest::Expectations</a></li>
+          
+          <li><span class="type">MODULE</span> <a href="Minitest/Guard.html">Minitest::Guard</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Assertion.html">Minitest::Assertion</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/BacktraceFilter.html">Minitest::BacktraceFilter</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/BenchSpec.html">Minitest::BenchSpec</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Benchmark.html">Minitest::Benchmark</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/CompositeReporter.html">Minitest::CompositeReporter</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Mock.html">Minitest::Mock</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/ParallelEach.html">Minitest::ParallelEach</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/PrideIO.html">Minitest::PrideIO</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/PrideLOL.html">Minitest::PrideLOL</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Reporter.html">Minitest::Reporter</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Runnable.html">Minitest::Runnable</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Skip.html">Minitest::Skip</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Spec.html">Minitest::Spec</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/Test.html">Minitest::Test</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Minitest/UnexpectedError.html">Minitest::UnexpectedError</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-__run">::__run</a></li>
+          
+          <li><a href="#method-c-after_run">::after_run</a></li>
+          
+          <li><a href="#method-c-autorun">::autorun</a></li>
+          
+          <li><a href="#method-c-run">::run</a></li>
+          
+          <li><a href="#method-i-unknown">#unknown</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./History_txt.html">History.txt</a></li>
+        
+          <li class="file"><a href="./Manifest_txt.html">Manifest.txt</a></li>
+        
+          <li class="file"><a href="./README_txt.html">README.txt</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Minitest.html">Minitest</a></li>
+        
+          <li><a href="./Minitest/Assertion.html">Minitest::Assertion</a></li>
+        
+          <li><a href="./Minitest/Assertions.html">Minitest::Assertions</a></li>
+        
+          <li><a href="./Minitest/BacktraceFilter.html">Minitest::BacktraceFilter</a></li>
+        
+          <li><a href="./Minitest/BenchSpec.html">Minitest::BenchSpec</a></li>
+        
+          <li><a href="./Minitest/Benchmark.html">Minitest::Benchmark</a></li>
+        
+          <li><a href="./Minitest/CompositeReporter.html">Minitest::CompositeReporter</a></li>
+        
+          <li><a href="./Minitest/Expectations.html">Minitest::Expectations</a></li>
+        
+          <li><a href="./Minitest/Guard.html">Minitest::Guard</a></li>
+        
+          <li><a href="./Minitest/Mock.html">Minitest::Mock</a></li>
+        
+          <li><a href="./Minitest/ParallelEach.html">Minitest::ParallelEach</a></li>
+        
+          <li><a href="./Minitest/PrideIO.html">Minitest::PrideIO</a></li>
+        
+          <li><a href="./Minitest/PrideLOL.html">Minitest::PrideLOL</a></li>
+        
+          <li><a href="./Minitest/Reporter.html">Minitest::Reporter</a></li>
+        
+          <li><a href="./Minitest/Runnable.html">Minitest::Runnable</a></li>
+        
+          <li><a href="./Minitest/Skip.html">Minitest::Skip</a></li>
+        
+          <li><a href="./Minitest/Spec.html">Minitest::Spec</a></li>
+        
+          <li><a href="./Minitest/Spec/DSL.html">Minitest::Spec::DSL</a></li>
+        
+          <li><a href="./Minitest/Test.html">Minitest::Test</a></li>
+        
+          <li><a href="./Minitest/Test/LifecycleHooks.html">Minitest::Test::LifecycleHooks</a></li>
+        
+          <li><a href="./Minitest/UnexpectedError.html">Minitest::UnexpectedError</a></li>
+        
+          <li><a href="./TestMinitestRunner.html">TestMinitestRunner</a></li>
+        
+          <li><a href="./TestMinitestRunner/Latch.html">TestMinitestRunner::Latch</a></li>
+        
+          <li><a href="./AnError.html">AnError</a></li>
+        
+          <li><a href="./ExampleA.html">ExampleA</a></li>
+        
+          <li><a href="./ExampleB.html">ExampleB</a></li>
+        
+          <li><a href="./ImmutableString.html">ImmutableString</a></li>
+        
+          <li><a href="./Kernel.html">Kernel</a></li>
+        
+          <li><a href="./MetaMetaMetaTestCase.html">MetaMetaMetaTestCase</a></li>
+        
+          <li><a href="./MiniSpecA.html">MiniSpecA</a></li>
+        
+          <li><a href="./MiniSpecB.html">MiniSpecB</a></li>
+        
+          <li><a href="./MiniSpecC.html">MiniSpecC</a></li>
+        
+          <li><a href="./MockExpectationError.html">MockExpectationError</a></li>
+        
+          <li><a href="./Module.html">Module</a></li>
+        
+          <li><a href="./MyModule.html">MyModule</a></li>
+        
+          <li><a href="./NamedExampleA.html">NamedExampleA</a></li>
+        
+          <li><a href="./NamedExampleB.html">NamedExampleB</a></li>
+        
+          <li><a href="./NamedExampleC.html">NamedExampleC</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+          <li><a href="./SubThingySpec.html">SubThingySpec</a></li>
+        
+          <li><a href="./TestMeta.html">TestMeta</a></li>
+        
+          <li><a href="./TestMetaStatic.html">TestMetaStatic</a></li>
+        
+          <li><a href="./TestMinitestBenchmark.html">TestMinitestBenchmark</a></li>
+        
+          <li><a href="./TestMinitestGuard.html">TestMinitestGuard</a></li>
+        
+          <li><a href="./TestMinitestMock.html">TestMinitestMock</a></li>
+        
+          <li><a href="./TestMinitestReporter.html">TestMinitestReporter</a></li>
+        
+          <li><a href="./TestMinitestRunnable.html">TestMinitestRunnable</a></li>
+        
+          <li><a href="./TestMinitestStub.html">TestMinitestStub</a></li>
+        
+          <li><a href="./TestMinitestTest.html">TestMinitestTest</a></li>
+        
+          <li><a href="./TestMinitestUnit.html">TestMinitestUnit</a></li>
+        
+          <li><a href="./TestMinitestUnitInherited.html">TestMinitestUnitInherited</a></li>
+        
+          <li><a href="./TestMinitestUnitOrder.html">TestMinitestUnitOrder</a></li>
+        
+          <li><a href="./TestMinitestUnitRecording.html">TestMinitestUnitRecording</a></li>
+        
+          <li><a href="./TestMinitestUnitTestCase.html">TestMinitestUnitTestCase</a></li>
+        
+          <li><a href="./TestSpecInTestCase.html">TestSpecInTestCase</a></li>
+        
+          <li><a href="./ThingySpec.html">ThingySpec</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="module">Minitest</h1>
+
+    <div id="description" class="description">
+      
+<h1>minitest/{unit,spec,mock,benchmark}</h1>
+<table class="rdoc-list"><tr><td class="rdoc-term"><p>home </p></td>
+<td>
+<p><a
+href="https://github.com/seattlerb/minitest">github.com/seattlerb/minitest</a></p>
+</td></tr><tr><td class="rdoc-term"><p>rdoc </p></td>
+<td>
+<p><a
+href="http://docs.seattlerb.org/minitest">docs.seattlerb.org/minitest</a></p>
+</td></tr><tr><td class="rdoc-term"><p>vim  </p></td>
+<td>
+<p><a
+href="https://github.com/sunaku/vim-ruby-minitest">github.com/sunaku/vim-ruby-minitest</a></p>
+</td></tr></table>
+
+<h2>DESCRIPTION:</h2>
+
+<p>minitest provides a complete suite of testing facilities supporting TDD,
+BDD, mocking, and benchmarking.</p>
+
+<pre>&quot;I had a class with Jim Weirich on testing last week and we were
+ allowed to choose our testing frameworks. Kirk Haines and I were
+ paired up and we cracked open the code for a few test
+ frameworks...
+
+ I MUST say that minitest is *very* readable / understandable
+ compared to the 'other two' options we looked at. Nicely done and
+ thank you for helping us keep our mental sanity.&quot;
+
+-- Wayne E. Seguin</pre>
+
+<p>minitest/unit is a small and incredibly fast unit testing framework. It
+provides a rich set of assertions to make your tests clean and readable.</p>
+
+<p>minitest/spec is a functionally complete spec engine. It hooks onto
+minitest/unit and seamlessly bridges test assertions over to spec
+expectations.</p>
+
+<p>minitest/benchmark is an awesome way to assert the performance of your
+algorithms in a repeatable manner. Now you can assert that your newb
+co-worker doesn’t replace your linear algorithm with an exponential one!</p>
+
+<p>minitest/mock by Steven Baker, is a beautifully tiny mock (and stub) object
+framework.</p>
+
+<p>minitest/pride shows pride in testing and adds coloring to your test
+output. I guess it is an example of how to write IO pipes too. :P</p>
+
+<p>minitest/unit is meant to have a clean implementation for language
+implementors that need a minimal set of methods to bootstrap a working test
+suite. For example, there is no magic involved for test-case discovery.</p>
+
+<pre>&quot;Again, I can't praise enough the idea of a testing/specing
+ framework that I can actually read in full in one sitting!&quot;
+
+-- Piotr Szotkowski</pre>
+
+<p>Comparing to rspec:</p>
+
+<pre>rspec is a testing DSL. minitest is ruby.
+
+-- Adam Hawkins, &quot;Bow Before MiniTest&quot;</pre>
+
+<p>minitest doesn’t reinvent anything that ruby already provides, like:
+classes, modules, inheritance, methods. This means you only have to learn
+ruby to use minitest and all of your regular OO practices like
+extract-method refactorings still apply.</p>
+
+<h2>FEATURES/PROBLEMS:</h2>
+<ul><li>
+<p>minitest/autorun - the easy and explicit way to run all your tests.</p>
+</li><li>
+<p>minitest/unit - a very fast, simple, and clean test system.</p>
+</li><li>
+<p>minitest/spec - a very fast, simple, and clean spec system.</p>
+</li><li>
+<p>minitest/mock - a simple and clean mock/stub system.</p>
+</li><li>
+<p>minitest/benchmark - an awesome way to assert your algorithm’s performance.</p>
+</li><li>
+<p>minitest/pride - show your pride in testing!</p>
+</li><li>
+<p>Incredibly small and fast runner, but no bells and whistles.</p>
+</li></ul>
+
+<h2>RATIONALE:</h2>
+
+<p>See <a href="design_rationale_rb.html">design_rationale.rb</a> to see how
+specs and tests work in minitest.</p>
+
+<h2>SYNOPSIS:</h2>
+
+<p>Given that you’d like to test the following class:</p>
+
+<pre>class Meme
+  def i_can_has_cheezburger?
+    &quot;OHAI!&quot;
+  end
+
+  def will_it_blend?
+    &quot;YES!&quot;
+  end
+end</pre>
+
+<h3>Unit tests</h3>
+
+<pre>require &quot;minitest/autorun&quot;
+
+class TestMeme &lt; Minitest::Test
+  def setup
+    @meme = Meme.new
+  end
+
+  def test_that_kitty_can_eat
+    assert_equal &quot;OHAI!&quot;, @meme.i_can_has_cheezburger?
+  end
+
+  def test_that_it_will_not_blend
+    refute_match /^no/i, @meme.will_it_blend?
+  end
+
+  def test_that_will_be_skipped
+    skip &quot;test this later&quot;
+  end
+end</pre>
+
+<h3>Specs</h3>
+
+<pre>require &quot;minitest/autorun&quot;
+
+describe Meme do
+  before do
+    @meme = Meme.new
+  end
+
+  describe &quot;when asked about cheeseburgers&quot; do
+    it &quot;must respond positively&quot; do
+      @meme.i_can_has_cheezburger?.must_equal &quot;OHAI!&quot;
+    end
+  end
+
+  describe &quot;when asked about blending possibilities&quot; do
+    it &quot;won't say no&quot; do
+      @meme.will_it_blend?.wont_match /^no/i
+    end
+  end
+end</pre>
+
+<p>For matchers support check out:</p>
+
+<p><a
+href="https://github.com/zenspider/minitest-matchers">github.com/zenspider/minitest-matchers</a></p>
+
+<h3>Benchmarks</h3>
+
+<p>Add benchmarks to your tests.</p>
+
+<pre># optionally run benchmarks, good for CI-only work!
+require &quot;minitest/benchmark&quot; if ENV[&quot;BENCH&quot;]
+
+class TestMeme &lt; Minitest::Benchmark
+  # Override self.bench_range or default range is [1, 10, 100, 1_000, 10_000]
+  def bench_my_algorithm
+    assert_performance_linear 0.9999 do |n| # n is a range value
+      @obj.my_algorithm(n)
+    end
+  end
+end</pre>
+
+<p>Or add them to your specs. If you make benchmarks optional, you’ll need to
+wrap your benchmarks in a conditional since the methods won’t be defined.
+In minitest 5, the describe name needs to match /Bench(mark)?$/.</p>
+
+<pre>describe &quot;Meme Benchmark&quot; do
+  if ENV[&quot;BENCH&quot;] then
+    bench_performance_linear &quot;my_algorithm&quot;, 0.9999 do |n|
+      100.times do
+        @obj.my_algorithm(n)
+      end
+    end
+  end
+end</pre>
+
+<p>outputs something like:</p>
+
+<pre># Running benchmarks:
+
+TestBlah    100     1000    10000
+bench_my_algorithm   0.006167        0.079279        0.786993
+bench_other_algorithm        0.061679        0.792797        7.869932</pre>
+
+<p>Output is tab-delimited to make it easy to paste into a spreadsheet.</p>
+
+<h3>Mocks</h3>
+
+<pre>class MemeAsker
+  def initialize(meme)
+    @meme = meme
+  end
+
+  def ask(question)
+    method = question.tr(&quot; &quot;,&quot;_&quot;) + &quot;?&quot;
+    @meme.__send__(method)
+  end
+end
+
+require &quot;minitest/autorun&quot;
+
+describe MemeAsker do
+  before do
+    @meme = MiniTest::Mock.new
+    @meme_asker = MemeAsker.new @meme
+  end
+
+  describe &quot;#ask&quot; do
+    describe &quot;when passed an unpunctuated question&quot; do
+      it &quot;should invoke the appropriate predicate method on the meme&quot; do
+        @meme.expect :will_it_blend?, :return_value
+        @meme_asker.ask &quot;will it blend&quot;
+        @meme.verify
+      end
+    end
+  end
+end</pre>
+
+<h3>Stubs</h3>
+
+<pre>def test_stale_eh
+  obj_under_test = Something.new
+
+  refute obj_under_test.stale?
+
+  Time.stub :now, Time.at(0) do   # stub goes away once the block is done
+    assert obj_under_test.stale?
+  end
+end</pre>
+
+<p>A note on stubbing: In order to stub a method, the method must actually
+exist prior to stubbing. Use a singleton method to create a new
+non-existing method:</p>
+
+<pre>def obj_under_test.fake_method
+  ...
+end</pre>
+
+<h2>Writing Extensions</h2>
+
+<p>To define a plugin, add a file named minitest/XXX_plugin.rb to your
+project/gem. <a href="Minitest.html">Minitest</a> will find and require
+that file using Gem.find_files. It will then try to call plugin_XXX_init
+during startup. The option processor will also try to call
+plugin_XXX_options passing the OptionParser instance and the current
+options hash. This lets you register your own command-line options. Here’s
+a totally bogus example:</p>
+
+<pre># minitest/bogus_plugin.rb:
+
+module Minitest
+  def self.plugin_bogus_options(opts, options)
+    opts.on &quot;--myci&quot;, &quot;Report results to my CI&quot; do
+      options[:myci] = true
+    end
+  end
+
+  def self.plugin_bogus_init
+    ARGV &lt;&lt; &quot;-p&quot; # all pride, all the time
+    self.reporter &lt;&lt; MyCI.new if options[:myci]
+  end
+end</pre>
+
+<h2>FAQ</h2>
+
+<h3>How to test SimpleDelegates?</h3>
+
+<p>The following implementation and test:</p>
+
+<pre>class Worker &lt; SimpleDelegator
+  def work
+  end
+end
+
+describe Worker do
+  before do
+    @worker = Worker.new(Object.new)
+  end
+
+  it &quot;must respond to work&quot; do
+    @worker.must_respond_to :work
+  end
+end</pre>
+
+<p>outputs a failure:</p>
+
+<pre>  1) Failure:
+Worker#test_0001_must respond to work [bug11.rb:16]:
+Expected #&lt;Object:0x007f9e7184f0a0&gt; (Object) to respond to #work.</pre>
+
+<p>Worker is a SimpleDelegate which in 1.9+ is a subclass of BasicObject. <a
+href="Minitest/Expectations.html">Expectations</a> are put on <a
+href="Object.html">Object</a> (one level down) so the Worker
+(SimpleDelegate) hits `method_missing` and delegates down to the
+`Object.new` instance. That object doesn’t respond to work so the test
+fails.</p>
+
+<p>You can bypass `SimpleDelegate#method_missing` by extending the worker with
+`MiniTest::Expectations`. You can either do that in your setup at the
+instance level, like:</p>
+
+<pre>before do
+  @worker = Worker.new(Object.new)
+  @worker.extend MiniTest::Expectations
+end</pre>
+
+<p>or you can extend the Worker class (within the test file!), like:</p>
+
+<pre>class Worker
+  include ::MiniTest::Expectations
+end</pre>
+
+<h3>How to share code across test classes?</h3>
+
+<p>Use a module. That’s exactly what they’re for:</p>
+
+<pre>module UsefulStuff
+  def useful_method
+    # ...
+  end
+end
+
+describe Blah do
+  include UsefulStuff
+
+  def test_whatever
+    # useful_method available here
+  end
+end</pre>
+
+<p>Remember, `describe` simply creates test classes. It’s just ruby at the end
+of the day and all your normal Good Ruby Rules (tm) apply. If you want to
+extend your test using setup/teardown via a module, just make sure you
+ALWAYS call super. before/after automatically call super for you, so make
+sure you don’t do it twice.</p>
+
+<h2>Known Extensions:</h2>
+<table class="rdoc-list"><tr><td class="rdoc-term"><p>capybara_minitest_spec      </p></td>
+<td>
+<p>Bridge between Capybara RSpec matchers and MiniTest::Spec expectations
+(e.g. page.must_have_content(“Title”)).</p>
+</td></tr><tr><td class="rdoc-term"><p>minispec-metadata           </p></td>
+<td>
+<p>Metadata for describe/it blocks (e.g. `it “requires JS driver”, js: true
+do`)</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-ansi               </p></td>
+<td>
+<p>Colorize minitest output with ANSI colors.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-around             </p></td>
+<td>
+<p>Around block for minitest. An alternative to setup/teardown dance.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-capistrano         </p></td>
+<td>
+<p><a href="Minitest/Assertions.html">Assertions</a> and expectations for
+testing Capistrano recipes</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-capybara           </p></td>
+<td>
+<p>Capybara matchers support for minitest unit and spec</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-chef-handler       </p></td>
+<td>
+<p>Run <a href="Minitest.html">Minitest</a> suites as Chef report handlers</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-ci                 </p></td>
+<td>
+<p>CI reporter plugin for MiniTest.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-colorize           </p></td>
+<td>
+<p>Colorize MiniTest output and show failing tests instantly.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-context            </p></td>
+<td>
+<p>Defines contexts for code reuse in MiniTest specs that share common
+expectations.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-debugger           </p></td>
+<td>
+<p>Wraps assert so failed assertions drop into the ruby debugger.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-display            </p></td>
+<td>
+<p>Patches MiniTest to allow for an easily configurable output.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-emoji              </p></td>
+<td>
+<p>Print out emoji for your test passes, fails, and skips.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-english            </p></td>
+<td>
+<p>Semantically symmetric aliases for assertions and expectations.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-excludes           </p></td>
+<td>
+<p>Clean API for excluding certain tests you don’t want to run under certain
+conditions.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-firemock           </p></td>
+<td>
+<p>Makes your MiniTest mocks more resilient.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-great_expectations </p></td>
+<td>
+<p>Generally useful additions to minitest’s assertions and expectations</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-growl              </p></td>
+<td>
+<p><a href="Minitest/Test.html">Test</a> notifier for minitest via growl.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-implicit-subject   </p></td>
+<td>
+<p>Implicit declaration of the test subject.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-instrument         </p></td>
+<td>
+<p>Instrument ActiveSupport::Notifications when test method is executed</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-instrument-db      </p></td>
+<td>
+<p>Store information about speed of test execution provided by
+minitest-instrument in database</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-libnotify          </p></td>
+<td>
+<p><a href="Minitest/Test.html">Test</a> notifier for minitest via libnotify.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-macruby            </p></td>
+<td>
+<p>Provides extensions to minitest for macruby UI testing.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-matchers           </p></td>
+<td>
+<p>Adds support for RSpec-style matchers to minitest.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-metadata           </p></td>
+<td>
+<p>Annotate tests with metadata (key-value).</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-mongoid            </p></td>
+<td>
+<p>Mongoid assertion matchers for MiniTest</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-must_not           </p></td>
+<td>
+<p>Provides must_not as an alias for wont in MiniTest</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-nc                 </p></td>
+<td>
+<p><a href="Minitest/Test.html">Test</a> notifier for minitest via Mountain
+Lion's Notification Center</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-predicates         </p></td>
+<td>
+<p>Adds support for .predicate? methods</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-rails              </p></td>
+<td>
+<p>MiniTest integration for Rails 3.x</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-rails-capybara     </p></td>
+<td>
+<p>Capybara integration for MiniTest::Rails</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-reporters          </p></td>
+<td>
+<p>Create customizable MiniTest output formats</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-should_syntax      </p></td>
+<td>
+<p>RSpec-style +x.should == y+ assertions for MiniTest</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-shouldify          </p></td>
+<td>
+<p>Adding all manner of shoulds to MiniTest (bad idea)</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-spec-context       </p></td>
+<td>
+<p>Provides rspec-ish context method to MiniTest::Spec</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-spec-magic         </p></td>
+<td>
+<p><a href="Minitest/Spec.html">Minitest::Spec</a> extensions for Rails and
+beyond</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-spec-rails         </p></td>
+<td>
+<p>Drop in MiniTest::Spec superclass for ActiveSupport::TestCase.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-stub-const         </p></td>
+<td>
+<p>Stub constants for the duration of a block</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-tags               </p></td>
+<td>
+<p>add tags for minitest</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest-wscolor            </p></td>
+<td>
+<p>Yet another test colorizer.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest_owrapper           </p></td>
+<td>
+<p>Get tests results as a TestResult object.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest_should             </p></td>
+<td>
+<p>Shoulda style syntax for minitest test::unit.</p>
+</td></tr><tr><td class="rdoc-term"><p>minitest_tu_shim            </p></td>
+<td>
+<p>minitest_tu_shim bridges between test/unit and minitest.</p>
+</td></tr><tr><td class="rdoc-term"><p>mongoid-minitest            </p></td>
+<td>
+<p>MiniTest matchers for Mongoid.</p>
+</td></tr><tr><td class="rdoc-term"><p>pry-rescue                  </p></td>
+<td>
+<p>A pry plugin w/ minitest support. See pry-rescue/minitest.rb.</p>
+</td></tr></table>
+
+<h2>Unknown Extensions:</h2>
+
+<p>Authors… Please send me a pull request with a description of your minitest
+extension.</p>
+<ul><li>
+<p>assay-minitest</p>
+</li><li>
+<p>detroit-minitest</p>
+</li><li>
+<p>em-minitest-spec</p>
+</li><li>
+<p>flexmock-minitest</p>
+</li><li>
+<p>guard-minitest</p>
+</li><li>
+<p>guard-minitest-decisiv</p>
+</li><li>
+<p>minitest-activemodel</p>
+</li><li>
+<p>minitest-ar-assertions</p>
+</li><li>
+<p>minitest-capybara-unit</p>
+</li><li>
+<p>minitest-colorer</p>
+</li><li>
+<p>minitest-deluxe</p>
+</li><li>
+<p>minitest-extra-assertions</p>
+</li><li>
+<p>minitest-rails-shoulda</p>
+</li><li>
+<p>minitest-spec</p>
+</li><li>
+<p>minitest-spec-should</p>
+</li><li>
+<p>minitest-sugar</p>
+</li><li>
+<p>minitest_should</p>
+</li><li>
+<p>mongoid-minitest</p>
+</li><li>
+<p>spork-minitest</p>
+</li></ul>
+
+<h2>REQUIREMENTS:</h2>
+<ul><li>
+<p>Ruby 1.8, maybe even 1.6 or lower. No magic is involved.</p>
+</li></ul>
+
+<h2>INSTALL:</h2>
+
+<pre>sudo gem install minitest</pre>
+
+<p>On 1.9, you already have it. To get newer candy you can still install the
+gem, and then requiring “minitest/autorun” should automatically pull it in.
+If not, you’ll need to do it yourself:</p>
+
+<pre>gem &quot;minitest&quot;     # ensures you&quot;re using the gem, and not the built-in MT
+require &quot;minitest/autorun&quot;
+
+# ... usual testing stuffs ...</pre>
+
+<p>DO NOTE: There is a serious problem with the way that ruby 1.9/2.0 packages
+their own gems. They install a gem specification file, but don’t install
+the gem contents in the gem path. This messes up Gem.find_files and many
+other things (gem which, gem contents, etc).</p>
+
+<p>Just install minitest as a gem for real and you’ll be happier.</p>
+
+<h2>LICENSE:</h2>
+
+<p>(The MIT License)</p>
+
+<p>Copyright © Ryan Davis, seattle.rb</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the ‘Software’),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.</p>
+
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="__run-method" class="method-detail ">
+          <a name="method-c-__run"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">__run</span><span
+              class="method-args">(reporter, options)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Runs all the <tt>suites</tt> for a given <tt>type</tt>. Runs suites
+declaring a test_order of <tt>:parallel</tt> in parallel, and everything
+else serial.</p>
+            
+
+            
+            <div class="method-source-code" id="__run-source">
+<pre>
+<span class="ruby-comment"># File lib/minitest/parallel_each.rb, line 113</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">__run</span> <span class="ruby-identifier">reporter</span>, <span class="ruby-identifier">options</span>
+  <span class="ruby-identifier">suites</span> = <span class="ruby-constant">Runnable</span>.<span class="ruby-identifier">runnables</span>
+  <span class="ruby-identifier">parallel</span>, <span class="ruby-identifier">serial</span> = <span class="ruby-identifier">suites</span>.<span class="ruby-identifier">partition</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">test_order</span> <span class="ruby-operator">==</span> <span class="ruby-value">:parallel</span> }
+
+  <span class="ruby-constant">ParallelEach</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">parallel</span>).<span class="ruby-identifier">map</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">suite</span><span class="ruby-operator">|</span> <span class="ruby-identifier">suite</span>.<span class="ruby-identifier">run</span> <span class="ruby-identifier">reporter</span>, <span class="ruby-identifier">options</span> } <span class="ruby-operator">+</span>
+   <span class="ruby-identifier">serial</span>.<span class="ruby-identifier">map</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">suite</span><span class="ruby-operator">|</span> <span class="ruby-identifier">suite</span>.<span class="ruby-identifier">run</span> <span class="ruby-identifier">reporter</span>, <span class="ruby-identifier">options</span> }
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- __run-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- __run-method -->
+
+      
+        <div id="after_run-method" class="method-detail ">
+          <a name="method-c-after_run"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">after_run</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>A simple hook allowing you to run a block of code after everything is done
+running. Eg:</p>
+
+<pre>Minitest.after_run { p $debugging_info }</pre>
+            
+
+            
+            <div class="method-source-code" id="after_run-source">
+<pre>
+<span class="ruby-comment"># File lib/minitest.rb, line 57</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">after_run</span> &amp;<span class="ruby-identifier">block</span>
+  <span class="ruby-identifier">@@after_run</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">block</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- after_run-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- after_run-method -->
+
+      
+        <div id="autorun-method" class="method-detail ">
+          <a name="method-c-autorun"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">autorun</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Registers <a href="Minitest.html">Minitest</a> to run at process exit</p>
+            
+
+            
+            <div class="method-source-code" id="autorun-source">
+<pre>
+<span class="ruby-comment"># File lib/minitest.rb, line 35</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">autorun</span>
+  <span class="ruby-identifier">at_exit</span> {
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">$!</span> <span class="ruby-keyword">and</span> <span class="ruby-keyword">not</span> <span class="ruby-identifier">$!</span>.<span class="ruby-identifier">kind_of?</span> <span class="ruby-constant">SystemExit</span>
+
+    <span class="ruby-identifier">exit_code</span> = <span class="ruby-keyword">nil</span>
+
+    <span class="ruby-identifier">at_exit</span> {
+      <span class="ruby-identifier">@@after_run</span>.<span class="ruby-identifier">reverse_each</span>(&amp;<span class="ruby-value">:call</span>)
+      <span class="ruby-identifier">exit</span> <span class="ruby-identifier">exit_code</span> <span class="ruby-operator">||</span> <span class="ruby-keyword">false</span>
+    }
+
+    <span class="ruby-identifier">exit_code</span> = <span class="ruby-constant">Minitest</span>.<span class="ruby-identifier">run</span> <span class="ruby-constant">ARGV</span>
+  } <span class="ruby-keyword">unless</span> <span class="ruby-identifier">@@installed_at_exit</span>
+  <span class="ruby-identifier">@@installed_at_exit</span> = <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- autorun-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- autorun-method -->
+
+      
+        <div id="run-method" class="method-detail ">
+          <a name="method-c-run"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">run</span><span
+              class="method-args">(args = [])</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>This is the top-level run method. Everything starts from here. It tells
+each <a href="Minitest/Runnable.html">Runnable</a> sub-class to run, and
+each of those are responsible for doing whatever they do.</p>
+
+<p>The overall structure of a run looks like this:</p>
+
+<pre>Minitest.autorun
+  Minitest.run(args)
+    __run(reporter, options)
+      Runnable.runnables.each
+        runnable.run(reporter, options)
+          self.runnable_methods.each
+            self.new.run runnable_method</pre>
+            
+
+            
+            <div class="method-source-code" id="run-source">
+<pre>
+<span class="ruby-comment"># File lib/minitest.rb, line 93</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">run</span> <span class="ruby-identifier">args</span> = []
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">load_plugins</span>
+
+  <span class="ruby-identifier">options</span> = <span class="ruby-identifier">process_args</span> <span class="ruby-identifier">args</span>
+
+  <span class="ruby-identifier">reporter</span> = <span class="ruby-constant">CompositeReporter</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">reporter</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Reporter</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">options</span>[<span class="ruby-value">:io</span>], <span class="ruby-identifier">options</span>)
+
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">reporter</span> = <span class="ruby-identifier">reporter</span> <span class="ruby-comment"># this makes it available to plugins</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">init_plugins</span> <span class="ruby-identifier">options</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">reporter</span> = <span class="ruby-keyword">nil</span> <span class="ruby-comment"># runnables shouldn't depend on the reporter, ever</span>
+
+  <span class="ruby-identifier">reporter</span>.<span class="ruby-identifier">run_and_report</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">__run</span> <span class="ruby-identifier">reporter</span>, <span class="ruby-identifier">options</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">reporter</span>.<span class="ruby-identifier">passed?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- run-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- run-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="unknown-method" class="method-detail ">
+          <a name="method-i-unknown"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">unknown</span><span
+              class="method-args"></span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Filter object for backtraces.</p>
+            
+
+            
+            <div class="method-source-code" id="unknown-source">
+<pre>
+<span class="ruby-comment"># File lib/minitest.rb, line 18</span>
+<span class="ruby-identifier">mc</span>.<span class="ruby-identifier">send</span> <span class="ruby-value">:attr_accessor</span>, <span class="ruby-value">:backtrace_filter</span>
+</pre>
+            </div><!-- unknown-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- unknown-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

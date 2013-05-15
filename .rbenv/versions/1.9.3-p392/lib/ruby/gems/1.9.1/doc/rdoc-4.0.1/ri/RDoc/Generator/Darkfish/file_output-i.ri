@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"file_output:EFI"*RDoc::Generator::Darkfish#file_output;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"LWhen false the generate methods return a String instead of writing to a;TI" file.  The default is true.;T:
+@file0FI"#lib/rdoc/generator/darkfish.rb;T

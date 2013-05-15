@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"results:EFI"Minitest::Reporter#results;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"JThe results of all the runs. (Non-passing only to cut down on memory);T:
+@file0FI"lib/minitest.rb;T

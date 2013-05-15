@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Module: Spec::Builders</title>
+
+  <link rel="stylesheet" href="../rdoc.css" type="text/css" media="screen" />
+
+  <script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="module">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#classes">Classes</a>
+          <a href="../index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="../spec/support/builders_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="spec/support/builders.rb">spec/support/builders.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+
+      
+
+      
+      <!-- Namespace Contents -->
+      <div id="namespace-list-section" class="section">
+        <h3 class="section-header">Namespace</h3>
+        <ul class="link-list">
+          
+          <li><span class="type">CLASS</span> <a href="Builders/DepBuilder.html">Spec::Builders::DepBuilder</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Builders/GemBuilder.html">Spec::Builders::GemBuilder</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Builders/GitBareBuilder.html">Spec::Builders::GitBareBuilder</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Builders/GitBuilder.html">Spec::Builders::GitBuilder</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Builders/GitReader.html">Spec::Builders::GitReader</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Builders/GitUpdater.html">Spec::Builders::GitUpdater</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Builders/IndexBuilder.html">Spec::Builders::IndexBuilder</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Builders/LibBuilder.html">Spec::Builders::LibBuilder</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-constantize">::constantize</a></li>
+          
+          <li><a href="#method-i-build_dep">#build_dep</a></li>
+          
+          <li><a href="#method-i-build_gem">#build_gem</a></li>
+          
+          <li><a href="#method-i-build_git">#build_git</a></li>
+          
+          <li><a href="#method-i-build_index">#build_index</a></li>
+          
+          <li><a href="#method-i-build_lib">#build_lib</a></li>
+          
+          <li><a href="#method-i-build_repo">#build_repo</a></li>
+          
+          <li><a href="#method-i-build_repo1">#build_repo1</a></li>
+          
+          <li><a href="#method-i-build_repo2">#build_repo2</a></li>
+          
+          <li><a href="#method-i-build_repo3">#build_repo3</a></li>
+          
+          <li><a href="#method-i-build_security_repo">#build_security_repo</a></li>
+          
+          <li><a href="#method-i-build_spec">#build_spec</a></li>
+          
+          <li><a href="#method-i-build_with">#build_with</a></li>
+          
+          <li><a href="#method-i-pl">#pl</a></li>
+          
+          <li><a href="#method-i-update_git">#update_git</a></li>
+          
+          <li><a href="#method-i-update_repo">#update_repo</a></li>
+          
+          <li><a href="#method-i-update_repo2">#update_repo2</a></li>
+          
+          <li><a href="#method-i-v">#v</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="../Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle.html">bundle</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-config.html">bundle-config</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-config_txt.html">bundle-config.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-exec.html">bundle-exec</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-exec_txt.html">bundle-exec.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-install.html">bundle-install</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-install_txt.html">bundle-install.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-package.html">bundle-package</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-package_txt.html">bundle-package.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-platform.html">bundle-platform</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-platform_txt.html">bundle-platform.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-update.html">bundle-update</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle-update_txt.html">bundle-update.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/bundle_txt.html">bundle.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/man/gemfile_5_txt.html">gemfile.5.txt</a></li>
+        
+          <li class="file"><a href="../lib/bundler/templates/Executable.html">Executable</a></li>
+        
+          <li class="file"><a href="../lib/bundler/templates/Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="../man/index_txt.html">index.txt</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="../images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="../Bundler.html">Bundler</a></li>
+        
+          <li><a href="../Bundler/BundlerError.html">Bundler::BundlerError</a></li>
+        
+          <li><a href="../Bundler/CLI.html">Bundler::CLI</a></li>
+        
+          <li><a href="../Bundler/Definition.html">Bundler::Definition</a></li>
+        
+          <li><a href="../Bundler/DepProxy.html">Bundler::DepProxy</a></li>
+        
+          <li><a href="../Bundler/Dependency.html">Bundler::Dependency</a></li>
+        
+          <li><a href="../Bundler/Deployment.html">Bundler::Deployment</a></li>
+        
+          <li><a href="../Bundler/Deprecate.html">Bundler::Deprecate</a></li>
+        
+          <li><a href="../Bundler/DeprecatedError.html">Bundler::DeprecatedError</a></li>
+        
+          <li><a href="../Bundler/Dsl.html">Bundler::Dsl</a></li>
+        
+          <li><a href="../Bundler/EndpointSpecification.html">Bundler::EndpointSpecification</a></li>
+        
+          <li><a href="../Bundler/Env.html">Bundler::Env</a></li>
+        
+          <li><a href="../Bundler/Environment.html">Bundler::Environment</a></li>
+        
+          <li><a href="../Bundler/Fetcher.html">Bundler::Fetcher</a></li>
+        
+          <li><a href="../Bundler/Fetcher/CertificateFailureError.html">Bundler::Fetcher::CertificateFailureError</a></li>
+        
+          <li><a href="../Bundler/Fetcher/FallbackError.html">Bundler::Fetcher::FallbackError</a></li>
+        
+          <li><a href="../Bundler/GemHelper.html">Bundler::GemHelper</a></li>
+        
+          <li><a href="../Bundler/GemHelpers.html">Bundler::GemHelpers</a></li>
+        
+          <li><a href="../Bundler/GemInstaller.html">Bundler::GemInstaller</a></li>
+        
+          <li><a href="../Bundler/GemNotFound.html">Bundler::GemNotFound</a></li>
+        
+          <li><a href="../Bundler/GemfileError.html">Bundler::GemfileError</a></li>
+        
+          <li><a href="../Bundler/GemfileNotFound.html">Bundler::GemfileNotFound</a></li>
+        
+          <li><a href="../Bundler/GemspecError.html">Bundler::GemspecError</a></li>
+        
+          <li><a href="../Bundler/GitError.html">Bundler::GitError</a></li>
+        
+          <li><a href="../Bundler/Graph.html">Bundler::Graph</a></li>
+        
+          <li><a href="../Bundler/Graph/GraphVizClient.html">Bundler::Graph::GraphVizClient</a></li>
+        
+          <li><a href="../Bundler/HTTPError.html">Bundler::HTTPError</a></li>
+        
+          <li><a href="../Bundler/Index.html">Bundler::Index</a></li>
+        
+          <li><a href="../Bundler/Injector.html">Bundler::Injector</a></li>
+        
+          <li><a href="../Bundler/InstallError.html">Bundler::InstallError</a></li>
+        
+          <li><a href="../Bundler/InstallHookError.html">Bundler::InstallHookError</a></li>
+        
+          <li><a href="../Bundler/Installer.html">Bundler::Installer</a></li>
+        
+          <li><a href="../Bundler/InvalidOption.html">Bundler::InvalidOption</a></li>
+        
+          <li><a href="../Bundler/InvalidSpecSet.html">Bundler::InvalidSpecSet</a></li>
+        
+          <li><a href="../Bundler/LazySpecification.html">Bundler::LazySpecification</a></li>
+        
+          <li><a href="../Bundler/LockfileError.html">Bundler::LockfileError</a></li>
+        
+          <li><a href="../Bundler/LockfileParser.html">Bundler::LockfileParser</a></li>
+        
+          <li><a href="../Bundler/MarshalError.html">Bundler::MarshalError</a></li>
+        
+          <li><a href="../Bundler/MatchPlatform.html">Bundler::MatchPlatform</a></li>
+        
+          <li><a href="../Bundler/PathError.html">Bundler::PathError</a></li>
+        
+          <li><a href="../Bundler/ProductionError.html">Bundler::ProductionError</a></li>
+        
+          <li><a href="../Bundler/RemoteSpecification.html">Bundler::RemoteSpecification</a></li>
+        
+          <li><a href="../Bundler/Resolver.html">Bundler::Resolver</a></li>
+        
+          <li><a href="../Bundler/Resolver/SpecGroup.html">Bundler::Resolver::SpecGroup</a></li>
+        
+          <li><a href="../Bundler/RubyDsl.html">Bundler::RubyDsl</a></li>
+        
+          <li><a href="../Bundler/RubyVersion.html">Bundler::RubyVersion</a></li>
+        
+          <li><a href="../Bundler/RubyVersionMismatch.html">Bundler::RubyVersionMismatch</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration.html">Bundler::RubygemsIntegration</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/AlmostModern.html">Bundler::RubygemsIntegration::AlmostModern</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/Ancient.html">Bundler::RubygemsIntegration::Ancient</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/Future.html">Bundler::RubygemsIntegration::Future</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/Gem.html">Bundler::RubygemsIntegration::Gem</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/Gem/SourceIndex.html">Bundler::RubygemsIntegration::Gem::SourceIndex</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/Legacy.html">Bundler::RubygemsIntegration::Legacy</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/Modern.html">Bundler::RubygemsIntegration::Modern</a></li>
+        
+          <li><a href="../Bundler/RubygemsIntegration/Transitional.html">Bundler::RubygemsIntegration::Transitional</a></li>
+        
+          <li><a href="../Bundler/Runtime.html">Bundler::Runtime</a></li>
+        
+          <li><a href="../Bundler/SecurityError.html">Bundler::SecurityError</a></li>
+        
+          <li><a href="../Bundler/Settings.html">Bundler::Settings</a></li>
+        
+          <li><a href="../Bundler/SharedHelpers.html">Bundler::SharedHelpers</a></li>
+        
+          <li><a href="../Bundler/SimilarityDetector.html">Bundler::SimilarityDetector</a></li>
+        
+          <li><a href="../Bundler/Source.html">Bundler::Source</a></li>
+        
+          <li><a href="../Bundler/Source/Git.html">Bundler::Source::Git</a></li>
+        
+          <li><a href="../Bundler/Source/Git/GitProxy.html">Bundler::Source::Git::GitProxy</a></li>
+        
+          <li><a href="../Bundler/Source/Path.html">Bundler::Source::Path</a></li>
+        
+          <li><a href="../Bundler/Source/Path/Installer.html">Bundler::Source::Path::Installer</a></li>
+        
+          <li><a href="../Bundler/Source/Rubygems.html">Bundler::Source::Rubygems</a></li>
+        
+          <li><a href="../Bundler/SpecSet.html">Bundler::SpecSet</a></li>
+        
+          <li><a href="../Bundler/SystemRubyVersion.html">Bundler::SystemRubyVersion</a></li>
+        
+          <li><a href="../Bundler/UI.html">Bundler::UI</a></li>
+        
+          <li><a href="../Bundler/UI/RGProxy.html">Bundler::UI::RGProxy</a></li>
+        
+          <li><a href="../Bundler/UI/Shell.html">Bundler::UI::Shell</a></li>
+        
+          <li><a href="../Bundler/VersionConflict.html">Bundler::VersionConflict</a></li>
+        
+          <li><a href="../Spec.html">Spec</a></li>
+        
+          <li><a href="../Spec/Builders.html">Spec::Builders</a></li>
+        
+          <li><a href="../Spec/Builders/DepBuilder.html">Spec::Builders::DepBuilder</a></li>
+        
+          <li><a href="../Spec/Builders/GemBuilder.html">Spec::Builders::GemBuilder</a></li>
+        
+          <li><a href="../Spec/Builders/GitBareBuilder.html">Spec::Builders::GitBareBuilder</a></li>
+        
+          <li><a href="../Spec/Builders/GitBuilder.html">Spec::Builders::GitBuilder</a></li>
+        
+          <li><a href="../Spec/Builders/GitReader.html">Spec::Builders::GitReader</a></li>
+        
+          <li><a href="../Spec/Builders/GitUpdater.html">Spec::Builders::GitUpdater</a></li>
+        
+          <li><a href="../Spec/Builders/IndexBuilder.html">Spec::Builders::IndexBuilder</a></li>
+        
+          <li><a href="../Spec/Builders/LibBuilder.html">Spec::Builders::LibBuilder</a></li>
+        
+          <li><a href="../Spec/Helpers.html">Spec::Helpers</a></li>
+        
+          <li><a href="../Spec/Indexes.html">Spec::Indexes</a></li>
+        
+          <li><a href="../Spec/Matchers.html">Spec::Matchers</a></li>
+        
+          <li><a href="../Spec/Path.html">Spec::Path</a></li>
+        
+          <li><a href="../Spec/Platforms.html">Spec::Platforms</a></li>
+        
+          <li><a href="../Spec/Rubygems.html">Spec::Rubygems</a></li>
+        
+          <li><a href="../Spec/Sudo.html">Spec::Sudo</a></li>
+        
+          <li><a href="../Gem.html">Gem</a></li>
+        
+          <li><a href="../Gem/Dependency.html">Gem::Dependency</a></li>
+        
+          <li><a href="../Gem/Platform.html">Gem::Platform</a></li>
+        
+          <li><a href="../Gem/Requirement.html">Gem::Requirement</a></li>
+        
+          <li><a href="../Gem/Specification.html">Gem::Specification</a></li>
+        
+          <li><a href="../Endpoint.html">Endpoint</a></li>
+        
+          <li><a href="../Endpoint500.html">Endpoint500</a></li>
+        
+          <li><a href="../EndpointApiMissing.html">EndpointApiMissing</a></li>
+        
+          <li><a href="../EndpointBasicAuthentication.html">EndpointBasicAuthentication</a></li>
+        
+          <li><a href="../EndpointCredsDiffHost.html">EndpointCredsDiffHost</a></li>
+        
+          <li><a href="../EndpointExtra.html">EndpointExtra</a></li>
+        
+          <li><a href="../EndpointExtraMissing.html">EndpointExtraMissing</a></li>
+        
+          <li><a href="../EndpointFallback.html">EndpointFallback</a></li>
+        
+          <li><a href="../EndpointMarshalFail.html">EndpointMarshalFail</a></li>
+        
+          <li><a href="../EndpointMarshalFailBasicAuthentication.html">EndpointMarshalFailBasicAuthentication</a></li>
+        
+          <li><a href="../EndpointRedirect.html">EndpointRedirect</a></li>
+        
+          <li><a href="../EndpointTimeout.html">EndpointTimeout</a></li>
+        
+          <li><a href="../IO.html">IO</a></li>
+        
+          <li><a href="../Object.html">Object</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="module">Spec::Builders</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+      <!-- Constants -->
+      <div id="constants-list" class="section">
+        <h3 class="section-header">Constants</h3>
+        <dl>
+        
+          <dt><a name="TEST_CERT">TEST_CERT</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="TEST_PKEY">TEST_PKEY</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+        </dl>
+      </div>
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="constantize-method" class="method-detail ">
+          <a name="method-c-constantize"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">constantize</span><span
+              class="method-args">(name)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="constantize-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 3</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">constantize</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">name</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'-'</span>, <span class="ruby-string">''</span>).<span class="ruby-identifier">upcase</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- constantize-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- constantize-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="build_dep-method" class="method-detail ">
+          <a name="method-i-build_dep"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_dep</span><span
+              class="method-args">(name, requirements = Gem::Requirement.default, type = :runtime)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_dep-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 322</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_dep</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">requirements</span> = <span class="ruby-constant">Gem</span><span class="ruby-operator">::</span><span class="ruby-constant">Requirement</span>.<span class="ruby-identifier">default</span>, <span class="ruby-identifier">type</span> = <span class="ruby-value">:runtime</span>)
+  <span class="ruby-constant">Bundler</span><span class="ruby-operator">::</span><span class="ruby-constant">Dependency</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">name</span>, <span class="ruby-value">:version</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">requirements</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_dep-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_dep-method -->
+
+      
+        <div id="build_gem-method" class="method-detail ">
+          <a name="method-i-build_gem"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_gem</span><span
+              class="method-args">(name, *args, &blk)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_gem-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 330</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_gem</span>(<span class="ruby-identifier">name</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">blk</span>)
+  <span class="ruby-identifier">build_with</span>(<span class="ruby-constant">GemBuilder</span>, <span class="ruby-identifier">name</span>, <span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">blk</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_gem-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_gem-method -->
+
+      
+        <div id="build_git-method" class="method-detail ">
+          <a name="method-i-build_git"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_git</span><span
+              class="method-args">(name, *args, &block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_git-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 334</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_git</span>(<span class="ruby-identifier">name</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">opts</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">last</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Hash</span>) <span class="ruby-operator">?</span> <span class="ruby-identifier">args</span>.<span class="ruby-identifier">last</span> <span class="ruby-operator">:</span> {}
+  <span class="ruby-identifier">builder</span> = <span class="ruby-identifier">opts</span>[<span class="ruby-value">:bare</span>] <span class="ruby-operator">?</span> <span class="ruby-constant">GitBareBuilder</span> <span class="ruby-operator">:</span> <span class="ruby-constant">GitBuilder</span>
+  <span class="ruby-identifier">spec</span> = <span class="ruby-identifier">build_with</span>(<span class="ruby-identifier">builder</span>, <span class="ruby-identifier">name</span>, <span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-constant">GitReader</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">opts</span>[<span class="ruby-value">:path</span>] <span class="ruby-operator">||</span> <span class="ruby-identifier">lib_path</span>(<span class="ruby-identifier">spec</span>.<span class="ruby-identifier">full_name</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_git-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_git-method -->
+
+      
+        <div id="build_index-method" class="method-detail ">
+          <a name="method-i-build_index"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_index</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_index-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 305</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_index</span>(&amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">index</span> = <span class="ruby-constant">Bundler</span><span class="ruby-operator">::</span><span class="ruby-constant">Index</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-constant">IndexBuilder</span>.<span class="ruby-identifier">run</span>(<span class="ruby-identifier">index</span>, &amp;<span class="ruby-identifier">block</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+  <span class="ruby-identifier">index</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_index-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_index-method -->
+
+      
+        <div id="build_lib-method" class="method-detail ">
+          <a name="method-i-build_lib"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_lib</span><span
+              class="method-args">(name, *args, &blk)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_lib-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 326</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_lib</span>(<span class="ruby-identifier">name</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">blk</span>)
+  <span class="ruby-identifier">build_with</span>(<span class="ruby-constant">LibBuilder</span>, <span class="ruby-identifier">name</span>, <span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">blk</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_lib-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_lib-method -->
+
+      
+        <div id="build_repo-method" class="method-detail ">
+          <a name="method-i-build_repo"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_repo</span><span
+              class="method-args">(path, &blk)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_repo-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 284</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_repo</span>(<span class="ruby-identifier">path</span>, &amp;<span class="ruby-identifier">blk</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">if</span> <span class="ruby-constant">File</span>.<span class="ruby-identifier">directory?</span>(<span class="ruby-identifier">path</span>)
+  <span class="ruby-identifier">rake_path</span> = <span class="ruby-constant">Dir</span>[<span class="ruby-node">&quot;#{Path.base_system_gems}/**/rake*.gem&quot;</span>].<span class="ruby-identifier">first</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">rake_path</span>
+    <span class="ruby-constant">FileUtils</span>.<span class="ruby-identifier">mkdir_p</span>(<span class="ruby-node">&quot;#{path}/gems&quot;</span>)
+    <span class="ruby-constant">FileUtils</span>.<span class="ruby-identifier">cp</span> <span class="ruby-identifier">rake_path</span>, <span class="ruby-node">&quot;#{path}/gems/&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">abort</span> <span class="ruby-node">&quot;You need to `rm -rf #{tmp}`&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">update_repo</span>(<span class="ruby-identifier">path</span>, &amp;<span class="ruby-identifier">blk</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_repo-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_repo-method -->
+
+      
+        <div id="build_repo1-method" class="method-detail ">
+          <a name="method-i-build_repo1"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_repo1</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_repo1-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 15</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_repo1</span>
+  <span class="ruby-identifier">build_repo</span> <span class="ruby-identifier">gem_repo1</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rack&quot;</span>, <span class="ruby-node">%(0.9.1 1.0.0)</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">executables</span> = <span class="ruby-string">&quot;rackup&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">post_install_message</span> = <span class="ruby-string">&quot;Rack's post install message&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;thin&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;rack&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">post_install_message</span> = <span class="ruby-string">&quot;Thin's post install message&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rack-obama&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;rack&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">post_install_message</span> = <span class="ruby-string">&quot;Rack-obama's post install message&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rack_middleware&quot;</span>, <span class="ruby-string">&quot;1.0&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;rack&quot;</span>, <span class="ruby-string">&quot;0.9.1&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rails&quot;</span>,          <span class="ruby-string">&quot;2.3.2&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">executables</span> = <span class="ruby-string">&quot;rails&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;rake&quot;</span>,           <span class="ruby-string">&quot;10.0.2&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;actionpack&quot;</span>,     <span class="ruby-string">&quot;2.3.2&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activerecord&quot;</span>,   <span class="ruby-string">&quot;2.3.2&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;actionmailer&quot;</span>,   <span class="ruby-string">&quot;2.3.2&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activeresource&quot;</span>, <span class="ruby-string">&quot;2.3.2&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;actionpack&quot;</span>,     <span class="ruby-string">&quot;2.3.2&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activesupport&quot;</span>, <span class="ruby-string">&quot;2.3.2&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;activerecord&quot;</span>,   [<span class="ruby-string">&quot;2.3.1&quot;</span>, <span class="ruby-string">&quot;2.3.2&quot;</span>] <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activesupport&quot;</span>, <span class="ruby-string">&quot;2.3.2&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;actionmailer&quot;</span>,   <span class="ruby-string">&quot;2.3.2&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activesupport&quot;</span>, <span class="ruby-string">&quot;2.3.2&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;activeresource&quot;</span>, <span class="ruby-string">&quot;2.3.2&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activesupport&quot;</span>, <span class="ruby-string">&quot;2.3.2&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;activesupport&quot;</span>,  <span class="ruby-node">%(1.2.3 2.3.2 2.3.5)</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;activemerchant&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activesupport&quot;</span>, <span class="ruby-string">&quot;&gt;= 2.0.0&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rails_fail&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;activesupport&quot;</span>, <span class="ruby-string">&quot;= 1.2.3&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;missing_dep&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;not_here&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rspec&quot;</span>, <span class="ruby-string">&quot;1.2.7&quot;</span>, <span class="ruby-value">:no_default</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/spec.rb&quot;</span>, <span class="ruby-string">&quot;SPEC = '1.2.7'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rack-test&quot;</span>, <span class="ruby-value">:no_default</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/rack/test.rb&quot;</span>, <span class="ruby-string">&quot;RACK_TEST = '1.0'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;platform_specific&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-constant">Gem</span><span class="ruby-operator">::</span><span class="ruby-constant">Platform</span>.<span class="ruby-identifier">local</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/platform_specific.rb&quot;</span>, <span class="ruby-node">&quot;PLATFORM_SPECIFIC = '1.0.0 #{Gem::Platform.local}'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;platform_specific&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-string">&quot;java&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/platform_specific.rb&quot;</span>, <span class="ruby-string">&quot;PLATFORM_SPECIFIC = '1.0.0 JAVA'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;platform_specific&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-string">&quot;ruby&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/platform_specific.rb&quot;</span>, <span class="ruby-string">&quot;PLATFORM_SPECIFIC = '1.0.0 RUBY'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;platform_specific&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-string">&quot;x86-mswin32&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/platform_specific.rb&quot;</span>, <span class="ruby-string">&quot;PLATFORM_SPECIFIC = '1.0.0 MSWIN'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;platform_specific&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-string">&quot;x86-darwin-100&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/platform_specific.rb&quot;</span>, <span class="ruby-string">&quot;PLATFORM_SPECIFIC = '1.0.0 x86-darwin-100'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;only_java&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-string">&quot;java&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;nokogiri&quot;</span>, <span class="ruby-string">&quot;1.4.2&quot;</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;nokogiri&quot;</span>, <span class="ruby-string">&quot;1.4.2&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-string">&quot;java&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/nokogiri.rb&quot;</span>, <span class="ruby-string">&quot;NOKOGIRI = '1.4.2 JAVA'&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;weakling&quot;</span>, <span class="ruby-string">&quot;&gt;= 0.0.3&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;weakling&quot;</span>, <span class="ruby-string">&quot;0.0.3&quot;</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;multiple_versioned_deps&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;weakling&quot;</span>, <span class="ruby-string">&quot;&gt;= 0.0.1&quot;</span>, <span class="ruby-string">&quot;&lt; 0.1&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;not_released&quot;</span>, <span class="ruby-string">&quot;1.0.pre&quot;</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;has_prerelease&quot;</span>, <span class="ruby-string">&quot;1.0&quot;</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;has_prerelease&quot;</span>, <span class="ruby-string">&quot;1.1.pre&quot;</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;with_development_dependency&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;activesupport&quot;</span>, <span class="ruby-string">&quot;= 2.3.5&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;with_license&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">license</span> = <span class="ruby-string">&quot;MIT&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;with_implicit_rake_dep&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">extensions</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-string">&quot;Rakefile&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;Rakefile&quot;</span>, <span class="ruby-string">            task :default do              path = File.expand_path(&quot;../lib&quot;, __FILE__)              FileUtils.mkdir_p(path)              File.open(&quot;\#{path}/implicit_rake_dep.rb&quot;, &quot;w&quot;) do |f|                f.puts &quot;IMPLICIT_RAKE_DEP = 'YES'&quot;              end            end</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;another_implicit_rake_dep&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">extensions</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-string">&quot;Rakefile&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;Rakefile&quot;</span>, <span class="ruby-string">            task :default do              path = File.expand_path(&quot;../lib&quot;, __FILE__)              FileUtils.mkdir_p(path)              File.open(&quot;\#{path}/another_implicit_rake_dep.rb&quot;, &quot;w&quot;) do |f|                f.puts &quot;ANOTHER_IMPLICIT_RAKE_DEP = 'YES'&quot;              end            end</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;very_simple_binary&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_c_extension</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;bundler&quot;</span>, <span class="ruby-string">&quot;0.9&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">executables</span> = <span class="ruby-string">&quot;bundle&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;bin/bundle&quot;</span>, <span class="ruby-string">&quot;puts 'FAIL'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># The bundler 0.8 gem has a rubygems plugin that always loads :(</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;bundler&quot;</span>, <span class="ruby-string">&quot;0.8.1&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/bundler/omg.rb&quot;</span>, <span class="ruby-string">&quot;&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/rubygems_plugin.rb&quot;</span>, <span class="ruby-string">&quot;require 'bundler/omg' ; puts 'FAIL'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;bundler_dep&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;bundler&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># The yard gem iterates over Gem.source_index looking for plugins</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;yard&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/yard.rb&quot;</span>, <span class="ruby-string">            if Gem::Version.new(Gem::VERSION) &gt;= Gem::Version.new(&quot;1.8.10&quot;)              specs = Gem::Specification            else              specs = Gem.source_index.find_name('')            end            specs.each do |gem|              puts gem.full_name            end</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># The rcov gem is platform mswin32, but has no arch</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rcov&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-constant">Gem</span><span class="ruby-operator">::</span><span class="ruby-constant">Platform</span>.<span class="ruby-identifier">new</span>([<span class="ruby-keyword">nil</span>, <span class="ruby-string">&quot;mswin32&quot;</span>, <span class="ruby-keyword">nil</span>])
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;lib/rcov.rb&quot;</span>, <span class="ruby-string">&quot;RCOV = '1.0.0'&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net-ssh&quot;</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net-sftp&quot;</span>, <span class="ruby-string">&quot;1.1.1&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net-ssh&quot;</span>, <span class="ruby-string">&quot;&gt;= 1.0.0&quot;</span>, <span class="ruby-string">&quot;&lt; 1.99.0&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># Test comlicated gem dependencies for install</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net_a&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net_b&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net_build_extensions&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net_b&quot;</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net_build_extensions&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;rake&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">extensions</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-string">&quot;Rakefile&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-string">&quot;Rakefile&quot;</span>, <span class="ruby-string">            task :default do              path = File.expand_path(&quot;../lib&quot;, __FILE__)              FileUtils.mkdir_p(path)              File.open(&quot;\#{path}/net_build_extensions.rb&quot;, &quot;w&quot;) do |f|                f.puts &quot;NET_BUILD_EXTENSIONS = 'YES'&quot;              end            end</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net_c&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net_a&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net_d&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net_d&quot;</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;net_e&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net_d&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># Capistrano did this (at least until version 2.5.10)</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;double_deps&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net-ssh&quot;</span>, <span class="ruby-string">&quot;&gt;= 1.0.0&quot;</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">add_dependency</span> <span class="ruby-string">&quot;net-ssh&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;foo&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_repo1-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_repo1-method -->
+
+      
+        <div id="build_repo2-method" class="method-detail ">
+          <a name="method-i-build_repo2"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_repo2</span><span
+              class="method-args">(&blk)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_repo2-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 246</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_repo2</span>(&amp;<span class="ruby-identifier">blk</span>)
+  <span class="ruby-constant">FileUtils</span>.<span class="ruby-identifier">rm_rf</span> <span class="ruby-identifier">gem_repo2</span>
+  <span class="ruby-constant">FileUtils</span>.<span class="ruby-identifier">cp_r</span> <span class="ruby-identifier">gem_repo1</span>, <span class="ruby-identifier">gem_repo2</span>
+  <span class="ruby-identifier">update_repo2</span>(&amp;<span class="ruby-identifier">blk</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_repo2-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_repo2-method -->
+
+      
+        <div id="build_repo3-method" class="method-detail ">
+          <a name="method-i-build_repo3"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_repo3</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_repo3-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 252</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_repo3</span>
+  <span class="ruby-identifier">build_repo</span> <span class="ruby-identifier">gem_repo3</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rack&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-constant">FileUtils</span>.<span class="ruby-identifier">rm_rf</span> <span class="ruby-constant">Dir</span>[<span class="ruby-identifier">gem_repo3</span>(<span class="ruby-string">&quot;prerelease*&quot;</span>)]
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_repo3-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_repo3-method -->
+
+      
+        <div id="build_security_repo-method" class="method-detail ">
+          <a name="method-i-build_security_repo"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_security_repo</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_security_repo-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 268</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_security_repo</span>
+  <span class="ruby-identifier">build_repo</span> <span class="ruby-identifier">security_repo</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rack&quot;</span>
+
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;signed_gem&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">cert</span> = <span class="ruby-string">'signing-cert.pem'</span>
+      <span class="ruby-identifier">pkey</span> = <span class="ruby-string">'signing-pkey.pem'</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-identifier">cert</span>, <span class="ruby-constant">TEST_CERT</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">write</span> <span class="ruby-identifier">pkey</span>, <span class="ruby-constant">TEST_PKEY</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">signing_key</span> = <span class="ruby-identifier">pkey</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">cert_chain</span> = [<span class="ruby-identifier">cert</span>]
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_security_repo-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_security_repo-method -->
+
+      
+        <div id="build_spec-method" class="method-detail ">
+          <a name="method-i-build_spec"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_spec</span><span
+              class="method-args">(name, version, platform = nil, &block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_spec-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 311</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_spec</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">version</span>, <span class="ruby-identifier">platform</span> = <span class="ruby-keyword">nil</span>, &amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-constant">Array</span>(<span class="ruby-identifier">version</span>).<span class="ruby-identifier">map</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">v</span><span class="ruby-operator">|</span>
+    <span class="ruby-constant">Gem</span><span class="ruby-operator">::</span><span class="ruby-constant">Specification</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">name</span>     = <span class="ruby-identifier">name</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">version</span>  = <span class="ruby-constant">Gem</span><span class="ruby-operator">::</span><span class="ruby-constant">Version</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">v</span>)
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">platform</span> = <span class="ruby-identifier">platform</span>
+      <span class="ruby-constant">DepBuilder</span>.<span class="ruby-identifier">run</span>(<span class="ruby-identifier">s</span>, &amp;<span class="ruby-identifier">block</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_spec-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_spec-method -->
+
+      
+        <div id="pl-method" class="method-detail ">
+          <a name="method-i-pl"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">pl</span><span
+              class="method-args">(platform)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="pl-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 11</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">pl</span>(<span class="ruby-identifier">platform</span>)
+  <span class="ruby-constant">Gem</span><span class="ruby-operator">::</span><span class="ruby-constant">Platform</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">platform</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- pl-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- pl-method -->
+
+      
+        <div id="update_git-method" class="method-detail ">
+          <a name="method-i-update_git"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">update_git</span><span
+              class="method-args">(name, *args, &block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="update_git-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 341</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">update_git</span>(<span class="ruby-identifier">name</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">spec</span> = <span class="ruby-identifier">build_with</span>(<span class="ruby-constant">GitUpdater</span>, <span class="ruby-identifier">name</span>, <span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-constant">GitReader</span>.<span class="ruby-identifier">new</span> <span class="ruby-identifier">lib_path</span>(<span class="ruby-identifier">spec</span>.<span class="ruby-identifier">full_name</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- update_git-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- update_git-method -->
+
+      
+        <div id="update_repo-method" class="method-detail ">
+          <a name="method-i-update_repo"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">update_repo</span><span
+              class="method-args">(path)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="update_repo-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 296</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">update_repo</span>(<span class="ruby-identifier">path</span>)
+  <span class="ruby-ivar">@_build_path</span> = <span class="ruby-node">&quot;#{path}/gems&quot;</span>
+  <span class="ruby-keyword">yield</span>
+  <span class="ruby-ivar">@_build_path</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-identifier">with_gem_path_as</span> <span class="ruby-constant">Path</span>.<span class="ruby-identifier">base_system_gems</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-constant">Dir</span>.<span class="ruby-identifier">chdir</span>(<span class="ruby-identifier">path</span>) { <span class="ruby-identifier">gem_command</span> <span class="ruby-value">:generate_index</span> }
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- update_repo-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- update_repo-method -->
+
+      
+        <div id="update_repo2-method" class="method-detail ">
+          <a name="method-i-update_repo2"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">update_repo2</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="update_repo2-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 259</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">update_repo2</span>
+  <span class="ruby-identifier">update_repo</span> <span class="ruby-identifier">gem_repo2</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">build_gem</span> <span class="ruby-string">&quot;rack&quot;</span>, <span class="ruby-string">&quot;1.2&quot;</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">s</span>.<span class="ruby-identifier">executables</span> = <span class="ruby-string">&quot;rackup&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">yield</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- update_repo2-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- update_repo2-method -->
+
+      
+        <div id="v-method" class="method-detail ">
+          <a name="method-i-v"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">v</span><span
+              class="method-args">(version)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="v-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 7</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">v</span>(<span class="ruby-identifier">version</span>)
+  <span class="ruby-constant">Gem</span><span class="ruby-operator">::</span><span class="ruby-constant">Version</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">version</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- v-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- v-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+      <div id="private-instance-method-details" class="method-section section">
+        <h3 class="section-header">Private Instance Methods</h3>
+
+      
+        <div id="build_with-method" class="method-detail ">
+          <a name="method-i-build_with"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">build_with</span><span
+              class="method-args">(builder, name, args, &blk)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="build_with-source">
+<pre>
+<span class="ruby-comment"># File spec/support/builders.rb, line 348</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">build_with</span>(<span class="ruby-identifier">builder</span>, <span class="ruby-identifier">name</span>, <span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">blk</span>)
+  <span class="ruby-ivar">@_build_path</span> <span class="ruby-operator">||=</span> <span class="ruby-keyword">nil</span>
+  <span class="ruby-identifier">options</span>  = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">last</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Hash</span>) <span class="ruby-operator">?</span> <span class="ruby-identifier">args</span>.<span class="ruby-identifier">pop</span> <span class="ruby-operator">:</span> {}
+  <span class="ruby-identifier">versions</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">last</span> <span class="ruby-operator">||</span> <span class="ruby-string">&quot;1.0&quot;</span>
+  <span class="ruby-identifier">spec</span>     = <span class="ruby-keyword">nil</span>
+
+  <span class="ruby-identifier">options</span>[<span class="ruby-value">:path</span>] <span class="ruby-operator">||=</span> <span class="ruby-ivar">@_build_path</span>
+
+  <span class="ruby-constant">Array</span>(<span class="ruby-identifier">versions</span>).<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">version</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">spec</span> = <span class="ruby-identifier">builder</span>.<span class="ruby-identifier">new</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">name</span>, <span class="ruby-identifier">version</span>)
+    <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-identifier">spec</span>.<span class="ruby-identifier">authors</span> <span class="ruby-keyword">or</span> <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">authors</span>.<span class="ruby-identifier">empty?</span>
+      <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">authors</span> = [<span class="ruby-string">&quot;no one&quot;</span>]
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">yield</span> <span class="ruby-identifier">spec</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+    <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">_build</span>(<span class="ruby-identifier">options</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">spec</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- build_with-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- build_with-method -->
+
+      
+      </div><!-- private-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+
