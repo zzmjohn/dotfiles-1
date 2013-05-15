@@ -1,0 +1,1140 @@
+Downloading/unpacking lettuce
+
+  Getting page http://pypi.python.org/simple/lettuce
+  URLs to search for versions for lettuce:
+  * http://pypi.python.org/simple/lettuce/
+  Getting page http://github.com/gabrielfalcao/lettuce
+  Getting page http://lettuce.it
+  Analyzing links from page http://pypi.python.org/simple/lettuce/
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.11.tar.gz#md5=bd1cbfe2460ea480a7c1688ccbc6e406 (from http://pypi.python.org/simple/lettuce/), version: 0.1.11
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc11.tar.bz2#md5=8ccb49a1fe7397a16d1c409118100aa7 (from http://pypi.python.org/simple/lettuce/), version: 0.1rc11
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.6.tar.gz#md5=a2b19775c98de83a20061c7e69f7c726 (from http://pypi.python.org/simple/lettuce/), version: 0.2.6
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.2.tar.gz#md5=a6b704c58bcbe1056f615b3e891a9768 (from http://pypi.python.org/simple/lettuce/), version: 0.2.2
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.24.tar.gz#md5=f31b854cf5f2c17833fd80ea344b9783 (from http://pypi.python.org/simple/lettuce/), version: 0.1.24
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc12.tar.gz#md5=fc143eb14f56488896484b0f72342bba (from http://pypi.python.org/simple/lettuce/), version: 0.1rc12
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc8.tar.bz2#md5=8e4afc50e6ee493201e6205748b58014 (from http://pypi.python.org/simple/lettuce/), version: 0.1rc8
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.21.tar.gz#md5=2994d7a29ad7c1b0c0266cf1dca6f2b7 (from http://pypi.python.org/simple/lettuce/), version: 0.1.21
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.4.tar.gz#md5=0941735bef801af0eeb61411c3891ae6 (from http://pypi.python.org/simple/lettuce/), version: 0.2.4
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.14.tar.gz#md5=26bc5946f8e09d652cc36db67b97d76c (from http://pypi.python.org/simple/lettuce/), version: 0.2.14
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.10.tar.gz#md5=84d2a76a64e4f4c1f955d6e8df4cb92d (from http://pypi.python.org/simple/lettuce/), version: 0.1.10
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.6.tar.gz#md5=b3ffdb1c088b76bc027edd33555e5b89 (from http://pypi.python.org/simple/lettuce/), version: 0.1.6
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.20.tar.gz#md5=ed8dee1e5eb53e906879b5ac9b18eb73 (from http://pypi.python.org/simple/lettuce/), version: 0.1.20
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.tar.gz#md5=a87fed75c8092a9fb2e2885b4b4c97ce (from http://pypi.python.org/simple/lettuce/), version: 0.1
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.9.tar.gz#md5=7251fcf5cef8a9401088100123cc40b1 (from http://pypi.python.org/simple/lettuce/), version: 0.1.9
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.4.tar.gz#md5=83baefc3370e9db5423340123f617b60 (from http://pypi.python.org/simple/lettuce/), version: 0.1.4
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.5.tar.gz#md5=0271d6417a1b27a880b23a4fa63820df (from http://pypi.python.org/simple/lettuce/), version: 0.1.5
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.7.tar.gz#md5=4609ce7537633d015c2cda6b520b0d8a (from http://pypi.python.org/simple/lettuce/), version: 0.2.7
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc10.tar.bz2#md5=ddd6cff42cc07a2ca19b8964788126b6 (from http://pypi.python.org/simple/lettuce/), version: 0.1rc10
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc1.tar.bz2#md5=0ece5c00c549dff1ca70d8c7447ed7af (from http://pypi.python.org/simple/lettuce/), version: 0.1rc1
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.31.tar.gz#md5=de9c3e1e5ee85196bfec49ab71df2a9d (from http://pypi.python.org/simple/lettuce/), version: 0.1.31
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.25.tar.gz#md5=ecfb5bc5c64c855b66b07e6e70c9f58d (from http://pypi.python.org/simple/lettuce/), version: 0.1.25
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc4.tar.bz2#md5=cc05485aa86c3a9cad3fb5c04e2cb51b (from http://pypi.python.org/simple/lettuce/), version: 0.1rc4
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.1.tar.gz#md5=ec297952704364fbf4f23faa1b78d9e7 (from http://pypi.python.org/simple/lettuce/), version: 0.2.1
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc7.tar.bz2#md5=76a68396d9f5222bbfa4fe4e134291c6 (from http://pypi.python.org/simple/lettuce/), version: 0.1rc7
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc9.tar.bz2#md5=30d7c3b23d6725916f2a882729396523 (from http://pypi.python.org/simple/lettuce/), version: 0.1rc9
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.16.tar.gz#md5=8fb1c12a15512e1d2021d45d16dd6513 (from http://pypi.python.org/simple/lettuce/), version: 0.1.16
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.7.tar.gz#md5=4386ec9f7fcebd9f61bc8ac91e1919c9 (from http://pypi.python.org/simple/lettuce/), version: 0.1.7
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.23.tar.gz#md5=36fb7a5f17414ae73f92a7271a875279 (from http://pypi.python.org/simple/lettuce/), version: 0.1.23
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.2.tar.gz#md5=54063fa780685bcd2994becf25c02dc7 (from http://pypi.python.org/simple/lettuce/), version: 0.1.2
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.19.tar.gz#md5=745a093fe2e2eb32bc1e0714e9aedebf (from http://pypi.python.org/simple/lettuce/), version: 0.1.19
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.1.tar.gz#md5=72de5502238009c1bd7a04e258fd21da (from http://pypi.python.org/simple/lettuce/), version: 0.1.1
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.0.tar.gz#md5=673458b5c1ec25143aa8b0939357688d (from http://pypi.python.org/simple/lettuce/), version: 0.2.0
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.33.tar.gz#md5=e9bee296c378cfdcfe8be471c8b5ad48 (from http://pypi.python.org/simple/lettuce/), version: 0.1.33
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.18.tar.gz#md5=9f6709bf37b1844853481866255d5cb5 (from http://pypi.python.org/simple/lettuce/), version: 0.1.18
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.15.tar.gz#md5=e5dbeb3fedb8e26cab61360b8e7558f6 (from http://pypi.python.org/simple/lettuce/), version: 0.1.15
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.30.tar.gz#md5=f7169789f65780eb20f6e985d2f69cbe (from http://pypi.python.org/simple/lettuce/), version: 0.1.30
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.12.tar.gz#md5=5a4f806f1910378719e4b57f596a8c98 (from http://pypi.python.org/simple/lettuce/), version: 0.1.12
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.28.tar.gz#md5=6ea4d4417a5547007b1181677770eabb (from http://pypi.python.org/simple/lettuce/), version: 0.1.28
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc5.tar.bz2#md5=3c4f96751ab5337b3cb2b76109a80bc0 (from http://pypi.python.org/simple/lettuce/), version: 0.1rc5
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.27.tar.gz#md5=3c0076b9b45283ec1368155d6bb5abab (from http://pypi.python.org/simple/lettuce/), version: 0.1.27
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.17.tar.gz#md5=c665859631318c962282080fc0f5518e (from http://pypi.python.org/simple/lettuce/), version: 0.1.17
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.13.tar.gz#md5=54dca6dbb547899442c966b809bed8fc (from http://pypi.python.org/simple/lettuce/), version: 0.1.13
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.29.tar.gz#md5=57afef1c2ea8728fbcc188bb2bd66c05 (from http://pypi.python.org/simple/lettuce/), version: 0.1.29
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.9.tar.gz#md5=43d29265f3c2b27b207175f65033aaab (from http://pypi.python.org/simple/lettuce/), version: 0.2.9
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.11.tar.gz#md5=81d0abc462d6a164a4515093fa43056c (from http://pypi.python.org/simple/lettuce/), version: 0.2.11
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.4.1.tar.gz#md5=0a690443f166fd83d791652e7a7b9a0a (from http://pypi.python.org/simple/lettuce/), version: 0.1.4.1
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.14.tar.gz#md5=538c59ecb21fae30983bdeb441daf5d6 (from http://pypi.python.org/simple/lettuce/), version: 0.1.14
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.22.tar.gz#md5=229d603ab75375bd99cf2895bd58a761 (from http://pypi.python.org/simple/lettuce/), version: 0.1.22
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.3.tar.gz#md5=df0dbf1c8518ee2ed29e401d3cbefebd (from http://pypi.python.org/simple/lettuce/), version: 0.1.3
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.10.tar.gz#md5=6392c7569e9e3bb49687243b3fa47d3d (from http://pypi.python.org/simple/lettuce/), version: 0.2.10
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.15.tar.gz#md5=d1dd4a5f1a9da9bf3b2b9574da87e2f3 (from http://pypi.python.org/simple/lettuce/), version: 0.2.15
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.12.tar.gz#md5=9d3b3e5110a7090eb5bbaa105d4c3a04 (from http://pypi.python.org/simple/lettuce/), version: 0.2.12
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc13.tar.gz#md5=07d0483cbf893d8a2993064c55ab6062 (from http://pypi.python.org/simple/lettuce/), version: 0.1rc13
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.13.tar.gz#md5=045dd75e67a0e37eac02dd4100d2f197 (from http://pypi.python.org/simple/lettuce/), version: 0.2.13
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.35.tar.gz#md5=1f4e51a387eaaba9850aaf061e8ca9b5 (from http://pypi.python.org/simple/lettuce/), version: 0.1.35
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1rc6.tar.bz2#md5=6b595885ca6cc1ba614323d97544427f (from http://pypi.python.org/simple/lettuce/), version: 0.1rc6
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.32.tar.gz#md5=2570bcf5952ad2e84232b32256a9c961 (from http://pypi.python.org/simple/lettuce/), version: 0.1.32
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.34.tar.gz#md5=8f7814ba41edf4c711c4fdccda74e296 (from http://pypi.python.org/simple/lettuce/), version: 0.1.34
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.8.tar.gz#md5=151726a91fbc6abff6c940f574e4d849 (from http://pypi.python.org/simple/lettuce/), version: 0.1.8
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.1.26.tar.gz#md5=0d37018509b58fa6e002ccd1d702957d (from http://pypi.python.org/simple/lettuce/), version: 0.1.26
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.3.tar.gz#md5=b444c56811423047e65777ce0290aecb (from http://pypi.python.org/simple/lettuce/), version: 0.2.3
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.5.tar.gz#md5=2352c761aa34423b773a104810201f15 (from http://pypi.python.org/simple/lettuce/), version: 0.2.5
+    Found link http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.16.tar.gz#md5=0fc8251ed1c93d4e484bd459d3282912 (from http://pypi.python.org/simple/lettuce/), version: 0.2.16
+    Skipping link http://github.com/gabrielfalcao/lettuce (from http://pypi.python.org/simple/lettuce/); not a file
+    Skipping link http://lettuce.it (from http://pypi.python.org/simple/lettuce/); not a file
+  Analyzing links from page https://github.com/gabrielfalcao/lettuce
+    Skipping link https://github.com/opensearch.xml (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .png
+    Skipping link https://github.com/apple-touch-icon-114.png (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .png
+    Skipping link https://github.com/apple-touch-icon-144.png (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .png
+    Skipping link http://github-media-downloads.s3.amazonaws.com/github-logo.svg (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .svg
+    Skipping link https://github.com/_sockets (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/favicon.ico (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/assets/github-fdebe8d3f60746fb87c763a59741ff520ae3d8e8.css (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/assets/github2-d530e63e2c132c7f0e6ac7228e7e1ab9ef2a8d94.css (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .css
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0f770984ad55ac7bf4e19a56e5f2d88faf42d831 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/commits/master.atom (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .atom
+    Skipping link https://github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/signup (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/login?return_to=%2Fgabrielfalcao%2Flettuce (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/explore (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/features (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/blog (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/search/advanced (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/stargazers (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/network (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/pulse (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/pulls (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/issues (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/graphs (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/languages/JavaScript (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#readme (from https://github.com/gabrielfalcao/lettuce); not a file
+    Could not parse version from link: https://github.com/gabrielfalcao/lettuce/archive/master.zip (from https://github.com/gabrielfalcao/lettuce)
+    Skipping link https://github.com/gabrielfalcao/lettuce/archive/master.zip (from https://github.com/gabrielfalcao/lettuce); wrong project name (not lettuce)
+    Skipping link https://github.com/gabrielfalcao/lettuce.git (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .git
+    Skipping link https://github.com/gabrielfalcao/git@github.com:gabrielfalcao/lettuce.git (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .git
+    Skipping link git://github.com/gabrielfalcao/lettuce.git (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .git
+    Skipping link https://github.com/gabrielfalcao/lettuce/tags (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/background (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/django-test-database (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/gh-pages (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/master (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/mitgr81-featuretags (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/new-docs (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/signal-handling (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/step_transformations (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.16 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .16
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.15 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .15
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.14 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .14
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.13 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .13
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.12 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .12
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.11 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .11
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.9 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .9
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.7 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .7
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.6 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .6
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.5 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .5
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.4 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .4
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.3 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .3
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.2 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .2
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.1 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.2.0 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .0
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc13 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc13
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc12 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc12
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc11 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc11
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc10 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc10
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc9 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc9
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc8 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc8
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc7 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc7
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc6 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc6
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc5 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc5
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc4 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc4
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc3 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc3
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc2 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc2
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1rc1 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1rc1
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.35 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .35
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.34 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .34
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.33 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .33
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.30 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .30
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.29 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .29
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.28 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .28
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.27 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .27
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.25 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .25
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.24 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .24
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.23 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .23
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.22 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .22
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.21 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .21
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.20 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .20
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.19 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .19
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.18 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .18
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.17 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .17
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.16 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .16
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.15 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .15
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.14 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .14
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.13 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .13
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.12 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .12
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.11 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .11
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.10 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .10
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.9 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .9
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.8 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .8
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.7 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .7
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.6 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .6
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.5 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .5
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.4 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .4
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.3 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .3
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.2 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .2
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1.1 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/0.1 (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/lettuce/commits/master (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/branches (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/find/master (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/0f770984ad55ac7bf4e19a56e5f2d88faf42d831 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/master/docs (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/3c183157b8421f3cdf2d931626f9a2210b6dbcbe (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/lorin (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/master/lettuce (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/tree/master/tests (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/.gitignore (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/480e91c8f128aadc7d46d012896ea454de2f4873 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://tox.testrun.org/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/msabramo (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/.travis.yml (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .yml
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/eb8b52337455aced79f1a1e508012341e973b3e2 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/CONTRIBUTING.md (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .md
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/d4302496e7f4aa58472438d4c52845c2a26e9b12 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/blog/1184-contributing-guidelines (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/COPYING (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/c0ee8cc781245e040b481eee567f5ea0b4ee4c21 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/MANIFEST.in (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .in
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/cbd6b5bdeff120a1f6330388beba57c456ee75ce (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/issues/253 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/Makefile (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/95f9b08cc1876bf49c79f866b3950b9c47562f40 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/README.md (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .md
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/RELEASE-NOTES.md (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .md
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/dfd6af98d1221d78bf475e925e01276cc22709fd (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/issues/99 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/requirements.txt (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .txt
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/c89962d649b71db28c4e261dc91d653c64a4148a (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/setup.py (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .py
+    Skipping link https://github.com/gabrielfalcao/lettuce/blob/master/tox.ini (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .ini
+    Skipping link https://github.com/gabrielfalcao/lettuce/commit/87db0006c8b79976754ac7eb42c2c4f260110c00 (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#lettuce (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://travis-ci.org/gabrielfalcao/lettuce (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#on-release-names (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#what (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://en.wikipedia.org/wiki/Behavior_Driven_Development (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://cukes.info/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#motivation (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://www.ruby-lang.org/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://code.google.com/p/python-nose/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#dependencies (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#you-could-use-a-virtualenv (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#or-just-install-manually (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#or-do-it-really-from-scratch (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://code.google.com/p/pymox/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://sphinx.pocoo.org/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://codespeak.net/lxml/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://tornadoweb.org/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://djangoproject.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#mailing-list (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#for-users (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://groups.google.com/group/lettuce-users (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#for-developers (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://groups.google.com/group/lettuce-developers (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#special-thanks (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://lettuce.it/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://github.com/tatiana (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://djangoproject.com (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://github.com/ajtack (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://github.com/erlis (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#known-issues (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/gabrielfalcao/lettuce#windows-support (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/erlis (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://www.erlisvidal.com/2010/10/how-install-lettuce-windows.html (from https://github.com/gabrielfalcao/lettuce); unknown archive format: .html
+    Skipping link https://github.com/gabrielfalcao/lettuce#license (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/about (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/contact (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://status.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://windows.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://eclipse.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://gist.github.com (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://help.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://training.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/edu (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://shop.github.com (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/plans (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/gabrielfalcao/lettuce); not a file
+    Skipping link https://github.com/security (from https://github.com/gabrielfalcao/lettuce); not a file
+  Analyzing links from page http://lettuce.it
+    Skipping link http://lettuce.it/_static/lettuce-docs.css (from http://lettuce.it); unknown archive format: .css
+    Skipping link http://lettuce.it/_static/pygments.css (from http://lettuce.it); unknown archive format: .css
+    Skipping link http://lettuce.it/intro/overview.html (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/contents.html (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/genindex.html (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it#lettuce-nutshell (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it#lettuce-getting-involved (from http://lettuce.it); not a file
+    Skipping link http://github.com/gabrielfalcao/lettuce/issues (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/dev/index.html (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://pledgie.com/campaigns/10604 (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it#lettuce-hands-on (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/tutorial/simple.html#tutorial-simple (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it#lettuce-introduction (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/intro/overview.html#intro-overview (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/intro/install.html#intro-install (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it#lettuce-what-the-feature (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/intro/wtf.html#intro-wtf (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it#lettuce-walkthrough (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/tutorial/tables.html#tutorial-tables (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/tutorial/multiline.html#tutorial-multiline (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/tutorial/scenario-outlines.html#tutorial-scenario-outlines (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/tutorial/steps-from-step-definitions.html#tutorial-steps-from-step-definitions (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it#lettuce-integrate (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/recipes/django-lxml.html#recipes-django-lxml (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it#lettuce-furthermore (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/reference/cli.html#reference-cli (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/reference/features.html#reference-features (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/reference/terrain.html#reference-terrain (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it/reference/languages.html#reference-languages (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://lettuce.it#lettuce-recipes (from http://lettuce.it); not a file
+    Skipping link http://lettuce.it/recipes/nose.html#recipes-nose (from http://lettuce.it); unknown archive format: .html
+    Skipping link http://sphonx.pocoo.org (from http://lettuce.it); not a file
+    Skipping link http://www.flickr.com/photos/photofarmer/ (from http://lettuce.it); not a file
+    Skipping link http://flickr.com (from http://lettuce.it); not a file
+  Using version 0.2.16 (newest of versions: 0.2.16, 0.2.15, 0.2.14, 0.2.13, 0.2.12, 0.2.11, 0.2.10, 0.2.9, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.1.35, 0.1.34, 0.1.33, 0.1.32, 0.1.31, 0.1.30, 0.1.29, 0.1.28, 0.1.27, 0.1.26, 0.1.25, 0.1.24, 0.1.23, 0.1.22, 0.1.21, 0.1.20, 0.1.19, 0.1.18, 0.1.17, 0.1.16, 0.1.15, 0.1.14, 0.1.13, 0.1.12, 0.1.11, 0.1.10, 0.1.9, 0.1.8, 0.1.7, 0.1.6, 0.1.5, 0.1.4.1, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1, 0.1rc13, 0.1rc12, 0.1rc11, 0.1rc10, 0.1rc9, 0.1rc8, 0.1rc7, 0.1rc6, 0.1rc5, 0.1rc4, 0.1rc1)
+  Downloading from URL http://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.16.tar.gz#md5=0fc8251ed1c93d4e484bd459d3282912 (from http://pypi.python.org/simple/lettuce/)
+  Running setup.py egg_info for package lettuce
+
+    running egg_info
+    creating pip-egg-info/lettuce.egg-info
+    writing requirements to pip-egg-info/lettuce.egg-info/requires.txt
+    writing pip-egg-info/lettuce.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/lettuce.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/lettuce.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/lettuce.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/lettuce.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/lettuce.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/lettuce.egg-info/SOURCES.txt'
+Downloading/unpacking sure (from lettuce)
+
+  Getting page http://pypi.python.org/simple/sure
+  URLs to search for versions for sure (from lettuce):
+  * http://pypi.python.org/simple/sure/
+  Getting page http://github.com/gabrielfalcao/sure
+  Analyzing links from page http://pypi.python.org/simple/sure/
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.5.1.tar.gz#md5=3998ff7df501e2c6d39c099dc2ea2342 (from http://pypi.python.org/simple/sure/), version: 0.5.1
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.1-unreleased.tar.gz#md5=35c7bc0b6f9879180c90335d331a3059 (from http://pypi.python.org/simple/sure/), version: 0.1-unreleased
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.1.tar.gz#md5=87b9691f6d3ef90e430a1922bfbbaa8a (from http://pypi.python.org/simple/sure/), version: 1.1.1
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.0.3.tar.gz#md5=e46e9dbd836e63bc1ee54c3f30e2b9b2 (from http://pypi.python.org/simple/sure/), version: 1.0.3
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.9.2.tar.gz#md5=e343841ca680473110c2d6d991a1bb44 (from http://pypi.python.org/simple/sure/), version: 0.9.2
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.1.5-unreleased.tar.gz#md5=b474f5de911b47d1385c646f6ebe6206 (from http://pypi.python.org/simple/sure/), version: 0.1.5-unreleased
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.10.3.tar.gz#md5=84cf25264a77177d052e241bdb9d7c77 (from http://pypi.python.org/simple/sure/), version: 0.10.3
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.6.tar.gz#md5=b8cb60ee89313f66dbe6996f1f9942ac (from http://pypi.python.org/simple/sure/), version: 1.1.6
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.9.0.tar.gz#md5=7a9d749d02c0af373779fc8b8fd70436 (from http://pypi.python.org/simple/sure/), version: 0.9.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.5.0.tar.gz#md5=69e29acec4f4bd690d4252d73e6acc3e (from http://pypi.python.org/simple/sure/), version: 0.5.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.1.7-alpha.tar.gz#md5=afb3cc7dbb193853ae8705f17474482e (from http://pypi.python.org/simple/sure/), version: 0.1.7-alpha
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.3.tar.gz#md5=3cbc00154df3e6365aaf102d12f2b0c1 (from http://pypi.python.org/simple/sure/), version: 1.1.3
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.0.2-alpha.tar.gz#md5=4faa5f758df2a6ec2d965328bd27eda9 (from http://pypi.python.org/simple/sure/), version: 1.0.2-alpha
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.8.0.tar.gz#md5=7d619ff5b6184adae6e81ff8d1066829 (from http://pypi.python.org/simple/sure/), version: 0.8.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.1.8.tar.gz#md5=c038f77819fd99c071c816e11a9171c9 (from http://pypi.python.org/simple/sure/), version: 0.1.8
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.2.0.tar.gz#md5=e978350f28fe58540ae4b37e18c3076a (from http://pypi.python.org/simple/sure/), version: 1.2.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.10.1.tar.gz#md5=5baed9350d0b946de4898e2c0ce54132 (from http://pypi.python.org/simple/sure/), version: 0.10.1
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.0.5.tar.gz#md5=da7adcd00cbc3965b495be45d34dd78e (from http://pypi.python.org/simple/sure/), version: 1.0.5
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.1.6-alpha.tar.gz#md5=f54e8894b6e6c81f3ff0e0f758d3932a (from http://pypi.python.org/simple/sure/), version: 0.1.6-alpha
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.9.1.tar.gz#md5=46fe9d0298a8ea295569113825f17e38 (from http://pypi.python.org/simple/sure/), version: 0.9.1
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.10.0.tar.gz#md5=d42a8b22550a6cd4650969e038281b18 (from http://pypi.python.org/simple/sure/), version: 0.10.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.5.tar.gz#md5=6e974037f3d2204f1c3642a030e40b3d (from http://pypi.python.org/simple/sure/), version: 1.1.5
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.4.0.tar.gz#md5=438e63fda3e76405ae7abea82cea485d (from http://pypi.python.org/simple/sure/), version: 0.4.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.7.0.tar.gz#md5=3f0fc17ba93a5c0609d2215dfa74badd (from http://pypi.python.org/simple/sure/), version: 0.7.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.10.2.tar.gz#md5=0adfc18a91e14801690db2b0d0aae101 (from http://pypi.python.org/simple/sure/), version: 0.10.2
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.2.tar.gz#md5=b911416855f484bae3bcaa3a00eaeaf7 (from http://pypi.python.org/simple/sure/), version: 1.1.2
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.9.3.tar.gz#md5=5a42661d5640f337873bb6fbd024ef40 (from http://pypi.python.org/simple/sure/), version: 0.9.3
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.0.tar.gz#md5=474dca4516a1c3582a0247ab1498fe29 (from http://pypi.python.org/simple/sure/), version: 1.1.0
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.6.1.tar.gz#md5=f894764934dac28527759ac770034447 (from http://pypi.python.org/simple/sure/), version: 0.6.1
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.0.1alpha.tar.gz#md5=75422bec85a97d63954c694b151cdbb3 (from http://pypi.python.org/simple/sure/), version: 1.0.1alpha
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.1.9.tar.gz#md5=580687b1c905132d53617e91c6aa6686 (from http://pypi.python.org/simple/sure/), version: 0.1.9
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.6.tar.gz#md5=92caeb5803d93fb4700620a9c1136983 (from http://pypi.python.org/simple/sure/), version: 0.6
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.0.6.tar.gz#md5=b166a311411c4c70bb92ad2aa29e3360 (from http://pypi.python.org/simple/sure/), version: 1.0.6
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.0.0alpha.tar.gz#md5=3f220e1bcf3b854cf1f9c0be22c1c68b (from http://pypi.python.org/simple/sure/), version: 1.0.0alpha
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.3.tar.gz#md5=c8b831416c1eeb51d136850944151b16 (from http://pypi.python.org/simple/sure/), version: 0.3
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.8.1.tar.gz#md5=d5a021fde69250d379d326986424455f (from http://pypi.python.org/simple/sure/), version: 0.8.1
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.1.3-unreleased.tar.gz#md5=e1cee40ebc5be83c17d99752ebcaa6ed (from http://pypi.python.org/simple/sure/), version: 0.1.3-unreleased
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.2.1.tar.gz#md5=f974aef21dddbb2b8c953fa6d955b6bd (from http://pypi.python.org/simple/sure/), version: 1.2.1
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.4.tar.gz#md5=cc88597af61bddaccab21585b7889116 (from http://pypi.python.org/simple/sure/), version: 1.1.4
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.1.7.tar.gz#md5=4d95a2118175b8ca56a82c85505a8ebf (from http://pypi.python.org/simple/sure/), version: 1.1.7
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.2.tar.gz#md5=b748757971a9ad06cc0cdcdc756cd959 (from http://pypi.python.org/simple/sure/), version: 0.2
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.0.4.tar.gz#md5=106698eb25079abbf64f41348bfbe241 (from http://pypi.python.org/simple/sure/), version: 1.0.4
+    Found link http://pypi.python.org/packages/source/s/sure/sure-0.10.4.tar.gz#md5=e3cec0a684a3fce128a2c9caa58c0a59 (from http://pypi.python.org/simple/sure/), version: 0.10.4
+    Found link http://pypi.python.org/packages/source/s/sure/sure-1.2.2.tar.gz#md5=c99d3d4a3f1435375a9951f6f694932a (from http://pypi.python.org/simple/sure/), version: 1.2.2
+    Skipping link http://github.com/gabrielfalcao/sure (from http://pypi.python.org/simple/sure/); not a file
+  Analyzing links from page https://github.com/gabrielfalcao/sure
+    Skipping link https://github.com/gabrielfalcao/sure/tree/b3cbd76fe6a2bf60c9921c33ca11a098871f1a3d (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/commits/master.atom (from https://github.com/gabrielfalcao/sure); unknown archive format: .atom
+    Skipping link https://github.com/login?return_to=%2Fgabrielfalcao%2Fsure (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/stargazers (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/network (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/pulse (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/pulls (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/issues (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/graphs (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure#readme (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link http://falcao.it/sure (from https://github.com/gabrielfalcao/sure); not a file
+    Could not parse version from link: https://github.com/gabrielfalcao/sure/archive/master.zip (from https://github.com/gabrielfalcao/sure)
+    Skipping link https://github.com/gabrielfalcao/sure/archive/master.zip (from https://github.com/gabrielfalcao/sure); wrong project name (not sure)
+    Skipping link https://github.com/gabrielfalcao/sure.git (from https://github.com/gabrielfalcao/sure); unknown archive format: .git
+    Skipping link https://github.com/gabrielfalcao/git@github.com:gabrielfalcao/sure.git (from https://github.com/gabrielfalcao/sure); unknown archive format: .git
+    Skipping link git://github.com/gabrielfalcao/sure.git (from https://github.com/gabrielfalcao/sure); unknown archive format: .git
+    Skipping link https://github.com/gabrielfalcao/sure/tags (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/tree/BDD (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/tree/gh-pages (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/tree/master (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/tree/runner (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.2.2 (from https://github.com/gabrielfalcao/sure); unknown archive format: .2
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.2.1 (from https://github.com/gabrielfalcao/sure); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.2.0 (from https://github.com/gabrielfalcao/sure); unknown archive format: .0
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.1.7 (from https://github.com/gabrielfalcao/sure); unknown archive format: .7
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.1.6 (from https://github.com/gabrielfalcao/sure); unknown archive format: .6
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.1.5 (from https://github.com/gabrielfalcao/sure); unknown archive format: .5
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.0.6 (from https://github.com/gabrielfalcao/sure); unknown archive format: .6
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.0.3 (from https://github.com/gabrielfalcao/sure); unknown archive format: .3
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.0.2-alpha (from https://github.com/gabrielfalcao/sure); unknown archive format: .2-alpha
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.0.1alpha (from https://github.com/gabrielfalcao/sure); unknown archive format: .1alpha
+    Skipping link https://github.com/gabrielfalcao/sure/tree/1.0.0alpha (from https://github.com/gabrielfalcao/sure); unknown archive format: .0alpha
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.10.4 (from https://github.com/gabrielfalcao/sure); unknown archive format: .4
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.10.3 (from https://github.com/gabrielfalcao/sure); unknown archive format: .3
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.10.2 (from https://github.com/gabrielfalcao/sure); unknown archive format: .2
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.10.1 (from https://github.com/gabrielfalcao/sure); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.10.0 (from https://github.com/gabrielfalcao/sure); unknown archive format: .0
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.9.3 (from https://github.com/gabrielfalcao/sure); unknown archive format: .3
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.9.2 (from https://github.com/gabrielfalcao/sure); unknown archive format: .2
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.9.1 (from https://github.com/gabrielfalcao/sure); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.9.0 (from https://github.com/gabrielfalcao/sure); unknown archive format: .0
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.8.1 (from https://github.com/gabrielfalcao/sure); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.8.0 (from https://github.com/gabrielfalcao/sure); unknown archive format: .0
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.6 (from https://github.com/gabrielfalcao/sure); unknown archive format: .6
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.5.1 (from https://github.com/gabrielfalcao/sure); unknown archive format: .1
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.5.0 (from https://github.com/gabrielfalcao/sure); unknown archive format: .0
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.3 (from https://github.com/gabrielfalcao/sure); unknown archive format: .3
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.2 (from https://github.com/gabrielfalcao/sure); unknown archive format: .2
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.1.9 (from https://github.com/gabrielfalcao/sure); unknown archive format: .9
+    Skipping link https://github.com/gabrielfalcao/sure/tree/0.1.6-alpha (from https://github.com/gabrielfalcao/sure); unknown archive format: .6-alpha
+    Skipping link https://github.com/gabrielfalcao/sure/commits/master (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/branches (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/find/master (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/commit/b3cbd76fe6a2bf60c9921c33ca11a098871f1a3d (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/tree/master/sure (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/tree/master/tests (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/commit/f7b21e9b5e75259423e2709bbf9f3e610a973330 (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/.gitignore (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/commit/1fcee6570c866b0429dd36a9ee286606378df5a5 (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/.travis.yml (from https://github.com/gabrielfalcao/sure); unknown archive format: .yml
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/COPYING (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/commit/4a9b6b82d9de9eab490c86bd488ac36850b28835 (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/Makefile (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/commit/69f40aa04d08c77686f41eef2c6293a6e8f632a6 (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/clarete (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/OLD_API.md (from https://github.com/gabrielfalcao/sure); unknown archive format: .md
+    Skipping link https://github.com/gabrielfalcao/sure/commit/b8fe22670d84d54e618cd503b29459d7a1e29ec2 (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/spulec (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/README.md (from https://github.com/gabrielfalcao/sure); unknown archive format: .md
+    Skipping link https://github.com/gabrielfalcao/sure/commit/fe5db5ce1328548ece7ccd54cac4721603064a08 (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/TODO.md (from https://github.com/gabrielfalcao/sure); unknown archive format: .md
+    Skipping link https://github.com/gabrielfalcao/sure/commit/cafde05f4e3709ef45d762f7b08b3cd60ae2c4ad (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/requirements.pip (from https://github.com/gabrielfalcao/sure); unknown archive format: .pip
+    Skipping link https://github.com/gabrielfalcao/sure/commit/129f58ab6e2d85f96f2b5bdcd17637d960956d04 (from https://github.com/gabrielfalcao/sure); not a file
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/setup.py (from https://github.com/gabrielfalcao/sure); unknown archive format: .py
+    Skipping link https://github.com/gabrielfalcao/sure/blob/master/tox.ini (from https://github.com/gabrielfalcao/sure); unknown archive format: .ini
+  Using version 1.2.2 (newest of versions: 1.2.2, 1.2.1, 1.2.0, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2-alpha, 1.0.1alpha, 1.0.0alpha, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.8.1, 0.8.0, 0.7.0, 0.6.1, 0.6, 0.5.1, 0.5.0, 0.4.0, 0.3, 0.2, 0.1.9, 0.1.8, 0.1.7-alpha, 0.1.6-alpha, 0.1.5-unreleased, 0.1.3-unreleased, 0.1-unreleased)
+  Downloading sure-1.2.2.tar.gz
+
+  Downloading from URL http://pypi.python.org/packages/source/s/sure/sure-1.2.2.tar.gz#md5=c99d3d4a3f1435375a9951f6f694932a (from http://pypi.python.org/simple/sure/)
+  Running setup.py egg_info for package sure
+
+    running egg_info
+    creating pip-egg-info/sure.egg-info
+    writing pip-egg-info/sure.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/sure.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/sure.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/sure.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/sure.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/sure.egg-info/SOURCES.txt'
+  Source in ./build/sure has version 1.2.2, which satisfies requirement sure (from lettuce)
+Downloading/unpacking fuzzywuzzy (from lettuce)
+
+  Getting page http://pypi.python.org/simple/fuzzywuzzy
+  URLs to search for versions for fuzzywuzzy (from lettuce):
+  * http://pypi.python.org/simple/fuzzywuzzy/
+  Getting page https://github.com/seatgeek/fuzzywuzzy/
+  Analyzing links from page http://pypi.python.org/simple/fuzzywuzzy/
+    Found link http://pypi.python.org/packages/source/f/fuzzywuzzy/fuzzywuzzy-0.1.tar.gz#md5=84ff57cc660c45128167d1508cd32196 (from http://pypi.python.org/simple/fuzzywuzzy/), version: 0.1
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/ (from http://pypi.python.org/simple/fuzzywuzzy/); not a file
+  Analyzing links from page https://github.com/seatgeek/fuzzywuzzy/
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/tree/c1a181c620f34e7350440f6d59924d756a4efe4c (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commits/master.atom (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .atom
+    Skipping link https://github.com/login?return_to=%2Fseatgeek%2Ffuzzywuzzy%2F (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/login?return_to=%2Fseatgeek%2Ffuzzywuzzy (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/stargazers (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/network (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/pulse (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/pulls (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/issues (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/graphs (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#readme (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Could not parse version from link: https://github.com/seatgeek/fuzzywuzzy/archive/master.zip (from https://github.com/seatgeek/fuzzywuzzy/)
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/archive/master.zip (from https://github.com/seatgeek/fuzzywuzzy/); wrong project name (not fuzzywuzzy)
+    Skipping link https://github.com/seatgeek/fuzzywuzzy.git (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .git
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/git@github.com:seatgeek/fuzzywuzzy.git (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .git
+    Skipping link git://github.com/seatgeek/fuzzywuzzy.git (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .git
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/tags (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/tree/master (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commits/master (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/branches (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/find/master (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commit/c1a181c620f34e7350440f6d59924d756a4efe4c (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/acslater00 (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/tree/master/data (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commit/71d2838fb874477873aec8d42b08518356005235 (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/tree/master/fuzzywuzzy (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/blob/master/.gitignore (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commit/dc2e3419d86c41a01d5923ab4449bb3b929407fc (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/medecau (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/blob/master/LICENSE (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commit/3ebb9256f04f0331f86e468d45e25ae7ad02db2e (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/issues/10 (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/blob/master/MANIFEST (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/blob/master/README.textile (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .textile
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commit/775dfbf72782eb0912ad613e52013a4db413fa31 (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/blob/master/benchmarks.py (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .py
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commit/666e8cd538253b34e596bdab7b36ca57d7969817 (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/lerignoux (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/blob/master/setup.py (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .py
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/commit/87849df85f34d7aa229532b38dae4c587b42b113 (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/blob/master/tests.py (from https://github.com/seatgeek/fuzzywuzzy/); unknown archive format: .py
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#fuzzywuzzy (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#requirements (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#installation (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link http://github.com/seatgeek/fuzzywuzzy/zipball/master (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#usage (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#simple-ratio (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#partial-ratio (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#token-sort-ratio (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#token-set-ratio (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#process (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+    Skipping link https://github.com/seatgeek/fuzzywuzzy/#license (from https://github.com/seatgeek/fuzzywuzzy/); not a file
+  Downloading fuzzywuzzy-0.1.tar.gz
+
+  Downloading from URL http://pypi.python.org/packages/source/f/fuzzywuzzy/fuzzywuzzy-0.1.tar.gz#md5=84ff57cc660c45128167d1508cd32196 (from http://pypi.python.org/simple/fuzzywuzzy/)
+  Running setup.py egg_info for package fuzzywuzzy
+
+    running egg_info
+    creating pip-egg-info/fuzzywuzzy.egg-info
+    writing pip-egg-info/fuzzywuzzy.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/fuzzywuzzy.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/fuzzywuzzy.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/fuzzywuzzy.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/fuzzywuzzy.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/fuzzywuzzy.egg-info/SOURCES.txt'
+  Source in ./build/fuzzywuzzy has version 0.1, which satisfies requirement fuzzywuzzy (from lettuce)
+Downloading/unpacking ipdb (from lettuce)
+
+  Getting page http://pypi.python.org/simple/ipdb
+  URLs to search for versions for ipdb (from lettuce):
+  * http://pypi.python.org/simple/ipdb/
+  Getting page https://github.com/gotcha/ipdb
+  Analyzing links from page http://pypi.python.org/simple/ipdb/
+    Skipping link http://pypi.python.org/packages/2.4/i/ipdb/ipdb-0.1dev_r1716-py2.4.egg#md5=dc241bf1a82a6e4296652d54ae4834e0 (from http://pypi.python.org/simple/ipdb/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.4/i/ipdb/ipdb-0.1dev_r1713-py2.4.egg#md5=bf68c7b3ee9e5b723d59fabd2dcf6309 (from http://pypi.python.org/simple/ipdb/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.4/i/ipdb/ipdb-0.1dev_r1714-py2.4.egg#md5=1601402563a9b59a4369297c1f2f16f3 (from http://pypi.python.org/simple/ipdb/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.5.tar.gz#md5=5d9da7bac4f139b9bb8ec8cc19a44e2e (from http://pypi.python.org/simple/ipdb/), version: 0.5
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.4.tar.gz#md5=305e210a70cb603d3c2cf8e7492c5719 (from http://pypi.python.org/simple/ipdb/), version: 0.4
+    Skipping link http://pypi.python.org/packages/2.4/i/ipdb/ipdb-0.1dev_r1556-py2.4.egg#md5=fef5a0554e80da3cf04601abffbb06d0 (from http://pypi.python.org/simple/ipdb/); unknown archive format: .egg
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.1dev-r1556.tar.gz#md5=d834e2659231f276049a965fbcd41d44 (from http://pypi.python.org/simple/ipdb/), version: 0.1dev-r1556
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.1dev-r1716.tar.gz#md5=21354e9d4c7fd87908d543418de0d131 (from http://pypi.python.org/simple/ipdb/), version: 0.1dev-r1716
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.3.tar.gz#md5=2ccf2eca7b8c1cd4b47b231d318bbdc9 (from http://pypi.python.org/simple/ipdb/), version: 0.3
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.2.tar.gz#md5=76a4b58633232cf6654d5a278230af54 (from http://pypi.python.org/simple/ipdb/), version: 0.2
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.6.1.tar.gz#md5=6aeacd76e9d0da20c86d459531e9537b (from http://pypi.python.org/simple/ipdb/), version: 0.6.1
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.6.tar.gz#md5=4a4b32e64c043522368c7871d8f50b6d (from http://pypi.python.org/simple/ipdb/), version: 0.6
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.1dev-r1713.tar.gz#md5=5301c69ed63f913ba3f760b2842410a4 (from http://pypi.python.org/simple/ipdb/), version: 0.1dev-r1713
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.1.tar.gz#md5=694a74ed29ff8aafc86f6d82669763b1 (from http://pypi.python.org/simple/ipdb/), version: 0.1
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.1dev-r1714.tar.gz#md5=6821c4566330811dfe4493138aaacdcf (from http://pypi.python.org/simple/ipdb/), version: 0.1dev-r1714
+    Found link http://pypi.python.org/packages/source/i/ipdb/ipdb-0.7.tar.gz#md5=d879f9b2b0f26e0e999809585dcaec61 (from http://pypi.python.org/simple/ipdb/), version: 0.7
+    Skipping link https://github.com/gotcha/ipdb (from http://pypi.python.org/simple/ipdb/); not a file
+    Skipping link https://github.com/gotcha/ipdb/issues/8 (from http://pypi.python.org/simple/ipdb/); not a file
+    Skipping link https://github.com/gotcha/ipdb/issues/1 (from http://pypi.python.org/simple/ipdb/); not a file
+    Skipping link http://readthedocs.org/docs/nose (from http://pypi.python.org/simple/ipdb/); not a file
+    Skipping link https://github.com/gotcha/ipdb/issues/3 (from http://pypi.python.org/simple/ipdb/); not a file
+    Skipping link http://bubblenet.be (from http://pypi.python.org/simple/ipdb/); not a file
+    Skipping link http://ipython.org (from http://pypi.python.org/simple/ipdb/); not a file
+  Analyzing links from page https://github.com/gotcha/ipdb
+    Skipping link https://github.com/gotcha/ipdb/tree/69712e7aeaab9d1639fedd8312876a7d63b469b6 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/commits/master.atom (from https://github.com/gotcha/ipdb); unknown archive format: .atom
+    Skipping link https://github.com/login?return_to=%2Fgotcha%2Fipdb (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/stargazers (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/network (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/pulse (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/pulls (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/issues (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/graphs (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb#readme (from https://github.com/gotcha/ipdb); not a file
+    Could not parse version from link: https://github.com/gotcha/ipdb/archive/master.zip (from https://github.com/gotcha/ipdb)
+    Skipping link https://github.com/gotcha/ipdb/archive/master.zip (from https://github.com/gotcha/ipdb); wrong project name (not ipdb)
+    Skipping link https://github.com/gotcha/ipdb.git (from https://github.com/gotcha/ipdb); unknown archive format: .git
+    Skipping link https://github.com/gotcha/git@github.com:gotcha/ipdb.git (from https://github.com/gotcha/ipdb); unknown archive format: .git
+    Skipping link git://github.com/gotcha/ipdb.git (from https://github.com/gotcha/ipdb); unknown archive format: .git
+    Skipping link https://github.com/gotcha/ipdb/tags (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/tree/master (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/tree/0.7 (from https://github.com/gotcha/ipdb); unknown archive format: .7
+    Skipping link https://github.com/gotcha/ipdb/tree/0.6.1 (from https://github.com/gotcha/ipdb); unknown archive format: .1
+    Skipping link https://github.com/gotcha/ipdb/tree/0.6 (from https://github.com/gotcha/ipdb); unknown archive format: .6
+    Skipping link https://github.com/gotcha/ipdb/tree/0.5 (from https://github.com/gotcha/ipdb); unknown archive format: .5
+    Skipping link https://github.com/gotcha/ipdb/tree/0.4 (from https://github.com/gotcha/ipdb); unknown archive format: .4
+    Skipping link https://github.com/gotcha/ipdb/tree/0.3 (from https://github.com/gotcha/ipdb); unknown archive format: .3
+    Skipping link https://github.com/gotcha/ipdb/tree/0.2 (from https://github.com/gotcha/ipdb); unknown archive format: .2
+    Skipping link https://github.com/gotcha/ipdb/tree/0.1 (from https://github.com/gotcha/ipdb); unknown archive format: .1
+    Skipping link https://github.com/gotcha/ipdb/commits/master (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/branches (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/find/master (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/commit/69712e7aeaab9d1639fedd8312876a7d63b469b6 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/tree/master/ipdb (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/commit/50c7ede8b2c9f9b6626aca84202d3c3eac220e22 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/issues/28 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/tree/master/tests (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/commit/47a817733ddd7e77aee1203d1165bcaaf8dca7eb (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/blob/master/.gitignore (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/commit/f095806f4aa5a2c47574324d20bec7a03dc7e046 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/blob/master/COPYING.txt (from https://github.com/gotcha/ipdb); unknown archive format: .txt
+    Skipping link https://github.com/gotcha/ipdb/commit/415962689f08bbed9c16491f773026209132793a (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/blob/master/HISTORY.txt (from https://github.com/gotcha/ipdb); unknown archive format: .txt
+    Skipping link https://github.com/gotcha/ipdb/commit/bec0d5eec47bc32c399e53cfd5024c5be10f4d19 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/blob/master/MANIFEST.in (from https://github.com/gotcha/ipdb); unknown archive format: .in
+    Skipping link https://github.com/gotcha/ipdb/commit/7585beae8bb422bd0dab085421f0455c63830c12 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/pjdelport (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/blob/master/README.rst (from https://github.com/gotcha/ipdb); unknown archive format: .rst
+    Skipping link https://github.com/gotcha/ipdb/blob/master/manual_test.py (from https://github.com/gotcha/ipdb); unknown archive format: .py
+    Skipping link https://github.com/gotcha/ipdb/blob/master/setup.py (from https://github.com/gotcha/ipdb); unknown archive format: .py
+    Skipping link https://github.com/gotcha/ipdb/commit/28e7d55ad2e9abbc242bdde88ba3f234d173e9c3 (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/aldrik (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb/blob/master/tox.ini (from https://github.com/gotcha/ipdb); unknown archive format: .ini
+    Skipping link https://github.com/gotcha/ipdb#ipython-pdb (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb#use (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb#development (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb#third-party-support (from https://github.com/gotcha/ipdb); not a file
+    Skipping link https://github.com/gotcha/ipdb#productspdbdebugmode (from https://github.com/gotcha/ipdb); not a file
+    Skipping link http://pypi.python.org/pypi/Products.PDBDebugMode (from https://github.com/gotcha/ipdb); unknown archive format: .PDBDebugMode
+    Skipping link https://github.com/gotcha/ipdb#iwdebug (from https://github.com/gotcha/ipdb); not a file
+    Skipping link http://pypi.python.org/pypi/iw.debug (from https://github.com/gotcha/ipdb); unknown archive format: .debug
+    Skipping link https://github.com/gotcha/ipdb#ipdbplugin (from https://github.com/gotcha/ipdb); not a file
+    Skipping link http://pypi.python.org/pypi/ipdbplugin (from https://github.com/gotcha/ipdb); not a file
+  Using version 0.7 (newest of versions: 0.7, 0.6.1, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.1dev-r1716, 0.1dev-r1714, 0.1dev-r1713, 0.1dev-r1556)
+  Downloading ipdb-0.7.tar.gz
+
+  Downloading from URL http://pypi.python.org/packages/source/i/ipdb/ipdb-0.7.tar.gz#md5=d879f9b2b0f26e0e999809585dcaec61 (from http://pypi.python.org/simple/ipdb/)
+  Running setup.py egg_info for package ipdb
+
+    running egg_info
+    creating pip-egg-info/ipdb.egg-info
+    writing requirements to pip-egg-info/ipdb.egg-info/requires.txt
+    writing pip-egg-info/ipdb.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/ipdb.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/ipdb.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/ipdb.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/ipdb.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/ipdb.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/ipdb.egg-info/SOURCES.txt'
+  Source in ./build/ipdb has version 0.7, which satisfies requirement ipdb (from lettuce)
+Downloading/unpacking ipython>=0.10 (from ipdb->lettuce)
+
+  Getting page http://pypi.python.org/simple/ipython
+  URLs to search for versions for ipython>=0.10 (from ipdb->lettuce):
+  * http://pypi.python.org/simple/ipython/
+  Getting page http://ipython.org
+  Getting page http://archive.ipython.org/release/old/
+  Getting page http://archive.ipython.org/release/0.12
+  Getting page https://github.com/ipython/ipython/downloads
+  Getting page http://archive.ipython.org/release/0.8.4/
+  Getting page http://archive.ipython.org/release/0.12.1
+  Getting page http://archive.ipython.org/release/0.11/
+  Getting page http://archive.ipython.org/release/0.10.1/
+  Getting page http://archive.ipython.org/release/0.10/
+  Getting page http://archive.ipython.org/release/0.9.1/
+  Getting page http://archive.ipython.org/release/old/0.9/
+  Analyzing links from page http://pypi.python.org/simple/ipython/
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.1.py2-win-amd64.exe#md5=fc0f7aa01342eeeb5c6a2a0950c28562 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/i/ipython/ipython-0.10-py2.5.egg#md5=2ba94f7095f19af07ce2b4de8a7560d8 (from http://pypi.python.org/simple/ipython/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.py3-win32.exe#md5=16cfebdb126ca7a07d51b2f6b2302edd (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.1.py3-win32.exe#md5=43c1c567b920b718a38fffd1866a4392 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.py2-win32.exe#md5=9ef302f4db18944d3523eb2e77bdd5ab (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.1.py3-win-amd64-PROPER.exe#md5=2c4e26db957529cac7e61d0c7e411f92 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.12.1.win32.exe#md5=471dae23ce46eb74027ef08828b91eb9 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.py3-win-amd64.exe#md5=d180adb3e48f8e4704bd88c1dc7b2c72 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.12.1.win-amd64.exe#md5=d7c11a21948d75cec7b45f90d557f0d1 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.12.1.tar.gz#md5=ae3a9851cd99f40ba5227efec58c7a6c (from http://pypi.python.org/simple/ipython/), version: 0.12.1
+    Skipping link http://pypi.python.org/packages/2.7/i/ipython/ipython-0.12.1-py2.7.egg#md5=cf9645e30bed6ba0629fa3c610af7a5b (from http://pypi.python.org/simple/ipython/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.2.py3-win-amd64.exe#md5=91de7d2b9c0397e93b87c8790863d3bf (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.5/i/ipython/ipython-0.7.3-py2.5.egg#md5=76df2f3f9dcd0a4f087c558c9a6f94a4 (from http://pypi.python.org/simple/ipython/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.6/i/ipython/ipython-0.10-py2.6.egg#md5=106db488676e0a5f213e228ce97371ff (from http://pypi.python.org/simple/ipython/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.py2-win-amd64.exe#md5=945fc78dfd38631c4720c58139a83255 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.1.py2-win32-PROPER.exe#md5=2da9b1e60382c97da6f05e8caece3180 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.12.tar.gz#md5=0199b62aa65986726b46247db3cb06cf (from http://pypi.python.org/simple/ipython/), version: 0.12
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.10.2.tar.gz#md5=dda59bfc6e256ce786c4bc4aadb220a4 (from http://pypi.python.org/simple/ipython/), version: 0.10.2
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.12.1.zip#md5=af3582d09815829d745a7179d6dc2d49 (from http://pypi.python.org/simple/ipython/), version: 0.12.1
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.13.1.tar.gz#md5=ca7e75f7c802afc6aaa0a1ea59846420 (from http://pypi.python.org/simple/ipython/), version: 0.13.1
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.13.tar.gz#md5=9f04b590463dfe981e56ff1aebc90e23 (from http://pypi.python.org/simple/ipython/), version: 0.13
+    Skipping link http://pypi.python.org/packages/2.5/i/ipython/ipython-0.10-py25.noarch.rpm#md5=2d7dc5f7c03b795d4469d6683c5746f6 (from http://pypi.python.org/simple/ipython/); unknown archive format: .rpm
+    Skipping link http://pypi.python.org/packages/2.7/i/ipython/ipython-0.13.1-py2.7.egg#md5=d4bbe64ccefaf9c46536ab94b846db6f (from http://pypi.python.org/simple/ipython/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/2.6/i/ipython/ipython-0.10.win32-setup.exe#md5=b45f7a84851f17ce97a8dcc366250afe (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.7/i/ipython/ipython-0.13-py2.7.egg#md5=694ce5981bf163922bd09617a4742a61 (from http://pypi.python.org/simple/ipython/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.2.py2-win-amd64.exe#md5=7dc34c2042ab0efff74ede38c87dbdc5 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/2.6/i/ipython/ipython-0.10-py26.noarch.rpm#md5=dc900a183e7034b720b62045202f4e9e (from http://pypi.python.org/simple/ipython/); unknown archive format: .rpm
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.10.2.zip#md5=228d0bd2fe4f5064082d7952a41bc96d (from http://pypi.python.org/simple/ipython/), version: 0.10.2
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.10.1.zip#md5=f636c7ea03ff626a6ef9bd9a901de691 (from http://pypi.python.org/simple/ipython/), version: 0.10.1
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.11.tar.gz#md5=efc899e752a4a4a67a99575cea1719ef (from http://pypi.python.org/simple/ipython/), version: 0.11
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.11.zip#md5=8e4155313a2e29addcec100835fe39ce (from http://pypi.python.org/simple/ipython/), version: 0.11
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.12.zip#md5=ec135100af088a9607fd3eed91fc476f (from http://pypi.python.org/simple/ipython/), version: 0.12
+    Skipping link http://pypi.python.org/packages/2.6/i/ipython/ipython-0.12.1-py2.6.egg#md5=81704b5d76a095575cae2c66fda3daaa (from http://pypi.python.org/simple/ipython/); unknown archive format: .egg
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.2.py3-win32.exe#md5=094c24c083f243d525bde24195704bb6 (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.10.tar.gz#md5=dd10cd1b622c16c1afca2239fcc0dfdf (from http://pypi.python.org/simple/ipython/), version: 0.10
+    Skipping link http://pypi.python.org/packages/any/i/ipython/ipython-0.13.2.py2-win32.exe#md5=aaff656b351fcb05ca5745ca703b4ade (from http://pypi.python.org/simple/ipython/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.10.1.tar.gz#md5=54ae47079b0e9a0998593a99ce76ec1f (from http://pypi.python.org/simple/ipython/), version: 0.10.1
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.13.zip#md5=a644023f079bdc22797f3b7ca3f076a0 (from http://pypi.python.org/simple/ipython/), version: 0.13
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.13.2.tar.gz#md5=ead3b7eb70c653b537fb9d96d71b8b2a (from http://pypi.python.org/simple/ipython/), version: 0.13.2
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.13.1.zip#md5=75ace1afede8fe8cd6143e35ca4418bd (from http://pypi.python.org/simple/ipython/), version: 0.13.1
+    Found link http://pypi.python.org/packages/source/i/ipython/ipython-0.13.2.zip#md5=76195c97e426fbc641f66c55faa0318a (from http://pypi.python.org/simple/ipython/), version: 0.13.2
+    Skipping link http://archive.ipython.org/release/old/ (from http://pypi.python.org/simple/ipython/); not a file
+    Skipping link http://archive.ipython.org/release/0.12 (from http://pypi.python.org/simple/ipython/); unknown archive format: .12
+    Skipping link https://github.com/ipython/ipython/downloads (from http://pypi.python.org/simple/ipython/); not a file
+    Skipping link http://archive.ipython.org/release/0.8.4/ (from http://pypi.python.org/simple/ipython/); unknown archive format: .4
+    Skipping link http://archive.ipython.org/release/0.12.1 (from http://pypi.python.org/simple/ipython/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.11/ (from http://pypi.python.org/simple/ipython/); unknown archive format: .11
+    Skipping link http://archive.ipython.org/release/0.10.1/ (from http://pypi.python.org/simple/ipython/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.10/ (from http://pypi.python.org/simple/ipython/); unknown archive format: .10
+    Skipping link http://archive.ipython.org/release/0.9.1/ (from http://pypi.python.org/simple/ipython/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/old/0.9/ (from http://pypi.python.org/simple/ipython/); unknown archive format: .9
+    Skipping link http://github.com/ipython/ipython (from http://pypi.python.org/simple/ipython/); not a file
+    Skipping link http://github.com/ipython (from http://pypi.python.org/simple/ipython/); not a file
+    Skipping link http://launchpad.net/ipython (from http://pypi.python.org/simple/ipython/); not a file
+    Found link http://ipython.scipy.org/svn/ipython/ipython/trunk#egg=ipython-dev (from http://pypi.python.org/simple/ipython/), version: dev
+  Analyzing links from page http://ipython.org
+    Skipping link http://ipython.org/_static/agogo.css (from http://ipython.org); unknown archive format: .css
+    Skipping link http://ipython.org/_static/pygments.css (from http://ipython.org); unknown archive format: .css
+    Skipping link http://ipython.org/_static/ipython.css (from http://ipython.org); unknown archive format: .css
+    Skipping link http://ipython.org/_static/favicon.ico (from http://ipython.org); unknown archive format: .ico
+    Skipping link http://ipython.org/citing.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/install.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/documentation.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/videos.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://nbviewer.ipython.org (from http://ipython.org); not a file
+    Skipping link http://ipython.org/news.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/donate.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://www.google.com/cse/style/look/default.css (from http://ipython.org); unknown archive format: .css
+    Skipping link http://numfocus.org/johnhunter/ (from http://ipython.org); not a file
+    Skipping link http://ipython.org/download.html (from http://ipython.org); unknown archive format: .html
+    Skipping link https://github.com/ipython/ipython (from http://ipython.org); not a file
+    Skipping link http://www.packtpub.com/learning-ipython-for-interactive-computing-and-data-visualization/book (from http://ipython.org); not a file
+    Skipping link http://www.hipchat.com/ghSp7E1uY (from http://ipython.org); not a file
+    Skipping link http://stackoverflow.com/questions/tagged/ipython (from http://ipython.org); not a file
+    Skipping link http://projects.scipy.org/mailman/listinfo/ipython-dev (from http://ipython.org); not a file
+    Skipping link https://github.com/ipython/ipython/wiki (from http://ipython.org); not a file
+    Skipping link http://www.reddit.com/r/IPython (from http://ipython.org); not a file
+    Skipping link https://github.com/ipython/ipython/issues (from http://ipython.org); not a file
+    Skipping link https://twitter.com/share (from http://ipython.org); not a file
+    Skipping link http://www.hipchat.com/ghtNzvmfC (from http://ipython.org); not a file
+    Skipping link https://github.com/ipython/ipython/wiki/Dev:-Index (from http://ipython.org); not a file
+    Skipping link https://jenkins.shiningpanda.com/ipython/ (from http://ipython.org); not a file
+    Skipping link http://travis-ci.org/#%21/ipython/ipython (from http://ipython.org); not a file
+    Skipping link http://ipython.org/ipython-doc/stable/interactive/qtconsole.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/notebook.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/ipython-doc/stable/interactive/reference.html#gui-event-loop-support (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/ipython-doc/stable/interactive/reference.html#embedding-ipython (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/ipython-doc/stable/parallel/parallel_intro.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/_static/ipy_0.13.png (from http://ipython.org); unknown archive format: .png
+    Skipping link http://ipython.org/ipython-doc/stable/development/messaging.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://nbviewer.ipython.org/url/github.com/ipython/ipython/raw/master/examples/notebooks/Cython%20Magics.ipynb (from http://ipython.org); unknown archive format: .ipynb
+    Skipping link http://nbviewer.ipython.org/url/github.com/ipython/ipython/raw/master/examples/notebooks/R%20Magics.ipynb (from http://ipython.org); unknown archive format: .ipynb
+    Skipping link http://nbviewer.ipython.org/url/github.com/ipython/ipython/raw/master/examples/notebooks/Octave%20Magic.ipynb (from http://ipython.org); unknown archive format: .ipynb
+    Skipping link http://nbviewer.ipython.org/url/github.com/ipython/ipython/raw/master/examples/notebooks/Script%20Magics.ipynb (from http://ipython.org); unknown archive format: .ipynb
+    Skipping link https://github.com/ipython/ipython/tree/master/examples/notebooks#a-collection-of-notebooks-for-using-ipython-effectively (from http://ipython.org); not a file
+    Skipping link https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks (from http://ipython.org); not a file
+    Skipping link http://ipython.org/videos.html#videos (from http://ipython.org); unknown archive format: .html
+    Skipping link http://ipython.org/presentation.html (from http://ipython.org); unknown archive format: .html
+    Skipping link https://github.com/ipython/ipython/wiki/Projects-using-IPython (from http://ipython.org); not a file
+    Skipping link http://ipython.org#citing (from http://ipython.org); not a file
+    Skipping link http://ipython.org#announcements (from http://ipython.org); not a file
+    Skipping link https://github.com/Carreau (from http://ipython.org); not a file
+    Skipping link http://www.fsf.org/news/2012-free-software-award-winners-announced-2 (from http://ipython.org); not a file
+    Skipping link http://vcresearch.berkeley.edu/news/wresting-new-tricks-python-fernando-perez-wins-2012-award-advancement-free-software (from http://ipython.org); not a file
+    Skipping link http://pyvideo.org/video/1652/ipython-in-depth-high-productivity-interactive-a-0 (from http://ipython.org); not a file
+    Skipping link http://ipython.org/sloan-grant.html (from http://ipython.org); unknown archive format: .html
+    Skipping link https://github.com/ipython/ipython/wiki/Roadmap:-IPython (from http://ipython.org); not a file
+    Skipping link http://ipython.org/roadmap-announcement.html (from http://ipython.org); unknown archive format: .html
+    Skipping link http://www.sloan.org (from http://ipython.org); not a file
+    Skipping link http://matplotlib.sourceforge.net/ (from http://ipython.org); not a file
+    Skipping link http://ipython.org#citing-ipython (from http://ipython.org); not a file
+    Skipping link http://ipython.org#support (from http://ipython.org); not a file
+    Skipping link http://www.hpcmo.hpc.mil (from http://ipython.org); not a file
+    Skipping link http://www.erdc.usace.army.mil (from http://ipython.org); not a file
+    Skipping link http://enthought.com (from http://ipython.org); not a file
+    Skipping link http://www.enthought.com/products/epd.php (from http://ipython.org); unknown archive format: .php
+    Skipping link http://nipy.org (from http://ipython.org); not a file
+    Skipping link http://sagemath.org (from http://ipython.org); not a file
+    Skipping link http://modular.math.washington.edu/grants/compmath09 (from http://ipython.org); not a file
+    Skipping link http://pytools.codeplex.com (from http://ipython.org); not a file
+    Skipping link http://txcorp.com (from http://ipython.org); not a file
+    Skipping link http://www.bivio.biz (from http://ipython.org); not a file
+    Skipping link http://github.com/ (from http://ipython.org); not a file
+    Skipping link https://www.shiningpanda.com/ (from http://ipython.org); not a file
+  Analyzing links from page http://archive.ipython.org/release/old/
+    Skipping link http://archive.ipython.org/release/old/?C=N;O=D (from http://archive.ipython.org/release/old/); not a file
+    Skipping link http://archive.ipython.org/release/old/?C=M;O=A (from http://archive.ipython.org/release/old/); not a file
+    Skipping link http://archive.ipython.org/release/old/?C=S;O=A (from http://archive.ipython.org/release/old/); not a file
+    Skipping link http://archive.ipython.org/release/old/?C=D;O=A (from http://archive.ipython.org/release/old/); not a file
+    Skipping link http://archive.ipython.org/release/ (from http://archive.ipython.org/release/old/); not a file
+    Skipping link http://archive.ipython.org/release/old/0.0/ (from http://archive.ipython.org/release/old/); unknown archive format: .0
+    Skipping link http://archive.ipython.org/release/old/0.1/ (from http://archive.ipython.org/release/old/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/old/0.10/ (from http://archive.ipython.org/release/old/); unknown archive format: .10
+    Skipping link http://archive.ipython.org/release/old/0.2/ (from http://archive.ipython.org/release/old/); unknown archive format: .2
+    Skipping link http://archive.ipython.org/release/old/0.4/ (from http://archive.ipython.org/release/old/); unknown archive format: .4
+    Skipping link http://archive.ipython.org/release/old/0.5/ (from http://archive.ipython.org/release/old/); unknown archive format: .5
+    Skipping link http://archive.ipython.org/release/old/0.6/ (from http://archive.ipython.org/release/old/); unknown archive format: .6
+    Skipping link http://archive.ipython.org/release/old/0.7/ (from http://archive.ipython.org/release/old/); unknown archive format: .7
+    Skipping link http://archive.ipython.org/release/old/0.8/ (from http://archive.ipython.org/release/old/); unknown archive format: .8
+    Skipping link http://archive.ipython.org/release/old/ipython-emacs/ (from http://archive.ipython.org/release/old/); not a file
+    Skipping link http://archive.ipython.org/release/old/pyreadline/ (from http://archive.ipython.org/release/old/); not a file
+  Analyzing links from page http://archive.ipython.org/release/0.12/
+    Skipping link http://archive.ipython.org/release/0.12/?C=N;O=D (from http://archive.ipython.org/release/0.12/); unknown archive format: .12
+    Skipping link http://archive.ipython.org/release/0.12/?C=M;O=A (from http://archive.ipython.org/release/0.12/); unknown archive format: .12
+    Skipping link http://archive.ipython.org/release/0.12/?C=S;O=A (from http://archive.ipython.org/release/0.12/); unknown archive format: .12
+    Skipping link http://archive.ipython.org/release/0.12/?C=D;O=A (from http://archive.ipython.org/release/0.12/); unknown archive format: .12
+    Skipping link http://archive.ipython.org/release/0.12/ipython-0.12-py2.7.egg (from http://archive.ipython.org/release/0.12/); unknown archive format: .egg
+    Skipping link http://archive.ipython.org/release/0.12/ipython-0.12-py3.2.egg (from http://archive.ipython.org/release/0.12/); unknown archive format: .egg
+    Found link http://archive.ipython.org/release/0.12/ipython-0.12.tar.gz (from http://archive.ipython.org/release/0.12/), version: 0.12
+    Skipping link http://archive.ipython.org/release/0.12/ipython-0.12.win32-py3.exe (from http://archive.ipython.org/release/0.12/); unknown archive format: .exe
+    Skipping link http://archive.ipython.org/release/0.12/ipython-0.12.win32-setup.exe (from http://archive.ipython.org/release/0.12/); unknown archive format: .exe
+    Found link http://archive.ipython.org/release/0.12/ipython-0.12.zip (from http://archive.ipython.org/release/0.12/), version: 0.12
+  Analyzing links from page https://github.com/ipython/ipython/downloads
+    Skipping link https://github.com/ipython/ipython/commits/master.atom (from https://github.com/ipython/ipython/downloads); unknown archive format: .atom
+    Skipping link https://github.com/login?return_to=%2Fipython%2Fipython%2Fdownloads (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/login?return_to=%2Fipython%2Fipython (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/stargazers (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/network (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/pulse (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/pulls (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/graphs (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/tags (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/commits/master (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/ipython/ipython/branches (from https://github.com/ipython/ipython/downloads); not a file
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.1.py3-win-amd64-PROPER.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.1.py2-win32-PROPER.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Found link https://github.com/downloads/ipython/ipython/ipython-0.13.1.tar.gz (from https://github.com/ipython/ipython/downloads), version: 0.13.1
+    Found link https://github.com/downloads/ipython/ipython/ipython-0.13.1.zip (from https://github.com/ipython/ipython/downloads), version: 0.13.1
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.1.py3-win32.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.1.py2-win-amd64.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.py2-win32.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.py3-win-amd64.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.py3-win32.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Skipping link https://github.com/downloads/ipython/ipython/ipython-0.13.py2-win-amd64.exe (from https://github.com/ipython/ipython/downloads); unknown archive format: .exe
+    Found link https://github.com/downloads/ipython/ipython/ipython-0.13.zip (from https://github.com/ipython/ipython/downloads), version: 0.13
+    Found link https://github.com/downloads/ipython/ipython/ipython-0.13.tar.gz (from https://github.com/ipython/ipython/downloads), version: 0.13
+  Analyzing links from page http://archive.ipython.org/release/0.8.4/
+    Skipping link http://archive.ipython.org/release/0.8.4/?C=N;O=D (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .4
+    Skipping link http://archive.ipython.org/release/0.8.4/?C=M;O=A (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .4
+    Skipping link http://archive.ipython.org/release/0.8.4/?C=S;O=A (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .4
+    Skipping link http://archive.ipython.org/release/0.8.4/?C=D;O=A (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .4
+    Skipping link http://archive.ipython.org/release/0.8.4/ipython-0.8.4-py2.4.egg (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .egg
+    Skipping link http://archive.ipython.org/release/0.8.4/ipython-0.8.4-py2.5.egg (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .egg
+    Skipping link http://archive.ipython.org/release/0.8.4/ipython-0.8.4-py24.noarch.rpm (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .rpm
+    Skipping link http://archive.ipython.org/release/0.8.4/ipython-0.8.4-py25.noarch.rpm (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .rpm
+    Found link http://archive.ipython.org/release/0.8.4/ipython-0.8.4.tar.gz (from http://archive.ipython.org/release/0.8.4/), version: 0.8.4
+    Skipping link http://archive.ipython.org/release/0.8.4/ipython-0.8.4.win32-setup.exe (from http://archive.ipython.org/release/0.8.4/); unknown archive format: .exe
+  Analyzing links from page http://archive.ipython.org/release/0.12.1/
+    Skipping link http://archive.ipython.org/release/0.12.1/?C=N;O=D (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.12.1/?C=M;O=A (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.12.1/?C=S;O=A (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.12.1/?C=D;O=A (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.12.1/ipython-0.12.1-py2.6.egg (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .egg
+    Skipping link http://archive.ipython.org/release/0.12.1/ipython-0.12.1-py2.7.egg (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .egg
+    Found link http://archive.ipython.org/release/0.12.1/ipython-0.12.1.tar.gz (from http://archive.ipython.org/release/0.12.1/), version: 0.12.1
+    Skipping link http://archive.ipython.org/release/0.12.1/ipython-0.12.1.win-amd64.exe (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .exe
+    Skipping link http://archive.ipython.org/release/0.12.1/ipython-0.12.1.win32.exe (from http://archive.ipython.org/release/0.12.1/); unknown archive format: .exe
+    Found link http://archive.ipython.org/release/0.12.1/ipython-0.12.1.zip (from http://archive.ipython.org/release/0.12.1/), version: 0.12.1
+  Analyzing links from page http://archive.ipython.org/release/0.11/
+    Skipping link http://archive.ipython.org/release/0.11/?C=N;O=D (from http://archive.ipython.org/release/0.11/); unknown archive format: .11
+    Skipping link http://archive.ipython.org/release/0.11/?C=M;O=A (from http://archive.ipython.org/release/0.11/); unknown archive format: .11
+    Skipping link http://archive.ipython.org/release/0.11/?C=S;O=A (from http://archive.ipython.org/release/0.11/); unknown archive format: .11
+    Skipping link http://archive.ipython.org/release/0.11/?C=D;O=A (from http://archive.ipython.org/release/0.11/); unknown archive format: .11
+    Skipping link http://archive.ipython.org/release/0.11/ipython-0.11-py2.6.egg (from http://archive.ipython.org/release/0.11/); unknown archive format: .egg
+    Found link http://archive.ipython.org/release/0.11/ipython-0.11.tar.gz (from http://archive.ipython.org/release/0.11/), version: 0.11
+    Skipping link http://archive.ipython.org/release/0.11/ipython-0.11.win32-setup.exe (from http://archive.ipython.org/release/0.11/); unknown archive format: .exe
+    Found link http://archive.ipython.org/release/0.11/ipython-0.11.zip (from http://archive.ipython.org/release/0.11/), version: 0.11
+    Skipping link http://archive.ipython.org/release/0.11/py3/ (from http://archive.ipython.org/release/0.11/); not a file
+  Analyzing links from page http://archive.ipython.org/release/0.10.1/
+    Skipping link http://archive.ipython.org/release/0.10.1/?C=N;O=D (from http://archive.ipython.org/release/0.10.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.10.1/?C=M;O=A (from http://archive.ipython.org/release/0.10.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.10.1/?C=S;O=A (from http://archive.ipython.org/release/0.10.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.10.1/?C=D;O=A (from http://archive.ipython.org/release/0.10.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.10.1/ipython-0.10.1-py2.6.egg (from http://archive.ipython.org/release/0.10.1/); unknown archive format: .egg
+    Found link http://archive.ipython.org/release/0.10.1/ipython-0.10.1.tar.gz (from http://archive.ipython.org/release/0.10.1/), version: 0.10.1
+    Skipping link http://archive.ipython.org/release/0.10.1/ipython-0.10.1.win32-setup.exe (from http://archive.ipython.org/release/0.10.1/); unknown archive format: .exe
+    Found link http://archive.ipython.org/release/0.10.1/ipython-0.10.1.zip (from http://archive.ipython.org/release/0.10.1/), version: 0.10.1
+  Analyzing links from page http://archive.ipython.org/release/0.10/
+    Skipping link http://archive.ipython.org/release/0.10/?C=N;O=D (from http://archive.ipython.org/release/0.10/); unknown archive format: .10
+    Skipping link http://archive.ipython.org/release/0.10/?C=M;O=A (from http://archive.ipython.org/release/0.10/); unknown archive format: .10
+    Skipping link http://archive.ipython.org/release/0.10/?C=S;O=A (from http://archive.ipython.org/release/0.10/); unknown archive format: .10
+    Skipping link http://archive.ipython.org/release/0.10/?C=D;O=A (from http://archive.ipython.org/release/0.10/); unknown archive format: .10
+    Skipping link http://archive.ipython.org/release/0.10/ipython-0.10-py2.5.egg (from http://archive.ipython.org/release/0.10/); unknown archive format: .egg
+    Skipping link http://archive.ipython.org/release/0.10/ipython-0.10-py2.6.egg (from http://archive.ipython.org/release/0.10/); unknown archive format: .egg
+    Skipping link http://archive.ipython.org/release/0.10/ipython-0.10-py25.noarch.rpm (from http://archive.ipython.org/release/0.10/); unknown archive format: .rpm
+    Skipping link http://archive.ipython.org/release/0.10/ipython-0.10-py26.noarch.rpm (from http://archive.ipython.org/release/0.10/); unknown archive format: .rpm
+    Found link http://archive.ipython.org/release/0.10/ipython-0.10.tar.gz (from http://archive.ipython.org/release/0.10/), version: 0.10
+    Skipping link http://archive.ipython.org/release/0.10/ipython-0.10.win32-setup.exe (from http://archive.ipython.org/release/0.10/); unknown archive format: .exe
+  Analyzing links from page http://archive.ipython.org/release/0.9.1/
+    Skipping link http://archive.ipython.org/release/0.9.1/?C=N;O=D (from http://archive.ipython.org/release/0.9.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.9.1/?C=M;O=A (from http://archive.ipython.org/release/0.9.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.9.1/?C=S;O=A (from http://archive.ipython.org/release/0.9.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.9.1/?C=D;O=A (from http://archive.ipython.org/release/0.9.1/); unknown archive format: .1
+    Skipping link http://archive.ipython.org/release/0.9.1/ipython-0.9.1-py2.4.egg (from http://archive.ipython.org/release/0.9.1/); unknown archive format: .egg
+    Skipping link http://archive.ipython.org/release/0.9.1/ipython-0.9.1-py2.5.egg (from http://archive.ipython.org/release/0.9.1/); unknown archive format: .egg
+    Found link http://archive.ipython.org/release/0.9.1/ipython-0.9.1.tar.gz (from http://archive.ipython.org/release/0.9.1/), version: 0.9.1
+    Skipping link http://archive.ipython.org/release/0.9.1/ipython-0.9.1.win32-setup.exe (from http://archive.ipython.org/release/0.9.1/); unknown archive format: .exe
+  Analyzing links from page http://archive.ipython.org/release/old/0.9/
+    Skipping link http://archive.ipython.org/release/old/0.9/?C=N;O=D (from http://archive.ipython.org/release/old/0.9/); unknown archive format: .9
+    Skipping link http://archive.ipython.org/release/old/0.9/?C=M;O=A (from http://archive.ipython.org/release/old/0.9/); unknown archive format: .9
+    Skipping link http://archive.ipython.org/release/old/0.9/?C=S;O=A (from http://archive.ipython.org/release/old/0.9/); unknown archive format: .9
+    Skipping link http://archive.ipython.org/release/old/0.9/?C=D;O=A (from http://archive.ipython.org/release/old/0.9/); unknown archive format: .9
+    Skipping link http://archive.ipython.org/release/old/0.9/ipython-0.9-py2.5.egg (from http://archive.ipython.org/release/old/0.9/); unknown archive format: .egg
+    Found link http://archive.ipython.org/release/old/0.9/ipython-0.9.tar.gz (from http://archive.ipython.org/release/old/0.9/), version: 0.9
+    Skipping link http://archive.ipython.org/release/old/0.9/ipython-0.9.win32-setup.exe (from http://archive.ipython.org/release/old/0.9/); unknown archive format: .exe
+  Ignoring link http://ipython.scipy.org/svn/ipython/ipython/trunk#egg=ipython-dev (from http://pypi.python.org/simple/ipython/), version dev doesn't match >=0.10
+  Ignoring link http://archive.ipython.org/release/0.8.4/ipython-0.8.4.tar.gz (from http://archive.ipython.org/release/0.8.4/), version 0.8.4 doesn't match >=0.10
+  Ignoring link http://archive.ipython.org/release/0.9.1/ipython-0.9.1.tar.gz (from http://archive.ipython.org/release/0.9.1/), version 0.9.1 doesn't match >=0.10
+  Ignoring link http://archive.ipython.org/release/old/0.9/ipython-0.9.tar.gz (from http://archive.ipython.org/release/old/0.9/), version 0.9 doesn't match >=0.10
+  Using version 0.13.2 (newest of versions: 0.13.2, 0.13.2, 0.13.1, 0.13.1, 0.13.1, 0.13.1, 0.13, 0.13, 0.13, 0.13, 0.12.1, 0.12.1, 0.12.1, 0.12.1, 0.12, 0.12, 0.12, 0.12, 0.11, 0.11, 0.11, 0.11, 0.10.2, 0.10.2, 0.10.1, 0.10.1, 0.10.1, 0.10.1, 0.10, 0.10)
+  Downloading from URL http://pypi.python.org/packages/source/i/ipython/ipython-0.13.2.tar.gz#md5=ead3b7eb70c653b537fb9d96d71b8b2a (from http://pypi.python.org/simple/ipython/)
+  Running setup.py egg_info for package ipython
+
+    running egg_info
+    creating pip-egg-info/ipython.egg-info
+    writing requirements to pip-egg-info/ipython.egg-info/requires.txt
+    writing pip-egg-info/ipython.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/ipython.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/ipython.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/ipython.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/ipython.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/ipython.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/ipython.egg-info/SOURCES.txt'
+  Source in ./build/ipython has version 0.13.2, which satisfies requirement ipython>=0.10 (from ipdb->lettuce)
+  skipping extra notebook
+  skipping extra notebook
+  skipping extra qtconsole
+  skipping extra qtconsole
+  skipping extra test
+  skipping extra doc
+  skipping extra zmq
+  skipping extra parallel
+Installing collected packages: lettuce, sure, fuzzywuzzy, ipdb, ipython
+
+  Running setup.py install for lettuce
+
+    Running command /usr/bin/python -c "import setuptools;__file__='/home/yeongsheng/projects/thecucumberbook/calculator/build/lettuce/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-GcfH80-record/install-record.txt
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/fs.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/decorators.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/terrain.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/__init__.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/strings.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/exceptions.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/registry.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/core.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/terminal.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/bin.py -> build/lib.linux-x86_64-2.7/lettuce
+    copying lettuce/languages.py -> build/lib.linux-x86_64-2.7/lettuce
+    creating build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/scenario_names.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/colored_shell_output.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/reporter.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/autopdb.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/dots.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/non_verbose.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/shell_output.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    copying lettuce/plugins/xunit_output.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+    creating build/lib.linux-x86_64-2.7/lettuce/django
+    copying lettuce/django/apps.py -> build/lib.linux-x86_64-2.7/lettuce/django
+    copying lettuce/django/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django
+    copying lettuce/django/server.py -> build/lib.linux-x86_64-2.7/lettuce/django
+    creating build/lib.linux-x86_64-2.7/lettuce/django/tests
+    copying lettuce/django/tests/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests
+    creating build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+    copying lettuce/django/tests/functional/terrain.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+    copying lettuce/django/tests/functional/steps.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+    copying lettuce/django/tests/functional/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+    copying lettuce/django/tests/functional/djangoapp.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+    copying lettuce/django/tests/functional/test_email.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+    creating build/lib.linux-x86_64-2.7/lettuce/django/tests/unit
+    copying lettuce/django/tests/unit/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/unit
+    creating build/lib.linux-x86_64-2.7/lettuce/django/mail
+    copying lettuce/django/mail/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/mail
+    copying lettuce/django/mail/backends.py -> build/lib.linux-x86_64-2.7/lettuce/django/mail
+    creating build/lib.linux-x86_64-2.7/lettuce/django/management
+    copying lettuce/django/management/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/management
+    creating build/lib.linux-x86_64-2.7/lettuce/django/management/commands
+    copying lettuce/django/management/commands/harvest.py -> build/lib.linux-x86_64-2.7/lettuce/django/management/commands
+    copying lettuce/django/management/commands/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/management/commands
+    running install_lib
+    creating /usr/local/lib/python2.7/dist-packages/lettuce
+    error: could not create '/usr/local/lib/python2.7/dist-packages/lettuce': Permission denied
+
+    Complete output from command /usr/bin/python -c "import setuptools;__file__='/home/yeongsheng/projects/thecucumberbook/calculator/build/lettuce/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-GcfH80-record/install-record.txt:
+
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.7
+
+creating build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/fs.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/decorators.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/terrain.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/__init__.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/strings.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/exceptions.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/registry.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/core.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/terminal.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/bin.py -> build/lib.linux-x86_64-2.7/lettuce
+
+copying lettuce/languages.py -> build/lib.linux-x86_64-2.7/lettuce
+
+creating build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/scenario_names.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/colored_shell_output.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/reporter.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/autopdb.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/dots.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/non_verbose.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/shell_output.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+copying lettuce/plugins/xunit_output.py -> build/lib.linux-x86_64-2.7/lettuce/plugins
+
+creating build/lib.linux-x86_64-2.7/lettuce/django
+
+copying lettuce/django/apps.py -> build/lib.linux-x86_64-2.7/lettuce/django
+
+copying lettuce/django/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django
+
+copying lettuce/django/server.py -> build/lib.linux-x86_64-2.7/lettuce/django
+
+creating build/lib.linux-x86_64-2.7/lettuce/django/tests
+
+copying lettuce/django/tests/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests
+
+creating build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+
+copying lettuce/django/tests/functional/terrain.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+
+copying lettuce/django/tests/functional/steps.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+
+copying lettuce/django/tests/functional/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+
+copying lettuce/django/tests/functional/djangoapp.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+
+copying lettuce/django/tests/functional/test_email.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/functional
+
+creating build/lib.linux-x86_64-2.7/lettuce/django/tests/unit
+
+copying lettuce/django/tests/unit/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/tests/unit
+
+creating build/lib.linux-x86_64-2.7/lettuce/django/mail
+
+copying lettuce/django/mail/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/mail
+
+copying lettuce/django/mail/backends.py -> build/lib.linux-x86_64-2.7/lettuce/django/mail
+
+creating build/lib.linux-x86_64-2.7/lettuce/django/management
+
+copying lettuce/django/management/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/management
+
+creating build/lib.linux-x86_64-2.7/lettuce/django/management/commands
+
+copying lettuce/django/management/commands/harvest.py -> build/lib.linux-x86_64-2.7/lettuce/django/management/commands
+
+copying lettuce/django/management/commands/__init__.py -> build/lib.linux-x86_64-2.7/lettuce/django/management/commands
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/lettuce
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/lettuce': Permission denied
+
+----------------------------------------
+
+Command /usr/bin/python -c "import setuptools;__file__='/home/yeongsheng/projects/thecucumberbook/calculator/build/lettuce/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-GcfH80-record/install-record.txt failed with error code 1 in /home/yeongsheng/projects/thecucumberbook/calculator/build/lettuce
+
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 104, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 250, in run
+    requirement_set.install(install_options, global_options)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1133, in install
+    requirement.install(install_options, global_options)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 577, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/__init__.py", line 256, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools;__file__='/home/yeongsheng/projects/thecucumberbook/calculator/build/lettuce/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-GcfH80-record/install-record.txt failed with error code 1 in /home/yeongsheng/projects/thecucumberbook/calculator/build/lettuce
